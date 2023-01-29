@@ -1,0 +1,161 @@
+﻿@charset "UTF-8";
+
+body {
+    color: #031529;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    line-height: 1.625;
+    padding: 0;
+    margin: 0;
+}
+
+.book-content {
+    margin: 0px 20% 0 15%;
+    display: flex;
+}
+
+.book-content .bibliography p {
+    text-indent: 0;
+}
+
+.nav {
+    flex: 20;
+    border-right: solid #c2c2c2 1.5pt;
+    padding: 1em 2em 1em 0;
+}
+
+.nav ul { padding: 0 }
+
+.nav nav strong:first-child {
+    display: block;
+    font-size: 120%;
+    margin-bottom: 2em;
+}
+
+.nav li { list-style-type: none; font-weight: bold; margin: 2ex 0; padding: 0 }
+.nav li.chapter { margin-top: 4em }
+.nav li a { display: block; font-weight: normal; text-decoration: none }
+.nav li a.current { font-weight: bold; text-decoration: underline }
+
+h1, h2, h3, h4 {
+    font-family: 'Exo', sans-serif;
+    line-height: 1.2;
+    color: #192C42;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+h1 {
+    margin: 1.5em 20% 1.5em 15%; /* left and right should match .book-content */
+}
+
+.nav {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 80%
+}
+
+.book-text {
+    font-family: 'Noto Serif', serif;
+    flex: 50;
+    padding: 0 3em
+}
+
+a, a:visited, a:active, a:hover {
+    color: rgb(20, 105, 175);
+}
+
+header {
+    background-attachment: scroll;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 2px 0px;
+    color: #031529FF;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+
+img#cepng {
+    width: 400px;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+
+nav.fw-bck {
+    margin: 5em 10%;
+}
+
+nav.fw-bck hr {
+    border-top: 1px solid #8c96a1;
+    border-bottom: none;
+}
+
+.forward-back {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 75%;
+    padding: 2em 10%;
+    background-color: black;
+    color: white;
+    height: 10em;
+}
+
+footer nav {
+    margin: 0.5em 0 0.3em 0;
+}
+
+footer a, footer a:active, footer a:visited, footer a:hover {
+    color: white;
+}
+
+footer .ce {
+    font-family: "lust-display", serif;
+    font-size: 200%;
+}
+
+footer .ce a {
+    text-decoration: none;
+}
+
+#footer-title {
+    font-family: "lust-display", serif;
+    margin: 0.5em 0;
+    font-size: 20pt;
+}
+
+#footer-title a {
+    text-decoration: none;
+}
+
+#footer-title a:hover, #footer-title a:active {
+    text-decoration: underline;
+}
+
+/*** From PDF, fine structure *********************/
+
+.italics { font-style: italic; }  /* Italics, mostly (but not only) quotations */
+.nitalics {  font-style: normal; } /* Used to cancel out italics */
+
+.note-number { font-size: 6.5pt; vertical-align: 4pt; } /* End note number (in text) */
+
+.end-note { text-indent: 0 }  /* End note (end of chapter) */
+
+.sub { font-size: 70%; vertical-align: sub; } /* CO2 subscript */
+
+.s45 { } /* Bibliographic references */
+
+.s48 { font-style: italic; } /* Foreword author intro */
+
+/* Added - slo formatting */
+
+.book-content p { text-indent: 20pt; }
+
+li p { margin: 0; text-indent: 10pt }
