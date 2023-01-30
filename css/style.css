@@ -283,3 +283,8 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     margin: 1.5em 20% 1.5em 15%;
 }
 
+
+/* main index */
+.bg-section {
+    width: 100vw;
+}
