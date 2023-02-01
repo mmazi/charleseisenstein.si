@@ -116,6 +116,10 @@ header {
         color:#2a1364;
         width:60%;
     }
+
+    header {
+        padding:2vw 5vw;
+    }
 }
 
 /* end of size-specific */
@@ -240,15 +244,12 @@ img {
 
 }
 
-
-
-/* size-specific for the main section */
+/* end size-specific for the main section */
 
 
 /* footer section */
 
 footer {
-    margin-top: 2em;
     text-align: center;
     font-size: 75%;
     padding: 2em 10%;
@@ -277,6 +278,165 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     text-decoration:none;
 }
 
+/* Banner first page */
+
+.hero-heading {
+    position: relative;
+    display: flex;
+    height:80%;
+    max-height: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: url('../media/ce-bg01.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    padding-left:15em;
+    padding-top: 30px;
+    box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    
+  }
+  
+  .cont-hero {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5vh;
+  }
+  
+  .hero-wrap {
+    display: flex;
+    column-gap:10em;
+  }
+  
+  .split-sections {
+    display: flex;
+    max-width: 46%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .book-img {
+    max-width:350px;
+  }
+  
+  .hero-description {
+    margin-bottom: 24px;
+  }
+  
+  .hero-button {
+    padding: 12px 25px;
+    border:solid;
+    border-width:2px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration:none;
+  }
+  
+  .hero-button:hover {
+    background-color: #ffffff40;
+    color: #fff;
+  }
+
+  .right-section {
+    max-width:500px;
+  }
+
+  .desc-extra {
+    font-family: 'Exo', sans-serif;
+    font-weight:600;
+    line-height:1.2;
+    font-size:20px;
+    color:#ffffff;
+    margin-bottom:20px;
+    margin-top:10px;
+  }
+
+  .desc-details {
+    font-family: 'Exo', sans-serif;
+    color:#ffffff;
+    font-size: 12px;
+    margin-bottom:10px;
+    margin-top:10px;
+  }
+
+  .herotitle {
+    margin-top:0px;
+    margin-bottom:10px;
+    font-size:22px;
+    color:#ffffff;
+  }
+
+  .desc-details a {
+    color:#ffffff;
+  }
+
+/* size specific */ 
+
+@media only screen and (max-width: 767px) {
+    .hero-heading {
+        /* height: 80vh; */
+        /* max-height: 80vh; */
+        justify-content: flex-start;
+        /* align-items: center; */
+        background: url(../media/ce-bg01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 30%);
+        align-content: center;
+        padding-top: 30px;
+        padding-bottom:30px;
+    }
+
+    .hero-wrap {
+        display: flex;
+        column-gap: 10em;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items:center;
+    }
+
+    .split-sections {
+        max-width: 100%
+    }
+
+    .book-img {
+        padding-top:30px;
+        padding-bottom: 30px;
+}
+}
+
+@media only screen and (min-width: 767px) and (max-width:1024px) {
+    .hero-heading {
+        padding-left: 20px;
+}
+    .hero-wrap {
+        column-gap:2em;
+    }
+
+    header {
+        padding-bottom: 1em;
+    }
+
+    .split-sections {
+        align-items:middle;
+        display: flex;
+        /* max-width: 46%; */
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+
+/* End banner first page */
+
 /* books */
 
 .booktitle {
@@ -288,3 +448,73 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 .bg-section {
     width: 100vw;
 }
+
+.flex-layout {
+    display:flex;
+}
+
+
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .button-primary {
+    padding: 12px 25px;
+    background-color: #1a1b1f;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .button-primary:hover {
+    background-color: #32343a;
+    color: #fff;
+  }
+  
+  .button-primary:active {
+    background-color: #43464d;
+  }
+  
+  .mainmenu-logo {
+    max-width: 100%;
+    margin-right: 0%;
+    margin-left: 5%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  
+  .navigation-bar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdfdfd;
+  }
+  
+  .section {
+    display: block;
+    max-width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  .image {
+    margin-top: 20px;
+  }
+  
+  .dropdown-toggle {
+    padding-right: 20px;
+  }
+  
