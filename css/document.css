@@ -41,6 +41,10 @@ body {
     font-weight:normal!important;
 }
 
+#booktitle {
+    margin: 1.5em 20% 1.5em 15%;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Exo', sans-serif;
     line-height: 1.2;
@@ -49,9 +53,6 @@ h1, h2, h3, h4 {
     margin-bottom: 2em;
 }
 
-h1 {
-    margin: 1.5em 20% 1.5em 15%; /* left and right should match .book-content */
-}
 
 .nav {
     font-family: "Noto Sans", sans-serif;
