@@ -1,13 +1,5 @@
 ﻿@charset "UTF-8";
 
-body {
-    color: #031529;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: normal;
-    line-height: 1.625;
-    padding: 0;
-    margin: 0;
-}
 
 .book-content {
     margin: 0px 20% 0 15%;
@@ -155,7 +147,6 @@ footer .ce a {
 
 .sub { font-size: 70%; vertical-align: sub; } /* CO2 subscript */
 
-.s45 { } /* Bibliographic references */
 
 .s48 { font-style: italic; } /* Foreword author intro */
 
