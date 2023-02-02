@@ -114,15 +114,15 @@ header {
 
 @media only screen and (min-width: 960px) {
     .nav-ul {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 20px;
-    padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 15px;
     }
 
     .main-nav a {
-    padding-left: 15px;
-    padding-right: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -294,13 +294,17 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 767px) {
+    footer {
+        height:15em;
+    }
+}
+
 /* Banner first page */
 
 .hero-heading {
     position: relative;
     display: flex;
-    height: 70%;
-    max-height: 70%;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
@@ -390,11 +394,15 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 
 /* size specific */ 
 
+@media only screen and (min-width: 1025px) {
+    .hero-heading {
+        height: 70%;
+        max-height: 70%;
+    }
+}
 @media only screen and (max-width: 767px) {
     .hero-heading {
         justify-content: flex-start;
-        height: 90vh;
-        max-height: 90vh;
         /* align-items: center; */
         background: url(../media/ce-bg01.jpg);
         background-size: cover;
