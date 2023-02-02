@@ -16,7 +16,6 @@
     padding: 1em 2em 1em 0;
 }
 
-.nav ul { padding: 0 }
 
 .nav nav strong:first-child {
     display: block;
@@ -28,10 +27,6 @@
 .nav li.chapter { margin-top: 4em }
 .nav li a { display: block; font-weight: normal; text-decoration: none }
 .nav li a.current { font-weight: bold; text-decoration: underline }
-
-.chapter {
-    font-weight:normal!important;
-}
 
 #booktitle {
     margin: 1.5em 20% 1.5em 15%;

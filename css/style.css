@@ -37,8 +37,18 @@ figure {
 /* Header section */
 
 header {
+    background-attachment: scroll;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 2px 0px;
+    color: #031529FF;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
     padding: 0 5vw;
-    box-shadow: 0 0 2px rgb(0 0 0 / 30%)
 }
 
 /* fp configuration */ 
