@@ -51,6 +51,10 @@ header {
     padding: 0 5vw;
 }
 
+p a {
+    color:rgb(20, 105, 175);
+}
+
 /* fp configuration */ 
 
 .dark-header {
@@ -351,6 +355,13 @@ header {
     font-size: 30px;
     text-align: center;
     margin: 0 auto 8vh auto;
+    background: linear-gradient(#ffffff 0%, #ffffff 49%, #304155 50%, #304155 51%, #ffffff 52%, #ffffff 100%);
+}
+
+.entry-title-articles {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
     background: linear-gradient(#ffffff 0%, #ffffff 49%, #304155 50%, #304155 51%, #ffffff 52%, #ffffff 100%);
 }
 
@@ -678,4 +689,32 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 .dropdown-toggle {
     padding-right: 20px;
 }
-  
+
+.metadesc {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-size: 13px;
+}
+
+.metadesc a{
+    color: #000;
+    text-decoration-color: #000;
+}
+
+.entry-title-articles {
+    width: 45vw;
+}
+
+.entry-content {
+    text-align: justify;
+}
+
+.textref {
+    color: rgb(20, 105, 175);
+    padding-bottom: 0px;
+    text-decoration: none;
+    vertical-align: top;
+    font-size: smaller;
+}
