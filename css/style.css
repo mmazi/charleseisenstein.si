@@ -131,6 +131,10 @@ header {
     .topnav {
         display:none;
     }
+
+    .topnav-dark {
+        display:none;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -155,14 +159,34 @@ header {
         width:100%
     }
 
+    .topnav-dark {
+        background-color: #000;
+        position: relative;
+        width:100%
+    }
+
     /* Hide the links inside the navigation menu (except for logo/home) */
     .topnav #navlinks {
         display: none;
     }
 
+    .topnav-dark #navlinks {
+        display: none;
+    }
+
     /* navigation menu links styles */
     .topnav a {
-        color: #ffffff;
+        background-color: #ffffff;
+        color: #000;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav-dark a {
+        background-color: #050505;
+        color: rgb(247, 247, 247);
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
@@ -171,8 +195,17 @@ header {
 
     /* Hamburger menu style */
     .topnav a.icon {
-        background: #ffffff;
+        background-color: #ffffff;
         color:#000;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav-dark a.icon {
+        background-color: #000000;
+        color:rgb(249, 249, 249);
         display: block;
         position: absolute;
         right: 0;
@@ -183,6 +216,11 @@ header {
     .topnav a:hover {
         background-color: #ffffff;
         color: #161616;
+    }
+
+    .topnav-dark a:hover {
+        background-color: #0a0a0a;
+        color: #f9f9f9;
     }
 
     /* Style for the active link */
@@ -288,7 +326,7 @@ header {
     border-top: 0px;
     border-bottom: 0.5px;
     border-style: solid;
-    border-color: rgb(77, 77, 77);
+    border-color: rgb(204, 204, 204);
 }
 
 /* The down arrow on the right side of the dropdown menu item */
