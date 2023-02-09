@@ -82,7 +82,6 @@ p a {
 }
 
 .nav-ul a {
-    margin-left: 10px;
     font-family: 'Exo', sans-serif;
     color:#192C42;
     display: block;
@@ -117,9 +116,13 @@ p a {
     z-index:2;
 }
 
+.fullw {
+    width:100%!important;
+}
+
 /* size-specific */
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1025px) {
     .nav-ul {
         padding-left: 15px;
         padding-right: 15px;
@@ -200,7 +203,7 @@ p a {
     /* Hamburger menu style */
     .topnav a.icon {
         background-color: #ffffff;
-        color:#000;
+        color:#050505;
         display: block;
         position: absolute;
         right: 0;
@@ -208,12 +211,12 @@ p a {
     }
 
     .topnav-dark a.icon {
-        background-color: #000000;
+        background-color: #050505;
         color:rgb(249, 249, 249);
         display: block;
         position: absolute;
         right: 0;
-        top: 0;
+        top: 5%;
     }
 
     /* background color on mouse-over */
@@ -279,34 +282,14 @@ p a {
 
 /* Show the dropdown when the parent <li> is hovered over */
 
-.nav-li-item:hover .dropdown-menu {
-    display: block;
-}
-
 /* The links inside the dropdown */
-
-.dropdown-menu {
-    display: none; /* Hide the dropdown by default */
-    position: absolute;
-    background-color: #111111;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    list-style-type: none;
-    transition: height .4s ease;
-}
     
     /* Show the dropdown when the parent <li> is hovered over */
-    
-.nav-li-item:hover .dropdown-menu {
-    display: block;
-    max-width:180px;
-}
 
 /* The links inside the dropdown */
 
 .dropdown-menu a {
-    color: #f5f5f5;
+    color: #000;
     text-decoration: none;
     display: block;
     padding: 12px;
@@ -321,7 +304,6 @@ p a {
 }
 
 .drop-menu-item {
-    padding-left: 30px!important;
 }
 
 .inner-item {
@@ -402,18 +384,18 @@ img {
 
 /* size-specific for the main section */
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1024px) {
 
-.entry-title {
-    width: 45vw;
-}
+    .entry-title {
+        width: 45vw;
+    }
 
-.main-content{
-    width: 70%;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .main-content{
+        width: 70%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* end size-specific for the main section */
@@ -551,6 +533,15 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     color: #ffffff;
 }
 
+.nav-li-item:hover .dropdown-menu {
+    display: block;
+    max-width:180px;
+}
+
+.whitefont {
+    color:white!important;
+}
+
 /* size specific */ 
 
 @media only screen and (min-width: 1025px) {
@@ -558,8 +549,9 @@ footer a, footer a:active, footer a:visited, footer a:hover {
         height: 70%;
         max-height: 70%;
     }
+
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
     .hero-heading {
         justify-content: flex-start;
         /* align-items: center; */
@@ -614,6 +606,12 @@ footer a, footer a:active, footer a:visited, footer a:hover {
         justify-content: space-evenly;
         align-content: center;
     }
+
+    .nav-li-item:hover .dropdown-menu {
+        display: block;
+        max-width:100%;
+    }
+    
 }
 
 /* End banner first page */
@@ -709,6 +707,7 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 
 .entry-content {
     text-align: justify;
+    font-family: 'Noto Serif', serif;
 }
 
 .textref {
