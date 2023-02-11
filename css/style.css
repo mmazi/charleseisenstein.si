@@ -34,6 +34,10 @@ figure {
     margin: 0;
 }
 
+a {
+    color: #0057B0
+}
+
 /* Header section */
 
 header {
@@ -778,4 +782,137 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 
 .lighter-font{
     color:#ffffff!important;
+}
+
+/* knjige page specifics */
+
+.book-bg{
+    min-height:60vh;
+    width: 100vw;
+    background-image: url(../media/podnebje-naslovnica.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    max-width: 100vw;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 80%)
+}
+
+.book-presentation {
+    width: 100%;
+    z-index: 2;
+    color: #fff;
+}
+
+.book-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.book-width {
+    width: 60%;
+}
+
+.lighter-font{
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.reading-options {
+    display: flex;
+    padding-top:20px;
+}
+
+.book-button {
+    margin-left: 20px;
+}
+
+.book-desc-details {
+    display: flex;
+    justify-content: center;
+}
+
+.book-desc-flex {
+    display: flex;
+    max-width: 60%;
+    padding-top:30px;
+    padding-bottom:30px;
+    gap: 2em;
+}
+
+.leftside-desc {
+    flex-basis:66.76%;
+
+}
+
+.rightside-desc {
+    flex-basis:33.3%;
+}
+
+.separator {
+    border-collapse: collapse;
+    border-bottom: 0.5px solid!important;
+    clear: both;
+    margin: 2em auto 1em auto;
+    max-width: 80% !important;
+    color: #eee;
+    
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 0.5px;
+    color: #fff!important;
+}
+
+.smaller-font {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .book-width {
+        width: 50%;
+    }
+
+    .book-flex {
+        gap: 4em;
+    }
+}
+
+@media only screen and (min-width: 940px) and (max-width: 1299px) {
+    .book-width {
+        width: 80%;
+    }
+
+    .book-flex {
+        gap: 2em;
+    }
+
+    .book-desc-flex {
+        display: flex;
+        max-width: 80%;
+        padding-top:30px;
+        padding-bottom:30px;
+        gap: 2em;
+    }
+
 }
