@@ -16,7 +16,6 @@
     padding: 1em 2em 1em 0;
 }
 
-
 .nav nav strong:first-child {
     display: block;
     font-size: 120%;
@@ -56,7 +55,7 @@ a, a:visited, a:active, a:hover {
     color: rgb(20, 105, 175);
 }
 
-header {
+/* header {
     background-attachment: scroll;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 2px 0px;
@@ -83,7 +82,7 @@ nav.fw-bck {
 nav.fw-bck hr {
     border-top: 1px solid #8c96a1;
     border-bottom: none;
-}
+}*/
 
 .forward-back {
     display: flex;
