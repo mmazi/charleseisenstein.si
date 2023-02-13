@@ -354,8 +354,6 @@ p a {
     text-decoration: underline;
 }
 
-.drop-menu-item {
-}
 
 .inner-item {
     border-left: 0px;
@@ -915,4 +913,43 @@ hr {
         gap: 2em;
     }
 
+}
+
+.videotitle {
+    display: flex;
+    justify-content: center;
+}
+
+.videotitle a{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.videosrc {
+    display: flex;
+    justify-content: center;
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+    font-size: 13px;
+}
+
+.videosrc a{
+    color: #000;
+}
+
+iframe { 
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+.bookofferings {
+    color: #000;
+}
+
+.quotation {
+    color: rgb(113, 113, 113);
+    font-size: 18px;
+    padding-left: 20px;
+    font-style: italic;
 }
