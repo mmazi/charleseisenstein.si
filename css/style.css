@@ -284,7 +284,7 @@ p a {
     }
 
     .book-content {
-        margin: 0px 5% 0 5%;
+        margin: 0px 2% 0 2%;
         display: flex;
         overflow: hidden;
     }
@@ -310,10 +310,6 @@ p a {
 
     .book-text {
         padding: 0 10px;
-    }
-
-    .book-content {
-        font-size: 80%;
     }
 
 }
@@ -989,14 +985,18 @@ iframe {
   
   /* Use media query to show the button only when screen is smaller than 970px */
   @media screen and (max-width:1024px) {
-      #popup-btn {
-          display:inline-block;
-          margin: 10px 30px 30px;
-      }
+    #popup-btn {
+        display:inline-block;
+        margin: 10px 4% 4%;
+    }
 
-      .nav {
-        display: none;
-      }
+    .nav {
+    display: none;
+    }
+
+    .book-content {
+    font-size:100%;
+    }
 
 
   }
