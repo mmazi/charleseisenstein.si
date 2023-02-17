@@ -1024,3 +1024,23 @@ iframe {
 .mobile-book-nav li.chapter { margin-top: 4em }
 .mobile-book-nav li a { display: block; font-weight: normal; text-decoration: none }
 .mobile-book-nav li a.current { font-weight: bold; text-decoration: underline }
+
+.site-inner-vec {
+    clear: both;
+    margin: 0 auto;
+    padding: 10vh 5vw 2vh 5vw;
+    height: 70vh;
+}
+
+.images-vec {
+    flex-direction: column;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3em;
+}
+
+.naas {
+    border-radius: 50px;
+}
