@@ -33,9 +33,6 @@ h2 {
 h3 {
     font-family: 'Exo', sans-serif;
 }
-figure {
-    margin: 0;
-}
 a {
     color: #0057B0 
 }
@@ -934,4 +931,11 @@ p a {
 }
 .bib-spc {
     padding-bottom: 1em;
+}
+.picleft {
+    display: flex;
+    align-items: center;
+}
+figure {
+    margin-right: 0px;
 }
