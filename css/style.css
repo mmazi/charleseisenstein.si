@@ -9,6 +9,7 @@ body {
     line-height: 1.625;
     font-size: 16px;
     font-weight: 400;
+    overflow: hidden;
 }
 
 ul {
@@ -28,6 +29,14 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+
+h2 {
+    font-family: 'Exo', sans-serif;
+}
+
+h3 {
+    font-family: 'Exo', sans-serif;
 }
 
 figure {
@@ -797,6 +806,24 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 80%)
 }
 
+.book-bg-se{
+    min-height:80vh;
+    width: 100vw;
+    background-image: url(https://charleseisenstein.org/wp-content/uploads/2018/12/Sacred-Econmics-Revised.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    max-width: 100vw;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 85%);
+    overflow: hidden; 
+}
+
 .book-presentation {
     width: 100%;
     z-index: 2;
@@ -998,6 +1025,43 @@ iframe {
     font-size:100%;
     }
 
+    .book-flex {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 100%;
+    }
+
+    .lighter-font {
+        padding: 0;
+    }
+
+    .book-button {
+        margin-left: 0;
+    }
+
+    .reading-options {
+        flex-direction: column;
+        gap: 2em;
+        margin-bottom: 20px;
+    }
+
+    .book-width {
+        width: 90%
+    }
+
+    .opt-button {
+    }
+
+    .book-desc-flex {
+        flex-direction: column-reverse;
+        max-width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 0em;
+    }
+
 
   }
 
@@ -1043,4 +1107,17 @@ iframe {
 
 .naas {
     border-radius: 50px;
+}
+
+.inline-quote {
+    padding-left: 30px;
+}
+
+p a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.bib-spc {
+    padding-bottom: 1em;
 }
