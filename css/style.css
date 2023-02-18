@@ -939,3 +939,61 @@ p a {
 figure {
     margin-right: 0px;
 }
+.main-content-books{
+    width: 800px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-button-books {
+    padding: 12px 25px;
+    border: solid;
+    border-width: 2px;
+    color: #000;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.lighter-font-books {
+    color: #000!important;
+}
+.herotitle-books{
+    color: #000;
+}
+.bpres-row{
+    margin: 50px;
+    display:flex;
+    flex-direction: row-reverse;
+    gap: 2em;
+    justify-content: center;
+
+}
+.hero-button-books{
+    color:#000!important;
+}
+@media only screen and (max-width: 1024px) {
+    .main-content-books {
+        margin: 0;
+        width: 90%;
+    }
+    .bpres-row {
+        flex-direction: column;
+        align-items: center;
+        margin: 3em 0;
+    }
+    .site-inner-books {
+        padding: 5vh 5vw 2vh 5vw!important;
+    }
+    .site-inner-books {
+        clear: both;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.site-inner-books {
+    padding: 5vh 5vw 2vh 5vw!important;
+}
