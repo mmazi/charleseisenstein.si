@@ -741,7 +741,7 @@ hr {
     font-size: 12px;
     line-height: 12px;
 }
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1401px) {
     .book-width {
         width: 50%;
    }
@@ -749,7 +749,7 @@ hr {
         gap: 4em;
    }
 }
-@media only screen and (min-width: 940px) and (max-width: 1299px) {
+@media only screen and (min-width: 940px) and (max-width: 1400px) {
     .book-width {
         width: 80%;
    }
