@@ -9,7 +9,7 @@ body {
     line-height: 1.625;
     font-size: 16px;
     font-weight: 400;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 ul {
@@ -124,7 +124,7 @@ p a {
 }
 
 .active {
-    text-decoration: underline;
+    text-decoration: underline!important;
     text-decoration-thickness: 1px;
     z-index:2;
 }
@@ -321,6 +321,10 @@ p a {
         padding: 0 10px;
     }
 
+    .site-inner {
+        padding: 5vh 5vw 2vh 5vw!important;
+    }
+
 }
 
 /* end of size-specific */
@@ -378,6 +382,8 @@ p a {
 .arrow-down {
     float: right;
     padding-right: 10px;
+    z-index: 4;
+    pointer-events: none;
 }
 
 /* End of dropdown menu mobile */ 
@@ -821,7 +827,7 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     justify-content: center;
     position: relative;
     box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 85%);
-    overflow: hidden; 
+    overflow-x: hidden; 
 }
 
 .book-presentation {
@@ -1062,7 +1068,10 @@ iframe {
         gap: 0em;
     }
 
-
+    .site-inner-vec
+        {
+        padding: 5vh 5vw 2vh 5vw!important;
+        }
   }
 
 .bookmenu {
