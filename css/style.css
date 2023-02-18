@@ -971,6 +971,12 @@ figure {
 .hero-button-books{
     color:#000!important;
 }
+.site-inner-books {
+    padding: 5vh 5vw 2vh 5vw!important;
+}
+.hormid {
+    width: 40%;
+}
 @media only screen and (max-width: 1024px) {
     .main-content-books {
         margin: 0;
@@ -992,8 +998,7 @@ figure {
         flex-direction: column;
         align-items: center;
     }
-}
-
-.site-inner-books {
-    padding: 5vh 5vw 2vh 5vw!important;
+    .hormid {
+        width: 80%!important;;
+    }
 }
