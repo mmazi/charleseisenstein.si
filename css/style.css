@@ -127,7 +127,7 @@ p a {
    }
     .nav-li-item:hover .dropdown-menu {
         display: block;
-        max-width: 180px!important;
+        max-width: 200px!important;
    }
 }
 @media only screen and (max-width: 1024px) {
@@ -296,7 +296,7 @@ p a {
     border-right: 0px;
     border-top: 0px;
     border-bottom: 0.5px;
-    border-style: solid;
+    border-style: inset;
     border-color: rgb(112 112 112);
 }
 .darker-inner {
@@ -622,9 +622,6 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 }
 .entry-title-articles {
     width: 45vw;
-}
-.entry-content {
-    text-align: justify;
 }
 .textref {
     color: rgb(20, 105, 175);
@@ -1001,4 +998,10 @@ figure {
     .hormid {
         width: 80%!important;;
     }
+}
+.book-content p {
+    text-indent: 0pt;
+}
+.hero-wrap {
+    margin-right: 50px;
 }
