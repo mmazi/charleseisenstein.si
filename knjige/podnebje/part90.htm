@@ -1,21 +1,100 @@
 <!DOCTYPE html>
-<html xml:lang="sl" lang="sl" xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://www.w3.org/1999/xhtml">
+<html xml:lang="sl" lang="sl" xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans"/>
-<title>Ponovna oživitev resničnosti</title>
-<link href="../../css/document.css" rel="stylesheet" type="text/css"/>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;0,700;1,800&amp;family=Noto+Sans:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+<title>Podnebje - nova zgodba | Ponovna oživitev resničnosti</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../../css/document.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="icon" href="../../media/cropped-favicon-32x32.png">
+<link rel="apple-touch-icon" href="../../media/cropped-favicon-32x32.png">
 </head>
 <body>
-<header>
-<img src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1.png" id="cepng" alt="Charles Eisenstein"/>
+<header id="headerbooks">
+<!-- Navigation section -->
+<section class="navsec">
+<container>
+<nav class="main-nav">
+<div class="logo">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+</div>
+<ul class="nav-ul menu-desktop">
+<li class="nav-li-item">
+<a href="../../o-nas/index.html">O nas</a>
+</li>
+<li class="nav-li-item">
+<a href="../../knjige/">Knjige</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a>
+</li>
+<li>
+<a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="#">Članki</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="../../videi/">Videi</a>
+</li>
+<li class="nav-li-item">
+<a href="../../intervju/" target="_blank">Intervju</a>
+</li>
+<li class="nav-li-item">
+<a href="../../vec/">Več</a>
+</li>
+</ul>
+</nav>
+</container>
+</section>
+<!-- End of navigation section -->
 </header>
-<h1>Podnebje – Nova zgodba</h1>
-<div class="book-content">
-<div class="nav">
-<nav>
+<!-- mobile navigation menu-->
+<div class="topnav">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+<!-- Navigation links (hidden by default) -->
+<div id="navlinks">
+<a href="../../o-nas/">O nas</a>
+<div class="dropdown nav-li-item">
+<a href="../../knjige/" class="dropbtn">Knjige<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a><a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</div>
+</div>
+<div class="dropdown nav-li-item">
+<a class="dropbtn">Članki<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a><a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a><a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</div>
+</div>
+<a href="../../videi/">Videi</a><a href="../../intervju/" target="_blank">Intervju</a><a href="../../vec/">Več</a>
+</div>
+<!-- Bar icon to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+</div>
+<!-- end of mobile navigation menu -->
+<h1 id="booktitle">Podnebje &ndash; Nova zgodba</h1>
+<!-- Index menu -->
+<button id="popup-btn">Poglavja</button>
+<div id="popup-window">
+<nav class="bookmenu mobile-book-nav borderless">
 <strong>Poglavja</strong>
 <ul>
 <li>
@@ -26,7 +105,7 @@
 <a href="part19.htm">Izgubljena resnica</a>
 </li>
 <li>
-<a href="part20.htm">Identiteta ‘drugih’</a>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
 </li>
 <li>
 <a href="part21.htm">Boj</a>
@@ -185,79 +264,276 @@
 </li>
 <li class="chapter">Spremna besedila</li>
 <li>
-<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i>
-</a>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
 </li>
 <li>
-<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i>
-</a>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
 </li>
 <li>
-<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i>
-</a>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
 </li>
 <li>
-<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i>
-</a>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
 </li>
-<li class="chapter">Viri</li>
+<li class="chapter">Ostalo</li>
 <li>
 <a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
 </li>
 </ul>
 </nav>
 </div>
+<!-- End of Index menu -->
+<div class="book-content">
+<nav class="nav bookmenu">
+<strong>Poglavja</strong>
+<ul>
+<li>
+<a href="part16.htm">Prolog: Izgubljen v blodnjaku</a>
+</li>
+<li class="chapter">1. poglavje: Kriza bivanja</li>
+<li>
+<a href="part19.htm">Izgubljena resnica</a>
+</li>
+<li>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
+</li>
+<li>
+<a href="part21.htm">Boj</a>
+</li>
+<li class="chapter">2. poglavje: Onkraj podnebnega fundamentalizma</li>
+<li>
+<a href="part24.htm">Kaj sploh šteje?</a>
+</li>
+<li>
+<a href="part25.htm">Sprevržene posledice ogljičnega redukcionizma</a>
+</li>
+<li>
+<a href="part26.htm">Družbeno ozračje</a>
+</li>
+<li>
+<a href="part27.htm">Prenagljena določitev vzroka</a>
+</li>
+<li>
+<a href="part28.htm">Vzrok vseh vzrokov</a>
+</li>
+<li>
+<a href="part29.htm">Tam, kjer biva predanost</a>
+</li>
+<li class="chapter">3. poglavje: Spekter mnenj o podnebju in še več</li>
+<li>
+<a href="part32.htm">Na čigavi strani sem?</a>
+</li>
+<li>
+<a href="part33.htm">Pokukajmo v svet skepticizma</a>
+</li>
+<li>
+<a href="part34.htm">Konec sveta</a>
+</li>
+<li>
+<a href="part35.htm">Institut znanosti</a>
+</li>
+<li>
+<a href="part36.htm">Napačna razprava</a>
+</li>
+<li class="chapter">4. poglavje: Paradigma vode</li>
+<li>
+<a href="part39.htm">Pogled iz drugega zornega kota</a>
+</li>
+<li>
+<a href="part40.htm">Gozdovi in drevesa</a>
+</li>
+<li>
+<a href="part41.htm">Organi Gaje</a>
+</li>
+<li>
+<a href="part42.htm">Pet tisoč let podnebnih sprememb</a>
+</li>
+<li class="chapter">5. poglavje: Ogljik z vidika ekosistemov</li>
+<li>
+<a href="part45.htm">Ogljik, prst in življenje</a>
+</li>
+<li>
+<a href="part49.htm">Obsedenost z izpusti</a>
+</li>
+<li>
+<a href="part50.htm">Zabloda o geoinženiringu</a>
+</li>
+<li>
+<a href="part51.htm">Kult količine</a>
+</li>
+<li class="chapter">6. poglavje: Pogodba s hudičem</li>
+<li>
+<a href="part54.htm">Nevarnosti pripovedi o globalnem segrevanju</a>
+</li>
+<li>
+<a href="part55.htm">Vzroki za pasivnost</a>
+</li>
+<li>
+<a href="part56.htm">Zakaj naj bi imel rad svojega sina?</a>
+</li>
+<li>
+<a href="part57.htm">Trgovina z naravo</a>
+</li>
+<li>
+<a href="part58.htm">Pravice narave</a>
+</li>
+<li class="chapter">7. poglavje: Revolucija je ljubezen</li>
+<li>
+<a href="part61.htm">V nosorogu se zrcali vse</a>
+</li>
+<li>
+<a href="part62.htm">Betonski svet</a>
+</li>
+<li>
+<a href="part63.htm">Razmere, ki tlakujejo pot naši izbiri</a>
+</li>
+<li class="chapter">8. poglavje: Regeneracija</li>
+<li>
+<a href="part66.htm">Ozdravljanje zemlje</a>
+</li>
+<li>
+<a href="part67.htm">Zakaj regenerativno kmetijstvo ostaja na obrobju?</a>
+</li>
+<li>
+<a href="part68.htm">Nahraniti lačen planet</a>
+</li>
+<li>
+<a href="part69.htm">Ozdravitev vode</a>
+</li>
+<li>
+<a href="part70.htm">Vzajemna potreba ljudi in planeta</a>
+</li>
+<li>
+<a href="part71.htm">Skrb za divjino</a>
+</li>
+<li class="chapter">9. poglavje: Energija, prebivalstvo in razvoj</li>
+<li>
+<a href="part74.htm">Paradigma moči</a>
+</li>
+<li>
+<a href="part75.htm">Pomen razvoja</a>
+</li>
+<li>
+<a href="part76.htm">Prehod v obilje</a>
+</li>
+<li>
+<a href="part77.htm">Število prebivalstva</a>
+</li>
+<li class="chapter">10. poglavje: Denar in dolg</li>
+<li>
+<a href="part80.htm">Igra glasbeni stoli</a>
+</li>
+<li>
+<a href="part81.htm">Nujnost rasti</a>
+</li>
+<li>
+<a href="part82.htm">Razvoj in dolg</a>
+</li>
+<li>
+<a href="part83.htm">Hinavščina</a>
+</li>
+<li>
+<a href="part84.htm">Elementi ekološkega gospodarstva</a>
+</li>
+<li class="chapter">11. poglavje: Srčna zadeva</li>
+<li>
+<a href="part87.htm">Verujemo v znanost</a>
+</li>
+<li>
+<a href="part88.htm">Če bi vedeli, da čuti</a>
+</li>
+<li>
+<a href="part89.htm">Moč zemlje</a>
+</li>
+<li>
+<a href="part90.htm" class="current">Ponovna oživitev resničnosti</a>
+</li>
+<li class="chapter">12. poglavje: Most do živega sveta</li>
+<li>
+<a href="part92.htm">Most do živega sveta</a>
+</li>
+<li class="chapter">Spremna besedila</li>
+<li>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
+</li>
+<li>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
+</li>
+<li>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
+</li>
+<li>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
+</li>
+<li class="chapter">Ostalo</li>
+<li>
+<a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
+</li>
+</ul>
+</nav>
 <div class="book-text">
 <h2>11. poglavje: Srčna zadeva</h2>
 <h3>Ponovna oživitev resničnosti</h3>
 <p>Bolj ko se povezujemo z zadevami zemlje, neba, tal, skal in podobnega, lažje vidimo boga v vseh stvareh. Takšno dojemanje ni značilno le za animistične kulture. Pesnik David Whyte razlaga o obisku pri škotskem ribiču na odročnem otoku in njegovem tradicionalnem načinu življenja. Pri vsakem pomembnem vsakodnevnem dejanju je molil: molitev pri jutranjem vstajanju, molitev pri odgrinjaju zaves, molitev pri zajtrku, molitev pri vkrcevanju v čoln, molitev pri metanju mreže. Njegov svet je bil prežet z bivanjem. Nekaj vedno gleda, vedno posluša. Nikoli ni bil sam, saj je bil ves svet živ.</p>
 <p>Ponovna oživitev našega sveta je ključna za ekološko ozdravitev. Če živimo v veri, da je svet mrtev, bomo neizogibno ubili tisto, kar je živo.</p>
 <p>Kako doseči ponovno oživitev? Morda so vam blizu visoko razvite filozofije o nedualnosti, animizmu, panteizmu ali panenteizmu, ko gre zares, pa samodejno ravnate v skladu s staro zgodbo. Naša kulturna pogojenost v celoti nasprotuje globokemu zaupanju, ki izhaja iz zavedanja, da bog vidi vse, da so vsa bitja živa in poslušajo, da ima vsako dejanje kozmični pomen. Prvi korak je, da razumsko sprejmemo novo zgodbo, ni pa to dovolj, da bi izničili več generacij kulturnega programiranja.</p>
-<p>Kar poskusite govoriti z drevesom ali z ribnikom. Če ste taki kot jaz, vas bo glas v vaši glavi ošteval: <i>»Saj te zares ne posluša. Ne more te razumeti. Trapasto se obnašaš.« </i>Se tudi v primeru, ko se vam zdi, da vam drevo odgovarja, sprašujete, ali si morda vse skupaj le domišljate? Običajno potrebujejo ljudje nekaj pomoči, preden <i>zgodbo o prepletenem bivanju </i>ponotranjijo tako globoko, da dosledno živijo v skladu z njo.</p>
+<p>Kar poskusite govoriti z drevesom ali z ribnikom. Če ste taki kot jaz, vas bo glas v vaši glavi ošteval: <i>&raquo;Saj te zares ne posluša. Ne more te razumeti. Trapasto se obnašaš.&laquo; </i>Se tudi v primeru, ko se vam zdi, da vam drevo odgovarja, sprašujete, ali si morda vse skupaj le domišljate? Običajno potrebujejo ljudje nekaj pomoči, preden <i>zgodbo o prepletenem bivanju </i>ponotranjijo tako globoko, da dosledno živijo v skladu z njo.</p>
 <p>Pomoč pride v obliki neposredne izkušnje. Drugih bitij tega sveta ne moremo prisiliti v to, da bi razkrila svojo bit, lahko pa jih prosimo. Prosite lahko tako, da postanete pozorni na svoje hrepenenje: hrepenenje, da bi se znova združili z živim vesoljem, hrepenenje po tovarištvu.</p>
 <p>Opisal bom primer take pomoči, ki sem jo prejel pred nekaj leti, ko sem na poti v Indonezijo, kjer sem organiziral delavnico, obiskal Tajvan. Nekoč sem živel na Tajvanu in mislim, da je del mojega srca ostal tam. Dolgoletni prijatelj Philip me je ob petih zjutraj pobral na letališču in odpeljala sva se naravnost v gore. Po skoraj uri vožnje po ozkih, ovinkastih cestah sva prispela na kraj, kjer naj bi bil po njegovih informacijah sveti gaj dreves. Parkirala sva blizu poti in se odpravila po strmi, ozki stezi, ki je bila na nekaterih delih zaradi varnosti zavarovana z vrvmi. Po nekaj urah pešačenja še vedno nisva našla gaja in kmalu bi se morala vrniti, saj sva bila utrujena, mene pa je ob treh popoldan čakal govor v Tajpeju. Ko sva prišla do neprijetnega blatnega klanca, sva pomislila, da bi se obrnila.</p>
-<p class="italics">»Pojdiva še malo naprej,« <span class="nitalics">sem predlagal, </span>»do vrha tega hriba. Mogoče ga bova lahko videla od tam.« <span class="nitalics">Prehodila sva blatni del, vendar na vrhu ni bilo</span> razgleda, le še en klanec. Potem pa sva zagledala majhno tablo, na kateri je pisalo<i>: »Gremo! Do svetega gaja je le še pet minut!«</i>
+<p class="italics">&raquo;Pojdiva še malo naprej,&laquo; <span class="nitalics">sem predlagal, </span>&raquo;do vrha tega hriba. Mogoče ga bova lahko videla od tam.&laquo; <span class="nitalics">Prehodila sva blatni del, vendar na vrhu ni bilo</span> razgleda, le še en klanec. Potem pa sva zagledala majhno tablo, na kateri je pisalo<i>: &raquo;Gremo! Do svetega gaja je le še pet minut!&laquo;</i>
 </p>
 <p>Zdelo se je, kot da je bila tabla tam postavljena prav za naju.</p>
 <p>Kmalu sva prispela do gaja. Drevesa so bila neverjetna. Ogromna, dva tisoč let stara drevesa z debli s premerom najmanj štiri metre in s prastarimi vejami, debelejšimi od moje višine. Vsako drevo je bilo samostojen ekosistem, prekrit s praprotjo in z drugimi rastlinami. Nemogoče jih je bilo gledati, ne da bi te preplavil občutek navzočnosti božanskega bitja. Povsem so naju prevzela in oba sva bila dolgo brez besed.</p>
-<p>Pomislil sem, da je bil nekoč tu celoten gozd takih dreves. Vsa so bila posekana, razen teh sedem ali osem starih očakov, ki so rasli na morda pol hektarja gozda. Spraševal sem se, ali so drevesa jezna, ker so ljudje posekali njihove tovariše<i>. »Ali misliš, da so drevesa jezna na naju?« </i>sem vprašal Philipa.</p>
-<p>Točno je vedel, kaj mislim s tem, in vprašanje vzel resno. Čez nekaj časa je rekel: <i>»Ne. Vesela so, da sva tu.« </i>V njegovih besedah je odzvanjala resnica. Pozneje sem razumel, zakaj so bila drevesa vesela. Vesela so bila, da sem sploh postavil to vprašanje in da ga je Philip vzel resno. Vprašanje je namreč vzniknilo iz dejanskega dojemanja dreves kot resničnih bitij, ki so lahko jezna ali žalostna, namesto da bi jih dojemal enako, kot jih dojemajo lesna podjetja – zgolj kot sredstvo dobička – ali kot jih dojema večina pohodnikov – zgolj kot prizor, vreden fotografije. Dragi bralec, ste že kdaj doživeli, da je nekdo končno ugledal vaše bistvo? Predvsem ženske in temnopolti vedo, kako je, ko si v očeh drugih manj kot celovito bitje, vendar tudi mi, beli heteroseksualni moški, vemo, kako se človek počuti, ko ga obravnavajo zgolj kot potrošnika. Zato mislim, da so bila drevesa vesela, ker sva se jim
+<p>Pomislil sem, da je bil nekoč tu celoten gozd takih dreves. Vsa so bila posekana, razen teh sedem ali osem starih očakov, ki so rasli na morda pol hektarja gozda. Spraševal sem se, ali so drevesa jezna, ker so ljudje posekali njihove tovariše<i>. &raquo;Ali misliš, da so drevesa jezna na naju?&laquo; </i>sem vprašal Philipa.</p>
+<p>Točno je vedel, kaj mislim s tem, in vprašanje vzel resno. Čez nekaj časa je rekel: <i>&raquo;Ne. Vesela so, da sva tu.&laquo; </i>V njegovih besedah je odzvanjala resnica. Pozneje sem razumel, zakaj so bila drevesa vesela. Vesela so bila, da sem sploh postavil to vprašanje in da ga je Philip vzel resno. Vprašanje je namreč vzniknilo iz dejanskega dojemanja dreves kot resničnih bitij, ki so lahko jezna ali žalostna, namesto da bi jih dojemal enako, kot jih dojemajo lesna podjetja &ndash; zgolj kot sredstvo dobička &ndash; ali kot jih dojema večina pohodnikov &ndash; zgolj kot prizor, vreden fotografije. Dragi bralec, ste že kdaj doživeli, da je nekdo končno ugledal vaše bistvo? Predvsem ženske in temnopolti vedo, kako je, ko si v očeh drugih manj kot celovito bitje, vendar tudi mi, beli heteroseksualni moški, vemo, kako se človek počuti, ko ga obravnavajo zgolj kot potrošnika. Zato mislim, da so bila drevesa vesela, ker sva se jim
  kot človeka znova pridružila v skupnosti vseh živih bitij.</p>
-<p>Ko sva se po stezi vračala k avtomobilu, se je zgodilo nekaj nenavadnega – komaj opazna sprememba resničnosti, kot da sva vstopila v sanjski svet, v katerem je postalo vse prežeto s simboliko. Obiskal naju je trop opic, ki so nama bingljale prav nad glavo. Ko sva prišla do parkirišča, je Philip rekel: <i>»Malo me skrbi zaradi ključev. Ne najdem jih v žepu.«</i>
+<p>Ko sva se po stezi vračala k avtomobilu, se je zgodilo nekaj nenavadnega &ndash; komaj opazna sprememba resničnosti, kot da sva vstopila v sanjski svet, v katerem je postalo vse prežeto s simboliko. Obiskal naju je trop opic, ki so nama bingljale prav nad glavo. Ko sva prišla do parkirišča, je Philip rekel: <i>&raquo;Malo me skrbi zaradi ključev. Ne najdem jih v žepu.&laquo;</i>
 </p>
-<p>Preiskala sva njegov nahrbtnik in tla okrog avtomobila. Nato pa sem le pogledal v avtomobil in jih zagledal, kako se nama posmehujejo s prednjega sedeža. Avtomobil je bil zaklenjen, okna pa zaprta. Bilo je kot v sanjah: <i>»Ključ vozila je zaklenjen v vozilu.« </i>Domnevam, da v tem tiči nek duhovni nauk.</p>
+<p>Preiskala sva njegov nahrbtnik in tla okrog avtomobila. Nato pa sem le pogledal v avtomobil in jih zagledal, kako se nama posmehujejo s prednjega sedeža. Avtomobil je bil zaklenjen, okna pa zaprta. Bilo je kot v sanjah: <i>&raquo;Ključ vozila je zaklenjen v vozilu.&laquo; </i>Domnevam, da v tem tiči nek duhovni nauk.</p>
 <p>Moj prijatelj je postal zaskrbljen in bolj ko je bil zaskrbljen, bolj sem postajal miren in se spraševal, kakšno dogodivščino nama je namenilo vesolje (ali drevesa). Prepričan sem bil, da bova nekako pravočasno prispela na cilj, in me sploh ni skrbelo. Vse se je zdelo popolno.</p>
-<p>Bila sva na odročnem kraju – najbližja vas je bila oddaljena dvajset minut (vožnje). Philip je vzel v roke mobilni telefon, da bi poklical nekoga, ki bi naju prišel iskat. Seveda je imel baterijo prazno. Blizu je bila majhna hiša in moškega, ki je živel v njej, sva vprašala, ali ima kakšno orodje, s katerim bi lahko vdrla v avtomobil. Ne. Ali je blizu kak avtomehanik ali ključavničar? Dovolil nama je uporabiti njegov telefon, vendar ni imel telefonske številke nikogar, ki bi nama prišel prav, z izjemo najbližje policijske postaje. Poklical sem tja in rekli so, da bodo nekoga poslali.</p>
-<p>Uro pozneje se je pripeljal policijski avtomobil. Policista sta bila sprva uradna in osorna, ampak samo zato, ker jima je bilo nerodno, da se tudi njima ne sanja, kako vlomiti v avtomobil. Poklicala sta avtomehanika, ko pa sta slišala ceno, sta bila ogorčena namesto naju in mu rekla, naj ne pošlje nikogar. Tako smo se tam prestopali štirje tipi brez kakršnekoli ideje. Nazadnje je eden od policistov rekel: <i>»Boste pač morali razbiti okno.«</i>
+<p>Bila sva na odročnem kraju &ndash; najbližja vas je bila oddaljena dvajset minut (vožnje). Philip je vzel v roke mobilni telefon, da bi poklical nekoga, ki bi naju prišel iskat. Seveda je imel baterijo prazno. Blizu je bila majhna hiša in moškega, ki je živel v njej, sva vprašala, ali ima kakšno orodje, s katerim bi lahko vdrla v avtomobil. Ne. Ali je blizu kak avtomehanik ali ključavničar? Dovolil nama je uporabiti njegov telefon, vendar ni imel telefonske številke nikogar, ki bi nama prišel prav, z izjemo najbližje policijske postaje. Poklical sem tja in rekli so, da bodo nekoga poslali.</p>
+<p>Uro pozneje se je pripeljal policijski avtomobil. Policista sta bila sprva uradna in osorna, ampak samo zato, ker jima je bilo nerodno, da se tudi njima ne sanja, kako vlomiti v avtomobil. Poklicala sta avtomehanika, ko pa sta slišala ceno, sta bila ogorčena namesto naju in mu rekla, naj ne pošlje nikogar. Tako smo se tam prestopali štirje tipi brez kakršnekoli ideje. Nazadnje je eden od policistov rekel: <i>&raquo;Boste pač morali razbiti okno.&laquo;</i>
 </p>
 <p>Ne pozabite, da se je vse zdelo kakor sanje. Koliko zamahov s kamnom je bilo torej potrebnih, da sem premagal svoje zadržke in razbil okno? Tri zamahe. Drobec stekla mi je priletel v prst in iz rane se je pocedila ena sama kaplja krvi.</p>
-<p>Ker nisva hotela biti pozna, sva vozila res hitro, naenkrat pa sva zagledala stojnico s sadjem in izkazalo se je, da prodajajo avtohtone sorte jabolk in mandarin, tiste majhne tajvanske s premerom manj kot pet centimetrov, ekološke in tako neverjetno okusne, kot bi bil v vsaki skoncentriran celoten okus velike. Vse je bilo popolno. Svoje občutke sem delil s Philipom, ki pa je moral avtomobil vrniti prijatelju, od katerega si ga je izposodil, zato je bil razumljivo manj navdušen nad najinim dnevom, čeprav se ga je čarobnost dreves dotaknila prav tako kot mene. Zbadljivo me je vprašal: <i>»Ali lahko naredim še kaj, da bo dan zate še lepši?«</i>
+<p>Ker nisva hotela biti pozna, sva vozila res hitro, naenkrat pa sva zagledala stojnico s sadjem in izkazalo se je, da prodajajo avtohtone sorte jabolk in mandarin, tiste majhne tajvanske s premerom manj kot pet centimetrov, ekološke in tako neverjetno okusne, kot bi bil v vsaki skoncentriran celoten okus velike. Vse je bilo popolno. Svoje občutke sem delil s Philipom, ki pa je moral avtomobil vrniti prijatelju, od katerega si ga je izposodil, zato je bil razumljivo manj navdušen nad najinim dnevom, čeprav se ga je čarobnost dreves dotaknila prav tako kot mene. Zbadljivo me je vprašal: <i>&raquo;Ali lahko naredim še kaj, da bo dan zate še lepši?&laquo;</i>
 </p>
-<p class="italics">»No,« <span class="nitalics">sem rekel na pol za šalo, </span>»poznaš tiste zemeljske guave?« <span class="nitalics">(To so zelo majhne guave, ki rasejo na Tajvanu in jih skoraj nikoli ne prodajajo v trgovini.) </span>»Nekaj teh bi bil res vesel.«</p>
-<p class="italics">»Ne vem, ali ti pri tem lahko kaj pomagam.«</p>
+<p class="italics">&raquo;No,&laquo; <span class="nitalics">sem rekel na pol za šalo, </span>&raquo;poznaš tiste zemeljske guave?&laquo; <span class="nitalics">(To so zelo majhne guave, ki rasejo na Tajvanu in jih skoraj nikoli ne prodajajo v trgovini.) </span>&raquo;Nekaj teh bi bil res vesel.&laquo;</p>
+<p class="italics">&raquo;Ne vem, ali ti pri tem lahko kaj pomagam.&laquo;</p>
 <p>Na kraj dogodka sva prispela točno ob pravem času in pred občinstvom sem govoril ves poškropljen z blatom. Tik preden sem začel, je k meni pristopil star prijatelj, ki ga nisem videl že dvajset let, in mi dal vrečko<i>.</i>
 </p>
-<p class="italics">»Pomislil sem, da se boš tega razveselil,« <span class="nitalics">je rekel. V vrečki so bili kuhani arašidi, vodni oreški </span>lingjiao <span class="nitalics">in, uganili ste – zemeljske guave.</span>
+<p class="italics">&raquo;Pomislil sem, da se boš tega razveselil,&laquo; <span class="nitalics">je rekel. V vrečki so bili kuhani arašidi, vodni oreški </span>lingjiao <span class="nitalics">in, uganili ste &ndash; zemeljske guave.</span>
 </p>
-<p>Bilo je, kot bi mi otok Tajvan sporočal: <i>»Ali mi ne verjameš, da te imam rad? Da se prepričaš, izvoli nekaj zemeljskih guav.«</i>
+<p>Bilo je, kot bi mi otok Tajvan sporočal: <i>&raquo;Ali mi ne verjameš, da te imam rad? Da se prepričaš, izvoli nekaj zemeljskih guav.&laquo;</i>
 </p>
 <p>Seveda bi bilo vse skupaj lahko le naključje, a zdelo se je, kot da so mi drevesa podarila ta dar, kot posrednika pa uporabila mojega prijatelja.</p>
-<p class="italics">»Šment,« <span class="nitalics">sem se pošalil sam pri sebi</span>, »če bi vedel, da bo izpolnjena vsaka moja želja, bi morda prosil za več kot le guave.«</p>
+<p class="italics">&raquo;Šment,&laquo; <span class="nitalics">sem se pošalil sam pri sebi</span>, &raquo;če bi vedel, da bo izpolnjena vsaka moja želja, bi morda prosil za več kot le guave.&laquo;</p>
 <p>To zgodbo izmenjujem z vami, ker želim pojasniti, da ko sprejmemo <i>zgodbo o svetu</i>, v katerem vsa bitja čutijo, skupaj z njimi oživi ves svet. Izkušati začnemo sinhronicitete, ki potrjujejo inteligenco vesolja. Gre zgolj za to, da jih bolj opažamo? Miselnost ločenosti najprej zahteva dokaz in šele nato verjame, vendar ugotavljam, da se pogosto zgodi ravno obratno. Zato moramo izbrati. V katerem svetu bomo živeli? Izbira je enaka kot v sedmem poglavju: betonski planet ali planet, poln življenja? Lep svet ali grd svet? Živ svet ali mrtev svet?</p>
 <p>Če bi radi živ svet, moramo ravnati v prepričanju, da je svet živ.</p>
 </div>
 </div>
 <nav class="fw-bck">
-<hr/>
+<hr>
 <p class="forward-back">
-<a href="part89.htm">&lt; Nazaj</a>
-<a href="part92.htm">Naprej &gt;</a>
+<a href="part89.htm">&lt; Nazaj</a><a href="part92.htm">Naprej &gt;</a>
 </p>
-<hr/>
+<hr>
 </nav>
+<button id="close-btn" class="fa fa-close"></button>
 <footer>
 <nav>
-<a href="mailto:matija.mazi@gmail.com">Kontakt</a>
+<a href="../../">Kontakt</a>
 </nav>
 <div id="footer-title">
 <a href="https://charleseisenstein.org/">Charles Eisenstein</a>
@@ -268,5 +544,6 @@
     (<a href="https://charleseisenstein.org/">charleseisenstein.org</a>).
     Dovoljeno je kopiranje in deljenje.
 </footer>
+<script src="../../js/script.js"></script>
 </body>
 </html>

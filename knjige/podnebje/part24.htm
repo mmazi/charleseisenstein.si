@@ -1,21 +1,100 @@
 <!DOCTYPE html>
-<html xml:lang="sl" lang="sl" xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://www.w3.org/1999/xhtml">
+<html xml:lang="sl" lang="sl" xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans"/>
-<title>Kaj sploh šteje?</title>
-<link href="../../css/document.css" rel="stylesheet" type="text/css"/>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;0,700;1,800&amp;family=Noto+Sans:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+<title>Podnebje - nova zgodba | Kaj sploh šteje?</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../../css/document.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="icon" href="../../media/cropped-favicon-32x32.png">
+<link rel="apple-touch-icon" href="../../media/cropped-favicon-32x32.png">
 </head>
 <body>
-<header>
-<img src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1.png" id="cepng" alt="Charles Eisenstein"/>
+<header id="headerbooks">
+<!-- Navigation section -->
+<section class="navsec">
+<container>
+<nav class="main-nav">
+<div class="logo">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+</div>
+<ul class="nav-ul menu-desktop">
+<li class="nav-li-item">
+<a href="../../o-nas/index.html">O nas</a>
+</li>
+<li class="nav-li-item">
+<a href="../../knjige/">Knjige</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a>
+</li>
+<li>
+<a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="#">Članki</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="../../videi/">Videi</a>
+</li>
+<li class="nav-li-item">
+<a href="../../intervju/" target="_blank">Intervju</a>
+</li>
+<li class="nav-li-item">
+<a href="../../vec/">Več</a>
+</li>
+</ul>
+</nav>
+</container>
+</section>
+<!-- End of navigation section -->
 </header>
-<h1>Podnebje – Nova zgodba</h1>
-<div class="book-content">
-<div class="nav">
-<nav>
+<!-- mobile navigation menu-->
+<div class="topnav">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+<!-- Navigation links (hidden by default) -->
+<div id="navlinks">
+<a href="../../o-nas/">O nas</a>
+<div class="dropdown nav-li-item">
+<a href="../../knjige/" class="dropbtn">Knjige<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a><a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</div>
+</div>
+<div class="dropdown nav-li-item">
+<a class="dropbtn">Članki<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a><a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a><a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</div>
+</div>
+<a href="../../videi/">Videi</a><a href="../../intervju/" target="_blank">Intervju</a><a href="../../vec/">Več</a>
+</div>
+<!-- Bar icon to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+</div>
+<!-- end of mobile navigation menu -->
+<h1 id="booktitle">Podnebje &ndash; Nova zgodba</h1>
+<!-- Index menu -->
+<button id="popup-btn">Poglavja</button>
+<div id="popup-window">
+<nav class="bookmenu mobile-book-nav borderless">
 <strong>Poglavja</strong>
 <ul>
 <li>
@@ -26,7 +105,7 @@
 <a href="part19.htm">Izgubljena resnica</a>
 </li>
 <li>
-<a href="part20.htm">Identiteta ‘drugih’</a>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
 </li>
 <li>
 <a href="part21.htm">Boj</a>
@@ -185,43 +264,240 @@
 </li>
 <li class="chapter">Spremna besedila</li>
 <li>
-<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i>
-</a>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
 </li>
 <li>
-<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i>
-</a>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
 </li>
 <li>
-<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i>
-</a>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
 </li>
 <li>
-<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i>
-</a>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
 </li>
-<li class="chapter">Viri</li>
+<li class="chapter">Ostalo</li>
 <li>
 <a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
 </li>
 </ul>
 </nav>
 </div>
+<!-- End of Index menu -->
+<div class="book-content">
+<nav class="nav bookmenu">
+<strong>Poglavja</strong>
+<ul>
+<li>
+<a href="part16.htm">Prolog: Izgubljen v blodnjaku</a>
+</li>
+<li class="chapter">1. poglavje: Kriza bivanja</li>
+<li>
+<a href="part19.htm">Izgubljena resnica</a>
+</li>
+<li>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
+</li>
+<li>
+<a href="part21.htm">Boj</a>
+</li>
+<li class="chapter">2. poglavje: Onkraj podnebnega fundamentalizma</li>
+<li>
+<a href="part24.htm" class="current">Kaj sploh šteje?</a>
+</li>
+<li>
+<a href="part25.htm">Sprevržene posledice ogljičnega redukcionizma</a>
+</li>
+<li>
+<a href="part26.htm">Družbeno ozračje</a>
+</li>
+<li>
+<a href="part27.htm">Prenagljena določitev vzroka</a>
+</li>
+<li>
+<a href="part28.htm">Vzrok vseh vzrokov</a>
+</li>
+<li>
+<a href="part29.htm">Tam, kjer biva predanost</a>
+</li>
+<li class="chapter">3. poglavje: Spekter mnenj o podnebju in še več</li>
+<li>
+<a href="part32.htm">Na čigavi strani sem?</a>
+</li>
+<li>
+<a href="part33.htm">Pokukajmo v svet skepticizma</a>
+</li>
+<li>
+<a href="part34.htm">Konec sveta</a>
+</li>
+<li>
+<a href="part35.htm">Institut znanosti</a>
+</li>
+<li>
+<a href="part36.htm">Napačna razprava</a>
+</li>
+<li class="chapter">4. poglavje: Paradigma vode</li>
+<li>
+<a href="part39.htm">Pogled iz drugega zornega kota</a>
+</li>
+<li>
+<a href="part40.htm">Gozdovi in drevesa</a>
+</li>
+<li>
+<a href="part41.htm">Organi Gaje</a>
+</li>
+<li>
+<a href="part42.htm">Pet tisoč let podnebnih sprememb</a>
+</li>
+<li class="chapter">5. poglavje: Ogljik z vidika ekosistemov</li>
+<li>
+<a href="part45.htm">Ogljik, prst in življenje</a>
+</li>
+<li>
+<a href="part49.htm">Obsedenost z izpusti</a>
+</li>
+<li>
+<a href="part50.htm">Zabloda o geoinženiringu</a>
+</li>
+<li>
+<a href="part51.htm">Kult količine</a>
+</li>
+<li class="chapter">6. poglavje: Pogodba s hudičem</li>
+<li>
+<a href="part54.htm">Nevarnosti pripovedi o globalnem segrevanju</a>
+</li>
+<li>
+<a href="part55.htm">Vzroki za pasivnost</a>
+</li>
+<li>
+<a href="part56.htm">Zakaj naj bi imel rad svojega sina?</a>
+</li>
+<li>
+<a href="part57.htm">Trgovina z naravo</a>
+</li>
+<li>
+<a href="part58.htm">Pravice narave</a>
+</li>
+<li class="chapter">7. poglavje: Revolucija je ljubezen</li>
+<li>
+<a href="part61.htm">V nosorogu se zrcali vse</a>
+</li>
+<li>
+<a href="part62.htm">Betonski svet</a>
+</li>
+<li>
+<a href="part63.htm">Razmere, ki tlakujejo pot naši izbiri</a>
+</li>
+<li class="chapter">8. poglavje: Regeneracija</li>
+<li>
+<a href="part66.htm">Ozdravljanje zemlje</a>
+</li>
+<li>
+<a href="part67.htm">Zakaj regenerativno kmetijstvo ostaja na obrobju?</a>
+</li>
+<li>
+<a href="part68.htm">Nahraniti lačen planet</a>
+</li>
+<li>
+<a href="part69.htm">Ozdravitev vode</a>
+</li>
+<li>
+<a href="part70.htm">Vzajemna potreba ljudi in planeta</a>
+</li>
+<li>
+<a href="part71.htm">Skrb za divjino</a>
+</li>
+<li class="chapter">9. poglavje: Energija, prebivalstvo in razvoj</li>
+<li>
+<a href="part74.htm">Paradigma moči</a>
+</li>
+<li>
+<a href="part75.htm">Pomen razvoja</a>
+</li>
+<li>
+<a href="part76.htm">Prehod v obilje</a>
+</li>
+<li>
+<a href="part77.htm">Število prebivalstva</a>
+</li>
+<li class="chapter">10. poglavje: Denar in dolg</li>
+<li>
+<a href="part80.htm">Igra glasbeni stoli</a>
+</li>
+<li>
+<a href="part81.htm">Nujnost rasti</a>
+</li>
+<li>
+<a href="part82.htm">Razvoj in dolg</a>
+</li>
+<li>
+<a href="part83.htm">Hinavščina</a>
+</li>
+<li>
+<a href="part84.htm">Elementi ekološkega gospodarstva</a>
+</li>
+<li class="chapter">11. poglavje: Srčna zadeva</li>
+<li>
+<a href="part87.htm">Verujemo v znanost</a>
+</li>
+<li>
+<a href="part88.htm">Če bi vedeli, da čuti</a>
+</li>
+<li>
+<a href="part89.htm">Moč zemlje</a>
+</li>
+<li>
+<a href="part90.htm">Ponovna oživitev resničnosti</a>
+</li>
+<li class="chapter">12. poglavje: Most do živega sveta</li>
+<li>
+<a href="part92.htm">Most do živega sveta</a>
+</li>
+<li class="chapter">Spremna besedila</li>
+<li>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
+</li>
+<li>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
+</li>
+<li>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
+</li>
+<li>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
+</li>
+<li class="chapter">Ostalo</li>
+<li>
+<a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
+</li>
+</ul>
+</nav>
 <div class="book-text">
 <h2>2. poglavje: Onkraj podnebnega fundamentalizma</h2>
 <h3>Kaj sploh šteje?</h3>
-<p class="italics">»Charles, nekega dne se boš moral odločiti, ali želiš narediti kaj pomembnega za družbo.«</p>
+<p class="italics">&raquo;Charles, nekega dne se boš moral odločiti, ali želiš narediti kaj pomembnega za družbo.&laquo;</p>
 <p>Tako mi je rekel ugleden okoljevarstvenik, ko sem mu opisal raznovrstna področja svojih dejavnosti in interesov. S tem je želel povedati nekaj v smislu:</p>
-<p class="italics">»Za ukrepanje proti podnebnim spremembam nimamo več veliko časa, saj bo izumrtje človeštva zaradi nepopravljivih negativnih posledic neizogibno. Zato trenutno šteje edino to, da vse napore vložiš v čim hitrejše zmanjšanje izpustov toplogrednih plinov, in to za vsako ceno. Tvoji drugi interesi niso pomembni. Če ne bomo kmalu uvedli učinkovite obdavčitve ogljikovega dioksida, tudi celjenje odnosa med moškim in ženskim vidikom ne bo pomembno. Niti ne bo imelo smisla reševanje kitov; niti prekinitev trenda, pri katerem mladi opustijo šolanje in sčasoma pristanejo v zaporu. Družbena pravičnost, izobraževanje, psihiatrična zdravila, holistična medicina, znanstvene anomalije, povezovalno starševstvo, oblikovanje skupnosti, nova ekonomija, filozofija, zgodovina, kozmologija, neolamarkizem v biologiji, zdravilstvo s svetimi rastlinami, nenasilna komunikacija, inteligenca rastlin, ogroženi
-jeziki, neodvisnost avtohtonega prebivalstva, metafizika absolutne subjektivitete – nobena od tematik, o katerih pišeš, ni pomembna, če nima neposrednega, velikega in čimprejšnjega vpliva na toplogredne pline. Ko bomo zmagali v tej bitki, lahko pozornost namenimo še drugim stvarem. Torej, se boš pridružil boju?«</p>
+<p class="italics">&raquo;Za ukrepanje proti podnebnim spremembam nimamo več veliko časa, saj bo izumrtje človeštva zaradi nepopravljivih negativnih posledic neizogibno. Zato trenutno šteje edino to, da vse napore vložiš v čim hitrejše zmanjšanje izpustov toplogrednih plinov, in to za vsako ceno. Tvoji drugi interesi niso pomembni. Če ne bomo kmalu uvedli učinkovite obdavčitve ogljikovega dioksida, tudi celjenje odnosa med moškim in ženskim vidikom ne bo pomembno. Niti ne bo imelo smisla reševanje kitov; niti prekinitev trenda, pri katerem mladi opustijo šolanje in sčasoma pristanejo v zaporu. Družbena pravičnost, izobraževanje, psihiatrična zdravila, holistična medicina, znanstvene anomalije, povezovalno starševstvo, oblikovanje skupnosti, nova ekonomija, filozofija, zgodovina, kozmologija, neolamarkizem v biologiji, zdravilstvo s svetimi rastlinami, nenasilna komunikacija, inteligenca rastlin, ogroženi
+jeziki, neodvisnost avtohtonega prebivalstva, metafizika absolutne subjektivitete &ndash; nobena od tematik, o katerih pišeš, ni pomembna, če nima neposrednega, velikega in čimprejšnjega vpliva na toplogredne pline. Ko bomo zmagali v tej bitki, lahko pozornost namenimo še drugim stvarem. Torej, se boš pridružil boju?&laquo;</p>
 <p>Tako razmišljanje se imenuje fundamentalizem in je zelo podobno dinamiki dveh odločilnih institutov naše civilizacije: denarja in vojne. Fundamentalizem skrči kompleksno na preprosto in zahteva, da se v korist vseobsegajočega, v prihodnost usmerjenega cilja, ki prekaša vse drugo, takoj žrtvuje vse človeško ali osebno. Skrajni verski fundamentalist, ukročen z obljubo o nagradi v nebesih ali z grožnjo o trpljenju v peklu, zatre svojo človečnost, da bi lahko služil temu, kar po besedah njegove religije želi Bog. Več milijonov ljudi, ki jim življenje krojijo gospodarske zahteve in potrebe, žrtvuje čas, energijo, družino in vse, za kar jim je resnično mar, da bi zaslužili denar. Narod v vojni, ki mu življenje kroji življenjska ogroženost, se odreče kulturi, prostočasnim dejavnostim, državljanskim svoboščinam in vsemu, kar ne prinaša koristi vojaškim prizadevanjem.</p>
 <p>Kdor je previden, ko gre za ta dva instituta, bi lahko bil previden tudi, ko naleti na standardno pripoved o podnebnih spremembah, ki se prav tako osredotoča na univerzalni vzrok in uporablja enako miselnost žrtvovanja za en in edini cilj. Če se strinjamo, da je na kocki preživetje človeštva, so upravičena vsa sredstva; vsak drug cilj, na primer reforma zaporov, stanovanja za brezdomce, skrb za avtiste, reševanje zlorabljenih živali ali obisk pri babici pa postane neupravičena distrakcija, ki nas odvrača od edinega, kar je pomembno. V skrajni obliki od nas zahteva brezbrižnost do potreb, ki so tik pred našim nosom. Ne smemo več zapravljati časa! Vse je na kocki! Na življenje ali smrt! Kako podobno logiki vojne. Sploh me ni čudilo, ko mi je predstavnik lokalne skupnosti nedavno povedal, da so prebivalci obubožanih skupnosti sovražni do okoljevarstvenikov. Prav potrebe teh revnih slojev so prezrte in prav
 njih se v vojni najprej žrtvuje.</p>
 <p>Čeprav ta knjiga obravnava predvsem ekološko ozdravitev, se oddaljuje od miselnosti, da v
  primerjavi s tem ni nič drugega pomembno. Takšna miselnost je številne ljudi delavskega
- razreda in manjšine odtujila od okoljevarstva, saj pokroviteljsko sporoča: »Mi vendarle
- bolje vemo kot vi, za kaj bi vam moralo biti mar«. Zanika njihove tegobe. Bodimo realni,
- komu mar za rasistično policijsko prakso »ustavi in pretipaj« in kriminalizacijo večjih delov
+ razreda in manjšine odtujila od okoljevarstva, saj pokroviteljsko sporoča: &raquo;Mi vendarle
+ bolje vemo kot vi, za kaj bi vam moralo biti mar&laquo;. Zanika njihove tegobe. Bodimo realni,
+ komu mar za rasistično policijsko prakso &raquo;ustavi in pretipaj&laquo; in kriminalizacijo večjih delov
  prebivalstva ob tem, ko se nam dogaja civilizacijski propad? Komu mar za delo v
  izkoriščevalskih podjetjih ali rakotvorne snovi v vodovodnem sistemu, ko pa Zemlja zaradi
  podnebnih sprememb morda ne bo več primerna za življenje ljudi? Vaše skrbi niso pomembne. Če
@@ -229,8 +505,8 @@ njih se v vojni najprej žrtvuje.</p>
  bomo izžarevali energijo križarskega pohoda, ki bo pritegnila le naše sofundamentaliste.
 </p>
 <p>Če želimo spodbuditi širok družbeni konsenz za zaščito in ozdravitev planeta, moramo takšno
- logiko odpraviti pri samem viru. Um, prežet z ločenostjo, ugovarja: »Če pa je res! Nič od tega ni
- pomembno, če se ozračje segreje za deset stopinj<span class="note-number">[<a id="enref1" href="#en1">1</a>]</span>.«
+ logiko odpraviti pri samem viru. Um, prežet z ločenostjo, ugovarja: &raquo;Če pa je res! Nič od tega ni
+ pomembno, če se ozračje segreje za deset stopinj<span class="note-number">[<a id="enref1" href="#en1">1</a>]</span>.&laquo;
  To prepričanje temelji na
  zgodbi o svetu, ta zgodba pa ne priznava intimne medsebojne povezanosti vsega. Če dojemamo
  resničnost kot zbirko ločenih vzročno nepovezanih pojavov, je jasno, da se nam v primerjavi s
@@ -238,14 +514,14 @@ njih se v vojni najprej žrtvuje.</p>
  zdi banalna.</p>
 <p>Z vidika zgodbe o <i>prepletenem bivanju </i>intuitivno razumemo različne vrste vzrokov in posledic. Ne preseneča nas, da v zaporniško usmerjeni družbi, ki v zapore trpa na milijone svojih članov, svobodo izgubijo tudi tisti na prostosti. Ne preseneča nas, da ko kakšen narod po svetu povzroča nasilje, nobeno varovanje, nadzor, zidovi ali ograje ne morejo preprečiti,
  da se nasilje ne bi prikradlo nazaj kot nasilje v družini ali samouničevalne navade. In ne preseneča nas, da se onesnaženost okolja in degradacija habitatov zrcalita v telesnih boleznih in degradaciji našega notranjega sveta. Zaradi iluzije ločenosti mislimo, da bi lahko naravni svet nadomestili s tehnologijo in s pravimi filtri za zrak, s filtri za vodo, z zaščito pred elektromagnetnimi sevanji, s prehranskimi dopolnili, klimatskimi napravami, z antibiotiki, s fungicidi, z napravami za uničevanje mrčesa in s podobnim morda lahko uspešno živeli na strupenem planetu. Z vidika <i>prepletenega bivanja </i>pa vemo, da zdravja enega ni mogoče ohranjati, če ne ohranimo zdravja vseh.</p>
-<p>Če želimo vzpostaviti solidarnost, moramo razumeti, da so genocid in ekocid, degradacija človeka ter ekološka degradacija vezi istega tkiva, in da se nič od tega ne bo spremenilo, ne da bi se spremenilo tudi drugo. Ne gre za to, da bi se morali posvečati rasnim ali razrednim krivicam s strateškim ciljem, da bi ljudi, ki so tem krivicam izpostavljeni, spreobrnili v okoljevarstvenike. Gre za pripoznanje, da ozdravitev na katerikoli ravni prispeva k ozdravitvi na vseh ravneh. Ker nismo navajeni razmišljati holistično, se zdi paradoksno, da bo socialno podjetje, ki zaposluje brezdomce, pomagalo pri preprečevanju podnebnih sprememb – vzročne povezave našemu načinu dojemanja niso očitne. Delovanje našega prevladujočega sistema proizvodnje znanja (znanosti) temelji na nadziranju spremenljivk, razdeljevanju celot na dele in na oblikovanju merljivih, predvidljivih vzročnih mehanizmov. Takšno znanje je
+<p>Če želimo vzpostaviti solidarnost, moramo razumeti, da so genocid in ekocid, degradacija človeka ter ekološka degradacija vezi istega tkiva, in da se nič od tega ne bo spremenilo, ne da bi se spremenilo tudi drugo. Ne gre za to, da bi se morali posvečati rasnim ali razrednim krivicam s strateškim ciljem, da bi ljudi, ki so tem krivicam izpostavljeni, spreobrnili v okoljevarstvenike. Gre za pripoznanje, da ozdravitev na katerikoli ravni prispeva k ozdravitvi na vseh ravneh. Ker nismo navajeni razmišljati holistično, se zdi paradoksno, da bo socialno podjetje, ki zaposluje brezdomce, pomagalo pri preprečevanju podnebnih sprememb &ndash; vzročne povezave našemu načinu dojemanja niso očitne. Delovanje našega prevladujočega sistema proizvodnje znanja (znanosti) temelji na nadziranju spremenljivk, razdeljevanju celot na dele in na oblikovanju merljivih, predvidljivih vzročnih mehanizmov. Takšno znanje je
 kulturno legitimno. Vendar vzročne niti, ki brezdomstvo povezujejo z ekološkim uničenjem, niso ne merljive ne predvidljive. Cinik, ki razmišlja kot Ebenezer Stispuh <i>(zagrenjen in skopuški protagonist v Dickensovi Božični pesmi, ki ne praznuje božiča. Na božični večer ga obiščejo štirje duhovi in mu pokažejo krivice, ki jih je storil. Stispuh se pokesa in postane boljši človek, op. prev.)</i>, bi morda trdil, da se z rehabilitacijo brezdomcev podnebne spremembe še poslabšajo, saj brezdomci tako postanejo potrošni člani družbe.
 </p>
-<p>Seveda je mogoče oblikovati argument, da stanovanja za brezdomce izboljšujejo zdravje biosfere, vendar se ne bo zlahka prilegal načinu izražanja podnebne politike, obenem pa verjetno ne bo prepričal Stispuha. Vendar ko Stispuh izkusi preobrat zavesti in ugleda svet z očmi <i>prepletenega bivanja</i>, se zave, da sta tadva pojava povezana. Prepričan v prirojeno inteligenco, ki prežema vse pojave, bo morda sklepal, da če je družba negostoljubna do svojih ranljivih članov, bo tudi planet negostoljuben do te iste družbe. Domneval bo, da so globoke korenine brezdomstva tudi globoke korenine podnebnih sprememb. Namesto da bi se ‘boril proti brezdomstvu ‘, si bo prizadeval razumeti njegov izvor. Razumel bo, da se brez skrbi lahko posveti temu, kar najbolj prebudi njegovo sočutje; z gotovostjo, da je to, kar počne, pomembno tudi z vidika svetovne krize. Tako ga ne bo več gnala zaskrbljenost zaradi samoohranitve in preživetja, saj bo razumel, da je njegovo blagostanje neločljivo povezano z blagostanjem vseh v njegovem
+<p>Seveda je mogoče oblikovati argument, da stanovanja za brezdomce izboljšujejo zdravje biosfere, vendar se ne bo zlahka prilegal načinu izražanja podnebne politike, obenem pa verjetno ne bo prepričal Stispuha. Vendar ko Stispuh izkusi preobrat zavesti in ugleda svet z očmi <i>prepletenega bivanja</i>, se zave, da sta tadva pojava povezana. Prepričan v prirojeno inteligenco, ki prežema vse pojave, bo morda sklepal, da če je družba negostoljubna do svojih ranljivih članov, bo tudi planet negostoljuben do te iste družbe. Domneval bo, da so globoke korenine brezdomstva tudi globoke korenine podnebnih sprememb. Namesto da bi se &lsquo;boril proti brezdomstvu &lsquo;, si bo prizadeval razumeti njegov izvor. Razumel bo, da se brez skrbi lahko posveti temu, kar najbolj prebudi njegovo sočutje; z gotovostjo, da je to, kar počne, pomembno tudi z vidika svetovne krize. Tako ga ne bo več gnala zaskrbljenost zaradi samoohranitve in preživetja, saj bo razumel, da je njegovo blagostanje neločljivo povezano z blagostanjem vseh v njegovem
 vse večjem krogu ljubezni.
 </p>
-<p>Vprašati se moramo torej, kaj spodbudi prehod v zavedanje o <i>prepletenem bivanju</i>? <i>Charles Dickens</i>, ki je ustvaril Stispuha, je to vedel. Spodbudi ga soočenje z lepoto, s trpljenjem in s smrtjo. Spodbudi ga povezanost s tem, kar je resnično. Temu bi lahko rekli izkušnja iniciacije. Brez nje primež zaskrbljenosti zaradi samoohranitve in preživetja nikoli ne popusti. Te strahove bi lahko poskusili izkoristiti za spodbujanje okolju naklonjenega ravnanja (z grožnjo o podnebnih spremembah), vendar s sklicevanjem na egoizem, da bi rešili problem, ki ga je povzročil neobrzdani, slepi egoizem, zgolj prilivamo olje na ogenj. Potrebno je ravno nasprotno – povečati krog sočutja tako, da bo zajel vsa bitja na Zemlji.</p>
-<hr class="wp-block-separator"/>
+<p>Vprašati se moramo torej, kaj spodbudi prehod v zavedanje o <i>prepletenem bivanju</i>? <i>Charles Dickens</i>, ki je ustvaril Stispuha, je to vedel. Spodbudi ga soočenje z lepoto, s trpljenjem in s smrtjo. Spodbudi ga povezanost s tem, kar je resnično. Temu bi lahko rekli izkušnja iniciacije. Brez nje primež zaskrbljenosti zaradi samoohranitve in preživetja nikoli ne popusti. Te strahove bi lahko poskusili izkoristiti za spodbujanje okolju naklonjenega ravnanja (z grožnjo o podnebnih spremembah), vendar s sklicevanjem na egoizem, da bi rešili problem, ki ga je povzročil neobrzdani, slepi egoizem, zgolj prilivamo olje na ogenj. Potrebno je ravno nasprotno &ndash; povečati krog sočutja tako, da bo zajel vsa bitja na Zemlji.</p>
+<hr class="wp-block-separator">
 <p>
 <strong>Končna opomba</strong>
 </p>
@@ -253,16 +529,16 @@ vse večjem krogu ljubezni.
 </div>
 </div>
 <nav class="fw-bck">
-<hr/>
+<hr>
 <p class="forward-back">
-<a href="part21.htm">&lt; Nazaj</a>
-<a href="part25.htm">Naprej &gt;</a>
+<a href="part21.htm">&lt; Nazaj</a><a href="part25.htm">Naprej &gt;</a>
 </p>
-<hr/>
+<hr>
 </nav>
+<button id="close-btn" class="fa fa-close"></button>
 <footer>
 <nav>
-<a href="mailto:matija.mazi@gmail.com">Kontakt</a>
+<a href="../../">Kontakt</a>
 </nav>
 <div id="footer-title">
 <a href="https://charleseisenstein.org/">Charles Eisenstein</a>
@@ -273,5 +549,6 @@ vse večjem krogu ljubezni.
     (<a href="https://charleseisenstein.org/">charleseisenstein.org</a>).
     Dovoljeno je kopiranje in deljenje.
 </footer>
+<script src="../../js/script.js"></script>
 </body>
 </html>

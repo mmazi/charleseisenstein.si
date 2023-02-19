@@ -1,21 +1,100 @@
 <!DOCTYPE html>
-<html xml:lang="sl" lang="sl" xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://www.w3.org/1999/xhtml">
+<html xml:lang="sl" lang="sl" xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans"/>
-<title>Trgovina z naravo</title>
-<link href="../../css/document.css" rel="stylesheet" type="text/css"/>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;0,700;1,800&amp;family=Noto+Sans:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+<title>Podnebje - nova zgodba | Trgovina z naravo</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../../css/document.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="icon" href="../../media/cropped-favicon-32x32.png">
+<link rel="apple-touch-icon" href="../../media/cropped-favicon-32x32.png">
 </head>
 <body>
-<header>
-<img src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1.png" id="cepng" alt="Charles Eisenstein"/>
+<header id="headerbooks">
+<!-- Navigation section -->
+<section class="navsec">
+<container>
+<nav class="main-nav">
+<div class="logo">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+</div>
+<ul class="nav-ul menu-desktop">
+<li class="nav-li-item">
+<a href="../../o-nas/index.html">O nas</a>
+</li>
+<li class="nav-li-item">
+<a href="../../knjige/">Knjige</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a>
+</li>
+<li>
+<a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="#">Članki</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="../../videi/">Videi</a>
+</li>
+<li class="nav-li-item">
+<a href="../../intervju/" target="_blank">Intervju</a>
+</li>
+<li class="nav-li-item">
+<a href="../../vec/">Več</a>
+</li>
+</ul>
+</nav>
+</container>
+</section>
+<!-- End of navigation section -->
 </header>
-<h1>Podnebje – Nova zgodba</h1>
-<div class="book-content">
-<div class="nav">
-<nav>
+<!-- mobile navigation menu-->
+<div class="topnav">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+<!-- Navigation links (hidden by default) -->
+<div id="navlinks">
+<a href="../../o-nas/">O nas</a>
+<div class="dropdown nav-li-item">
+<a href="../../knjige/" class="dropbtn">Knjige<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a><a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</div>
+</div>
+<div class="dropdown nav-li-item">
+<a class="dropbtn">Članki<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a><a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a><a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</div>
+</div>
+<a href="../../videi/">Videi</a><a href="../../intervju/" target="_blank">Intervju</a><a href="../../vec/">Več</a>
+</div>
+<!-- Bar icon to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+</div>
+<!-- end of mobile navigation menu -->
+<h1 id="booktitle">Podnebje &ndash; Nova zgodba</h1>
+<!-- Index menu -->
+<button id="popup-btn">Poglavja</button>
+<div id="popup-window">
+<nav class="bookmenu mobile-book-nav borderless">
 <strong>Poglavja</strong>
 <ul>
 <li>
@@ -26,7 +105,7 @@
 <a href="part19.htm">Izgubljena resnica</a>
 </li>
 <li>
-<a href="part20.htm">Identiteta ‘drugih’</a>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
 </li>
 <li>
 <a href="part21.htm">Boj</a>
@@ -185,28 +264,225 @@
 </li>
 <li class="chapter">Spremna besedila</li>
 <li>
-<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i>
-</a>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
 </li>
 <li>
-<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i>
-</a>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
 </li>
 <li>
-<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i>
-</a>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
 </li>
 <li>
-<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i>
-</a>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
 </li>
-<li class="chapter">Viri</li>
+<li class="chapter">Ostalo</li>
 <li>
 <a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
 </li>
 </ul>
 </nav>
 </div>
+<!-- End of Index menu -->
+<div class="book-content">
+<nav class="nav bookmenu">
+<strong>Poglavja</strong>
+<ul>
+<li>
+<a href="part16.htm">Prolog: Izgubljen v blodnjaku</a>
+</li>
+<li class="chapter">1. poglavje: Kriza bivanja</li>
+<li>
+<a href="part19.htm">Izgubljena resnica</a>
+</li>
+<li>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
+</li>
+<li>
+<a href="part21.htm">Boj</a>
+</li>
+<li class="chapter">2. poglavje: Onkraj podnebnega fundamentalizma</li>
+<li>
+<a href="part24.htm">Kaj sploh šteje?</a>
+</li>
+<li>
+<a href="part25.htm">Sprevržene posledice ogljičnega redukcionizma</a>
+</li>
+<li>
+<a href="part26.htm">Družbeno ozračje</a>
+</li>
+<li>
+<a href="part27.htm">Prenagljena določitev vzroka</a>
+</li>
+<li>
+<a href="part28.htm">Vzrok vseh vzrokov</a>
+</li>
+<li>
+<a href="part29.htm">Tam, kjer biva predanost</a>
+</li>
+<li class="chapter">3. poglavje: Spekter mnenj o podnebju in še več</li>
+<li>
+<a href="part32.htm">Na čigavi strani sem?</a>
+</li>
+<li>
+<a href="part33.htm">Pokukajmo v svet skepticizma</a>
+</li>
+<li>
+<a href="part34.htm">Konec sveta</a>
+</li>
+<li>
+<a href="part35.htm">Institut znanosti</a>
+</li>
+<li>
+<a href="part36.htm">Napačna razprava</a>
+</li>
+<li class="chapter">4. poglavje: Paradigma vode</li>
+<li>
+<a href="part39.htm">Pogled iz drugega zornega kota</a>
+</li>
+<li>
+<a href="part40.htm">Gozdovi in drevesa</a>
+</li>
+<li>
+<a href="part41.htm">Organi Gaje</a>
+</li>
+<li>
+<a href="part42.htm">Pet tisoč let podnebnih sprememb</a>
+</li>
+<li class="chapter">5. poglavje: Ogljik z vidika ekosistemov</li>
+<li>
+<a href="part45.htm">Ogljik, prst in življenje</a>
+</li>
+<li>
+<a href="part49.htm">Obsedenost z izpusti</a>
+</li>
+<li>
+<a href="part50.htm">Zabloda o geoinženiringu</a>
+</li>
+<li>
+<a href="part51.htm">Kult količine</a>
+</li>
+<li class="chapter">6. poglavje: Pogodba s hudičem</li>
+<li>
+<a href="part54.htm">Nevarnosti pripovedi o globalnem segrevanju</a>
+</li>
+<li>
+<a href="part55.htm">Vzroki za pasivnost</a>
+</li>
+<li>
+<a href="part56.htm">Zakaj naj bi imel rad svojega sina?</a>
+</li>
+<li>
+<a href="part57.htm" class="current">Trgovina z naravo</a>
+</li>
+<li>
+<a href="part58.htm">Pravice narave</a>
+</li>
+<li class="chapter">7. poglavje: Revolucija je ljubezen</li>
+<li>
+<a href="part61.htm">V nosorogu se zrcali vse</a>
+</li>
+<li>
+<a href="part62.htm">Betonski svet</a>
+</li>
+<li>
+<a href="part63.htm">Razmere, ki tlakujejo pot naši izbiri</a>
+</li>
+<li class="chapter">8. poglavje: Regeneracija</li>
+<li>
+<a href="part66.htm">Ozdravljanje zemlje</a>
+</li>
+<li>
+<a href="part67.htm">Zakaj regenerativno kmetijstvo ostaja na obrobju?</a>
+</li>
+<li>
+<a href="part68.htm">Nahraniti lačen planet</a>
+</li>
+<li>
+<a href="part69.htm">Ozdravitev vode</a>
+</li>
+<li>
+<a href="part70.htm">Vzajemna potreba ljudi in planeta</a>
+</li>
+<li>
+<a href="part71.htm">Skrb za divjino</a>
+</li>
+<li class="chapter">9. poglavje: Energija, prebivalstvo in razvoj</li>
+<li>
+<a href="part74.htm">Paradigma moči</a>
+</li>
+<li>
+<a href="part75.htm">Pomen razvoja</a>
+</li>
+<li>
+<a href="part76.htm">Prehod v obilje</a>
+</li>
+<li>
+<a href="part77.htm">Število prebivalstva</a>
+</li>
+<li class="chapter">10. poglavje: Denar in dolg</li>
+<li>
+<a href="part80.htm">Igra glasbeni stoli</a>
+</li>
+<li>
+<a href="part81.htm">Nujnost rasti</a>
+</li>
+<li>
+<a href="part82.htm">Razvoj in dolg</a>
+</li>
+<li>
+<a href="part83.htm">Hinavščina</a>
+</li>
+<li>
+<a href="part84.htm">Elementi ekološkega gospodarstva</a>
+</li>
+<li class="chapter">11. poglavje: Srčna zadeva</li>
+<li>
+<a href="part87.htm">Verujemo v znanost</a>
+</li>
+<li>
+<a href="part88.htm">Če bi vedeli, da čuti</a>
+</li>
+<li>
+<a href="part89.htm">Moč zemlje</a>
+</li>
+<li>
+<a href="part90.htm">Ponovna oživitev resničnosti</a>
+</li>
+<li class="chapter">12. poglavje: Most do živega sveta</li>
+<li>
+<a href="part92.htm">Most do živega sveta</a>
+</li>
+<li class="chapter">Spremna besedila</li>
+<li>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
+</li>
+<li>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
+</li>
+<li>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
+</li>
+<li>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
+</li>
+<li class="chapter">Ostalo</li>
+<li>
+<a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
+</li>
+</ul>
+</nav>
 <div class="book-text">
 <h2>6. poglavje: Pogodba s hudičem</h2>
 <h3>Trgovina z naravo</h3>
@@ -214,34 +490,40 @@
 <p>To ni samo prazno ugibanje. Na svetovni ravni sredstva, ki omogočajo preživetje, prejmejo tisti, ki so koristni za svetovno gospodarstvo. Tisti, katerih prispevki niso izraženi kot blago in storitve, ki se lahko prodajo, težko preživijo. S konvencionalnega ekonomskega vidika dejansko niso bolj koristni živi kot mrtvi, in takih je vse več. Njihova vrednost je enaka vrednosti vseh drugih le, če nanje ne gledamo s finančnega vidika.<span class="note-number">[<a id="enref6" href="#en6">6</a>]</span>
 </p>
 <p>Edinstvenost in svetost vsakega bitja izgineta, če ju zreduciramo na niz številk.</p>
-<p>Skrajni primer trgovine z ljudmi opozarja na posledično degradacijo, s katero se v blažji obliki srečamo vsi, kadarkoli smo v vlogi zaposlenega ali potrošnika. Ko se ocenjuje naša denarna vrednost, naše blagostanje ni več pomembno, razen če vpliva na to vrednost. Ta logika je očitna v programih zdravstvenega varstva za zaposlene, ki navajajo, koliko manj stroškov bo nastalo, če bodo zaposleni zdravi. Že prav, a kaj se zgodi, ko stroški presežejo prednosti zdravja? Po isti logiki se žrtvuje zdravje. Prav to se pogosto zgodi, ko podjetje odkrije nevarnost za zdravje, odpravljanje te nevarnosti pa je drago. »<i>To bomo pa prezrli.«</i>
+<p>Skrajni primer trgovine z ljudmi opozarja na posledično degradacijo, s katero se v blažji obliki srečamo vsi, kadarkoli smo v vlogi zaposlenega ali potrošnika. Ko se ocenjuje naša denarna vrednost, naše blagostanje ni več pomembno, razen če vpliva na to vrednost. Ta logika je očitna v programih zdravstvenega varstva za zaposlene, ki navajajo, koliko manj stroškov bo nastalo, če bodo zaposleni zdravi. Že prav, a kaj se zgodi, ko stroški presežejo prednosti zdravja? Po isti logiki se žrtvuje zdravje. Prav to se pogosto zgodi, ko podjetje odkrije nevarnost za zdravje, odpravljanje te nevarnosti pa je drago. &raquo;<i>To bomo pa prezrli.&laquo;</i>
 </p>
 <p>Ali lahko, prosim, razumemo, da je revolucija <i>to</i>: imeti rad vsa bitja zato, ker so, ne zato, ker so koristna? Ko dopustimo tako razmišljanje, se ne spremeni samo naš odnos do narave. Preobrazi se tudi naš ekonomski sistem, ki temelji prav na izkoriščanju človeka za dobiček, tj. za njegovo koristnost. Verjetno vam ni všeč, da se z vami tako ravna, kot z orodjem v korist nekoga drugega, kot s potrošnikom ali z zaposlenim, čigar vrednost izgine takoj, ko porabi ves svoj denar ali ni več produktiven. Tudi bitjem narave to ni všeč. Vse oblike miselnosti izkoriščanja se morajo spremeniti sočasno, saj vsaka izraža in podpira druge. Zato so vse revolucije, ki se danes odvijajo, v bistvu ista revolucija.</p>
-<p>Trgovina z ljudmi se ne razlikuje od trgovine z naravo. Enako kot ekonomska in politična miselnost dojema človeško prebivalstvo, nam izračunavanje ogljika omogoča, da trdimo: <i>»To zemljišče je pomembnejše od tistega. Ta vrsta je več vredna od tiste.« </i>Naslednji korak je seveda žrtvovanje tistega, o čemer na podlagi številk presodimo, da je vredno manj.</p>
+<p>Trgovina z ljudmi se ne razlikuje od trgovine z naravo. Enako kot ekonomska in politična miselnost dojema človeško prebivalstvo, nam izračunavanje ogljika omogoča, da trdimo: <i>&raquo;To zemljišče je pomembnejše od tistega. Ta vrsta je več vredna od tiste.&laquo; </i>Naslednji korak je seveda žrtvovanje tistega, o čemer na podlagi številk presodimo, da je vredno manj.</p>
 <p>Merjenje in monetizacija gresta z roko v roki. Če nekaj ovrednotimo na podlagi neke merske enote, to zlahka pretvorimo v drugo mersko enoto: denar. Takoj ko začnemo enačiti zeleno in nizkoogljično, lahko ogljiku določimo ceno in zeleno povežemo z denarjem. To je osnovna logika sistemov za monetizacijo ekosistemskih storitev.</p>
-<p>Na tej logiki temelji tudi žanr okoljevarstvene literature, katerega dober primer je podnaslov iz revije <i>Scientific American</i>: »<i>Fish save the world billions of dollars in damages by helping store carbon dioxide in the oceans« (Ribe prihranijo svetu več milijard dolarjev, saj pomagajo pri skladiščenju ogljikovega dioksida v oceanu).</i>
-<span class="note-number">[<a id="enref7" href="#en7">7</a>]</span> V članku je opisana študija, ki je pokazala, da ribe na odprtem morju vsako leto preprečijo podnebno škodo v znesku 74–220 milijard dolarjev. To močno presega ekonomsko vrednost ribiške industrije, zato je v članku sklenjeno, da bi morali spremeniti ribiško politiko.</p>
+<p>Na tej logiki temelji tudi žanr okoljevarstvene literature, katerega dober primer je podnaslov iz revije <i>Scientific American</i>: &raquo;<i>Fish save the world billions of dollars in damages by helping store carbon dioxide in the oceans&laquo; (Ribe prihranijo svetu več milijard dolarjev, saj pomagajo pri skladiščenju ogljikovega dioksida v oceanu).</i><span class="note-number">[<a id="enref7" href="#en7">7</a>]</span> V članku je opisana študija, ki je pokazala, da ribe na odprtem morju vsako leto preprečijo podnebno škodo v znesku 74&ndash;220 milijard dolarjev. To močno presega ekonomsko vrednost ribiške industrije, zato je v članku sklenjeno, da bi morali spremeniti ribiško politiko.</p>
 <p>Kakšna sreča za ribe, da nam prihranijo denar. Kakšna sreča za zaposlene, da so bolj dobičkonosni zdravi kot bolni. Kakšna sreča za medonosne čebele, da opravljajo storitve s takšno ekonomsko vrednostjo. Ampak smola za karkoli in kogarkoli, česar ali čigar vrednost ocenjujemo kot majhno.</p>
 <p>Ali poznate tisto očaranost, ko zagledate redko ptico ali od blizu srečate žival, vidite orla v preletu nad vodo ali kita v morju, ki prši vodo? Ali lahko določite, koliko revnejši bi bili brez teh bitij? No, povejte mi številko. Tako bomo vedeli, ali jih je vredno zaščititi.</p>
 <p>Če ste se slučajno spraševali, ali je vredno zaščititi oceane, naj vam povem, da je <i>Svetovni sklad za naravo </i>(World Wildlife Fund) prijazno določil njihovo denarno vrednost: 24 bilijonov dolarjev.<span class="note-number">[<a id="enref8" href="#en8">8</a>]</span> Nedvomno upa, da bo tako uskladil gospodarsko spodbudo z ekološko blagostanje, kar je hvalevredna motivacija. Vendar pomislite za trenutek na miselnost, ki jo tako vrednotenje krepi, ko namiguje:</p>
 <ol>
+
 <li>da je denar ustrezen način za določitev vrednosti nečesa, kot je ocean,</li>
-<li>da lahko in da moramo sprejemati odločitve o planetu na podlagi predvidenega finančnega dobička in izgub in zato …</li>
+
+<li>da lahko in da moramo sprejemati odločitve o planetu na podlagi predvidenega finančnega dobička in izgub in zato &hellip;</li>
+
 <li>da če bi lahko z uničenjem oceanov zaslužili več kot 24 bilijonov dolarjev (recimo 48 bilijonov dolarjev), bi to morali storiti,</li>
-<li>da je sploh mogoče predvideti in izračunati prispevek oceanov k človekovemu blagostanju – da je naše znanje zadostno, da to sploh lahko ocenimo,</li>
+
+<li>da je sploh mogoče predvideti in izračunati prispevek oceanov k človekovemu blagostanju &ndash; da je naše znanje zadostno, da to sploh lahko ocenimo,</li>
+
 <li>da lahko oceane ločimo od preostalega planeta, kot da so vrstična postavka v preglednici, neodvisna od drugih. Potemtakem bi torej izgubo oceanov lahko nadomestili s povečanjem nekega drugega vira prihodkov;</li>
-<li>da morajo odločitve o oceanih temeljiti na njihovem učinku na človeka; da sami oceani in vse, kar živi v njih, nimajo lastne vrednosti. Pomembna je njihova ekonomska vrednost – njihova vrednost za nas.</li>
+
+<li>da morajo odločitve o oceanih temeljiti na njihovem učinku na človeka; da sami oceani in vse, kar živi v njih, nimajo lastne vrednosti. Pomembna je njihova ekonomska vrednost &ndash; njihova vrednost za nas.</li>
+
 </ol>
 <p>Očitno je ta miselnost del težave. V tem trenutku <i>dejansko </i>uničujemo oceane zavoljo denarja. Ne vem, koliko bilijonov dolarjev služimo s tem, vendar ko berem o deset tisoč tjulnjih, ki jih je poginjene naplavilo na kalifornijske plaže, o več sto nasedlih kitih na Novi Zelandiji, o morskih pticah, ki so se zadušile s plastiko, ali o izginjajočih koralnih grebenih, vem, da naj zaslužimo še toliko, to nikoli ne bo dovolj.</p>
 <p>Razumeti moramo, da nekaterih stvari ni mogoče izmeriti in jim določiti cene. To je skregano z vladajočo ideologijo našega časa: znanost trdi, da lahko vse izmerimo, ekonomija pa, da lahko vsemu določimo ceno. Zato (v prevladujoči kulturi) verjamemo, da bomo s tehnologijo osvojili svet, če bomo povečali obseg in točnost našega kvantitativnega razmišljanja, in da bomo z razširitvijo področja tržnih odnosov povečali učinkovito ustvarjanje bogastva.</p>
-<p>Zakaj se potem kljub temu, da naše tehnologije nadzora postajajo vse bolj vplivne in natančne, zdi, da svet <i>uhaja </i>izpod nadzora? Zakaj se potem kljub temu, da svetovni BDP dosega nove vrhove, spoprijemamo z vse večjo revščino – z revščino, iz katere niso izvzeti niti premožni? Zaradi vsega, kar izpustimo iz naših meritev, kar je težko meriti in je nemerljivo: lepota, radost, trpljenje, namen, bolečina, svetost, izpolnitev, igra … in prizor tjulnjev na plaži, čeprav morda ne služijo nobenemu drugemu namenu. V resnici je prav to tisto, kar bogati življenje.</p>
+<p>Zakaj se potem kljub temu, da naše tehnologije nadzora postajajo vse bolj vplivne in natančne, zdi, da svet <i>uhaja </i>izpod nadzora? Zakaj se potem kljub temu, da svetovni BDP dosega nove vrhove, spoprijemamo z vse večjo revščino &ndash; z revščino, iz katere niso izvzeti niti premožni? Zaradi vsega, kar izpustimo iz naših meritev, kar je težko meriti in je nemerljivo: lepota, radost, trpljenje, namen, bolečina, svetost, izpolnitev, igra &hellip; in prizor tjulnjev na plaži, čeprav morda ne služijo nobenemu drugemu namenu. V resnici je prav to tisto, kar bogati življenje.</p>
 <p>Ironično nam miselnost instrumentalne uporabnosti, ki vrednoti vse stvari glede na to, koliko nam koristijo, sploh ne koristi. To je precej težko pojasniti v okviru Zgodbe o ločenosti, kvečjemu bi morda lahko rekli, da bi se morali pri tem bolj potruditi. Pri izkoriščanju vsega v lastno korist bi morali biti pametnejši in manj kratkovidni. V okviru Zgodbe o medbivanju pa je očitno, zakaj je tako. V svetu tesne povezanosti škodovati enemu pomeni škodovati vsem. V svojih prizadevanjih za nadzor bomo vedno omejeni, pri merjenju in napovedovanju pa nikoli ne bomo popolni.</p>
 <p>Številke imajo svoje mesto, vendar če želimo na tem planetu ohraniti stvari, ki jim ni mogoče določiti cene, se pri tem ne moremo zanašati na matematiko. Ne moremo se s strašenjem prisiliti v sočutje, češ da ne bomo več povzročali škode, če bomo ustrezno izmerili negativne posledice (strah za lastni interes je pravzaprav tisto, kar onemogoča sočutje). Podobno se ne moremo dovolj podkupiti, da bi čutili ljubezen, v upanju, da bomo končno poskrbeli za naše oceane, če bi le dojeli, koliko denarja bomo prihranili. V denar usmerjen um nas ne bo rešil pred uničenjem, ki ga povzroča v denar usmerjen um.</p>
-<p>Ko se pri spodbujanju trajnostnosti sklicujemo na koristnost, implicitno potrjujemo, da je normalno in prav sprejemati odločitve glede na koristnost. To je kontraproduktivno, saj v večini primerov, ne glede na to, ali ste podjetje ali potrošnik, tisto, kar vam koristi takoj in koristnost česar lahko izračunate, škoduje planetu. Lastni interes, kot ga je izoblikovala naša kultura, rudarski družbi pravi: <i>»Ta gozd spremenite v površinski kop.« </i>Vam pa pravi: <i>»Kupite ta pametni telefon, ki vsebuje minerale iz površinskega kopa.«</i>
-Morda nam pravi, da lahko nekje drugje zasadimo nov gozd in tako nadomestimo izgubljeni ponor ogljika. Prav tako nas prepričuje, naj nadaljujemo izkoriščanje, saj je v mojo lastno korist v resnici to, da se nekdo drug – ne jaz – odpove mineralom, dobičku in pametnemu telefonu.</p>
+<p>Ko se pri spodbujanju trajnostnosti sklicujemo na koristnost, implicitno potrjujemo, da je normalno in prav sprejemati odločitve glede na koristnost. To je kontraproduktivno, saj v večini primerov, ne glede na to, ali ste podjetje ali potrošnik, tisto, kar vam koristi takoj in koristnost česar lahko izračunate, škoduje planetu. Lastni interes, kot ga je izoblikovala naša kultura, rudarski družbi pravi: <i>&raquo;Ta gozd spremenite v površinski kop.&laquo; </i>Vam pa pravi: <i>&raquo;Kupite ta pametni telefon, ki vsebuje minerale iz površinskega kopa.&laquo;</i>
+Morda nam pravi, da lahko nekje drugje zasadimo nov gozd in tako nadomestimo izgubljeni ponor ogljika. Prav tako nas prepričuje, naj nadaljujemo izkoriščanje, saj je v mojo lastno korist v resnici to, da se nekdo drug &ndash; ne jaz &ndash; odpove mineralom, dobičku in pametnemu telefonu.</p>
 <p>Če je gozd za vas svet, koliko bi vam moral plačati, da bi ga lahko posekal? Noben znesek ne bi zadostoval, enako kot za noben denar ne bi dali usmrtiti svoje matere ali otroka. Ko vrednost gozda ali drugega ekosistema izrazimo s količino sekvestracije ogljika, ta vrednost postane zgolj številka, nekaj končnega. Gozd postane pogrešljiv, če ga le lahko nadomestimo z nečim vrednejšim.</p>
-<p>Finančni argumenti v najboljšem primeru omogočajo, da se (notranji in dejanski) računovodje sprostijo in nam dovolijo ravnanje, ki izhaja iz ljubezni do Zemlje<i>. »V redu je. Smiselno je tudi z ekonomskega vidika.« </i>Žal ohranjajo tudi pojmovanje, da je ekosistem v osnovi vir ‘storitev ’, da je planet tu za nas, da je vreden, ker nam koristi, ne pa sam po sebi. Potrebna je globlja ekološka revolucija.</p>
-<hr class="wp-block-separator"/>
+<p>Finančni argumenti v najboljšem primeru omogočajo, da se (notranji in dejanski) računovodje sprostijo in nam dovolijo ravnanje, ki izhaja iz ljubezni do Zemlje<i>. &raquo;V redu je. Smiselno je tudi z ekonomskega vidika.&laquo; </i>Žal ohranjajo tudi pojmovanje, da je ekosistem v osnovi vir &lsquo;storitev &rsquo;, da je planet tu za nas, da je vreden, ker nam koristi, ne pa sam po sebi. Potrebna je globlja ekološka revolucija.</p>
+<hr class="wp-block-separator">
 <p>
 <strong>Končne opombe</strong>
 </p>
@@ -251,16 +533,16 @@ Morda nam pravi, da lahko nekje drugje zasadimo nov gozd in tako nadomestimo izg
 </div>
 </div>
 <nav class="fw-bck">
-<hr/>
+<hr>
 <p class="forward-back">
-<a href="part56.htm">&lt; Nazaj</a>
-<a href="part58.htm">Naprej &gt;</a>
+<a href="part56.htm">&lt; Nazaj</a><a href="part58.htm">Naprej &gt;</a>
 </p>
-<hr/>
+<hr>
 </nav>
+<button id="close-btn" class="fa fa-close"></button>
 <footer>
 <nav>
-<a href="mailto:matija.mazi@gmail.com">Kontakt</a>
+<a href="../../">Kontakt</a>
 </nav>
 <div id="footer-title">
 <a href="https://charleseisenstein.org/">Charles Eisenstein</a>
@@ -271,5 +553,6 @@ Morda nam pravi, da lahko nekje drugje zasadimo nov gozd in tako nadomestimo izg
     (<a href="https://charleseisenstein.org/">charleseisenstein.org</a>).
     Dovoljeno je kopiranje in deljenje.
 </footer>
+<script src="../../js/script.js"></script>
 </body>
 </html>

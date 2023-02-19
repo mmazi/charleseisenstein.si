@@ -1,21 +1,100 @@
 <!DOCTYPE html>
-<html xml:lang="sl" lang="sl" xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://www.w3.org/1999/xhtml">
+<html xml:lang="sl" lang="sl" xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans"/>
-<title>Napačna razprava</title>
-<link href="../../css/document.css" rel="stylesheet" type="text/css"/>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;0,700;1,800&amp;family=Noto+Sans:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+<title>Podnebje - nova zgodba | Napačna razprava</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../../css/document.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="icon" href="../../media/cropped-favicon-32x32.png">
+<link rel="apple-touch-icon" href="../../media/cropped-favicon-32x32.png">
 </head>
 <body>
-<header>
-<img src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1.png" id="cepng" alt="Charles Eisenstein"/>
+<header id="headerbooks">
+<!-- Navigation section -->
+<section class="navsec">
+<container>
+<nav class="main-nav">
+<div class="logo">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+</div>
+<ul class="nav-ul menu-desktop">
+<li class="nav-li-item">
+<a href="../../o-nas/index.html">O nas</a>
+</li>
+<li class="nav-li-item">
+<a href="../../knjige/">Knjige</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a>
+</li>
+<li>
+<a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="#">Članki</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="../../videi/">Videi</a>
+</li>
+<li class="nav-li-item">
+<a href="../../intervju/" target="_blank">Intervju</a>
+</li>
+<li class="nav-li-item">
+<a href="../../vec/">Več</a>
+</li>
+</ul>
+</nav>
+</container>
+</section>
+<!-- End of navigation section -->
 </header>
-<h1>Podnebje – Nova zgodba</h1>
-<div class="book-content">
-<div class="nav">
-<nav>
+<!-- mobile navigation menu-->
+<div class="topnav">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+<!-- Navigation links (hidden by default) -->
+<div id="navlinks">
+<a href="../../o-nas/">O nas</a>
+<div class="dropdown nav-li-item">
+<a href="../../knjige/" class="dropbtn">Knjige<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a><a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</div>
+</div>
+<div class="dropdown nav-li-item">
+<a class="dropbtn">Članki<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a><a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a><a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</div>
+</div>
+<a href="../../videi/">Videi</a><a href="../../intervju/" target="_blank">Intervju</a><a href="../../vec/">Več</a>
+</div>
+<!-- Bar icon to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+</div>
+<!-- end of mobile navigation menu -->
+<h1 id="booktitle">Podnebje &ndash; Nova zgodba</h1>
+<!-- Index menu -->
+<button id="popup-btn">Poglavja</button>
+<div id="popup-window">
+<nav class="bookmenu mobile-book-nav borderless">
 <strong>Poglavja</strong>
 <ul>
 <li>
@@ -26,7 +105,7 @@
 <a href="part19.htm">Izgubljena resnica</a>
 </li>
 <li>
-<a href="part20.htm">Identiteta ‘drugih’</a>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
 </li>
 <li>
 <a href="part21.htm">Boj</a>
@@ -185,28 +264,225 @@
 </li>
 <li class="chapter">Spremna besedila</li>
 <li>
-<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i>
-</a>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
 </li>
 <li>
-<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i>
-</a>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
 </li>
 <li>
-<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i>
-</a>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
 </li>
 <li>
-<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i>
-</a>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
 </li>
-<li class="chapter">Viri</li>
+<li class="chapter">Ostalo</li>
 <li>
 <a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
 </li>
 </ul>
 </nav>
 </div>
+<!-- End of Index menu -->
+<div class="book-content">
+<nav class="nav bookmenu">
+<strong>Poglavja</strong>
+<ul>
+<li>
+<a href="part16.htm">Prolog: Izgubljen v blodnjaku</a>
+</li>
+<li class="chapter">1. poglavje: Kriza bivanja</li>
+<li>
+<a href="part19.htm">Izgubljena resnica</a>
+</li>
+<li>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
+</li>
+<li>
+<a href="part21.htm">Boj</a>
+</li>
+<li class="chapter">2. poglavje: Onkraj podnebnega fundamentalizma</li>
+<li>
+<a href="part24.htm">Kaj sploh šteje?</a>
+</li>
+<li>
+<a href="part25.htm">Sprevržene posledice ogljičnega redukcionizma</a>
+</li>
+<li>
+<a href="part26.htm">Družbeno ozračje</a>
+</li>
+<li>
+<a href="part27.htm">Prenagljena določitev vzroka</a>
+</li>
+<li>
+<a href="part28.htm">Vzrok vseh vzrokov</a>
+</li>
+<li>
+<a href="part29.htm">Tam, kjer biva predanost</a>
+</li>
+<li class="chapter">3. poglavje: Spekter mnenj o podnebju in še več</li>
+<li>
+<a href="part32.htm">Na čigavi strani sem?</a>
+</li>
+<li>
+<a href="part33.htm">Pokukajmo v svet skepticizma</a>
+</li>
+<li>
+<a href="part34.htm">Konec sveta</a>
+</li>
+<li>
+<a href="part35.htm">Institut znanosti</a>
+</li>
+<li>
+<a href="part36.htm" class="current">Napačna razprava</a>
+</li>
+<li class="chapter">4. poglavje: Paradigma vode</li>
+<li>
+<a href="part39.htm">Pogled iz drugega zornega kota</a>
+</li>
+<li>
+<a href="part40.htm">Gozdovi in drevesa</a>
+</li>
+<li>
+<a href="part41.htm">Organi Gaje</a>
+</li>
+<li>
+<a href="part42.htm">Pet tisoč let podnebnih sprememb</a>
+</li>
+<li class="chapter">5. poglavje: Ogljik z vidika ekosistemov</li>
+<li>
+<a href="part45.htm">Ogljik, prst in življenje</a>
+</li>
+<li>
+<a href="part49.htm">Obsedenost z izpusti</a>
+</li>
+<li>
+<a href="part50.htm">Zabloda o geoinženiringu</a>
+</li>
+<li>
+<a href="part51.htm">Kult količine</a>
+</li>
+<li class="chapter">6. poglavje: Pogodba s hudičem</li>
+<li>
+<a href="part54.htm">Nevarnosti pripovedi o globalnem segrevanju</a>
+</li>
+<li>
+<a href="part55.htm">Vzroki za pasivnost</a>
+</li>
+<li>
+<a href="part56.htm">Zakaj naj bi imel rad svojega sina?</a>
+</li>
+<li>
+<a href="part57.htm">Trgovina z naravo</a>
+</li>
+<li>
+<a href="part58.htm">Pravice narave</a>
+</li>
+<li class="chapter">7. poglavje: Revolucija je ljubezen</li>
+<li>
+<a href="part61.htm">V nosorogu se zrcali vse</a>
+</li>
+<li>
+<a href="part62.htm">Betonski svet</a>
+</li>
+<li>
+<a href="part63.htm">Razmere, ki tlakujejo pot naši izbiri</a>
+</li>
+<li class="chapter">8. poglavje: Regeneracija</li>
+<li>
+<a href="part66.htm">Ozdravljanje zemlje</a>
+</li>
+<li>
+<a href="part67.htm">Zakaj regenerativno kmetijstvo ostaja na obrobju?</a>
+</li>
+<li>
+<a href="part68.htm">Nahraniti lačen planet</a>
+</li>
+<li>
+<a href="part69.htm">Ozdravitev vode</a>
+</li>
+<li>
+<a href="part70.htm">Vzajemna potreba ljudi in planeta</a>
+</li>
+<li>
+<a href="part71.htm">Skrb za divjino</a>
+</li>
+<li class="chapter">9. poglavje: Energija, prebivalstvo in razvoj</li>
+<li>
+<a href="part74.htm">Paradigma moči</a>
+</li>
+<li>
+<a href="part75.htm">Pomen razvoja</a>
+</li>
+<li>
+<a href="part76.htm">Prehod v obilje</a>
+</li>
+<li>
+<a href="part77.htm">Število prebivalstva</a>
+</li>
+<li class="chapter">10. poglavje: Denar in dolg</li>
+<li>
+<a href="part80.htm">Igra glasbeni stoli</a>
+</li>
+<li>
+<a href="part81.htm">Nujnost rasti</a>
+</li>
+<li>
+<a href="part82.htm">Razvoj in dolg</a>
+</li>
+<li>
+<a href="part83.htm">Hinavščina</a>
+</li>
+<li>
+<a href="part84.htm">Elementi ekološkega gospodarstva</a>
+</li>
+<li class="chapter">11. poglavje: Srčna zadeva</li>
+<li>
+<a href="part87.htm">Verujemo v znanost</a>
+</li>
+<li>
+<a href="part88.htm">Če bi vedeli, da čuti</a>
+</li>
+<li>
+<a href="part89.htm">Moč zemlje</a>
+</li>
+<li>
+<a href="part90.htm">Ponovna oživitev resničnosti</a>
+</li>
+<li class="chapter">12. poglavje: Most do živega sveta</li>
+<li>
+<a href="part92.htm">Most do živega sveta</a>
+</li>
+<li class="chapter">Spremna besedila</li>
+<li>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
+</li>
+<li>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
+</li>
+<li>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
+</li>
+<li>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
+</li>
+<li class="chapter">Ostalo</li>
+<li>
+<a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
+</li>
+</ul>
+</nav>
 <div class="book-text">
 <h2>3. poglavje: Spekter mnenj o podnebju in še več</h2>
 <h3>Napačna razprava</h3>
@@ -219,17 +495,17 @@
 <p class="italics">Če je utečena pripoved o antropogenem globalnem segrevanju točna, je najnujnejša prednostna naloga zavarovati in obnoviti tla, vodo in ekosisteme po vsem svetu.</p>
 <p class="italics">Če je utečena pripoved o antropogenem globalnem segrevanju napačna, je najnujnejša prednostna naloga zavarovati in obnoviti tla, vodo in ekosisteme po vsem svetu.</p>
 <p>Eden od namenov te knjige je utemeljiti te trditve ter opisati spremembo v dojemanju in mitih, ki bo omogočila, da se izvedejo v praksi.</p>
-<p>Kar zadeva ustaljeno razpravo o podnebju, sem na najosnovnejši ravni naklonjen alarimistom. Ne glede na pomanjkljivosti v njihovih podatkih, argumentih in modelih je osnovni strah, ki podžiga njihovo gorečnost, dobro utemeljen. Tudi če se povprečne temperature ne bodo več višale ali se celo prično nižati, ne bi smeli biti nič manj zaskrbljeni. Poleg tega je označitev skeptikov kot ‘zanikovalcev’ v svojem bistvu resnična, le da niso zanikovalci zato, ker so skeptični glede znanosti, ampak ker zanikajo ekološki holokavst ter uničenje biološkega bogastva in vitalnosti Zemlje. Takole gre: Recimo, da sem se okužil z mesojedo bakterijo, ki me ubija, vsi pa se prepirajo o tem, ali imam vročino ali ne. Tisti, ki pravijo: <i>»Da, nevarno vročino ima. Dobro bi bilo, da mu pomagamo,« </i>so bliže resnici kot tisti, ki pravijo: <i>»Nima vročine, torej je gotovo vse v redu z njim.« </i>Mojo bolezen morda res
+<p>Kar zadeva ustaljeno razpravo o podnebju, sem na najosnovnejši ravni naklonjen alarimistom. Ne glede na pomanjkljivosti v njihovih podatkih, argumentih in modelih je osnovni strah, ki podžiga njihovo gorečnost, dobro utemeljen. Tudi če se povprečne temperature ne bodo več višale ali se celo prično nižati, ne bi smeli biti nič manj zaskrbljeni. Poleg tega je označitev skeptikov kot &lsquo;zanikovalcev&rsquo; v svojem bistvu resnična, le da niso zanikovalci zato, ker so skeptični glede znanosti, ampak ker zanikajo ekološki holokavst ter uničenje biološkega bogastva in vitalnosti Zemlje. Takole gre: Recimo, da sem se okužil z mesojedo bakterijo, ki me ubija, vsi pa se prepirajo o tem, ali imam vročino ali ne. Tisti, ki pravijo: <i>&raquo;Da, nevarno vročino ima. Dobro bi bilo, da mu pomagamo,&laquo; </i>so bliže resnici kot tisti, ki pravijo: <i>&raquo;Nima vročine, torej je gotovo vse v redu z njim.&laquo; </i>Mojo bolezen morda res
 spremlja nevarna vročina in morda je smiselno, da se vročina zniža. A če sem še vedno okužen z mesojedo bakterijo, bom tako ali tako kmalu umrl, bodisi zaradi vročine bodisi od česa drugega. Z vidika planeta je mesojeda bakterija globalni finančni sistem, ki ga podpira
  z<i>godba o ločenosti</i>. Razvoj in izkoriščanje virov požirata svet.</p>
 <p>Če dvomite o podnebnih spremembah in berete to knjigo, vas želim prebuditi iz zanikanja. To ne pomeni, da se morate strinjati z znanstvenimi dognanji o podnebju. Pomeni, da uvidite propadanje številnih dragocenih krajev, rane dnevnih kopov, razlitja nafte, odlagališča strupenih odpadkov, uničevanje habitatov in vrst ter siromašenje življenja na Zemlji. Pomeni, da začutite agonijo tega planeta, jo razumete in v zvezi s tem nekaj ukrenete.</p>
 <p>V času mojega življenja se je število metuljev monarhov zmanjšalo za 90 odstotkov. Biomasa rib se je zmanjšala za več kot za polovico. Puščave so se razširile kot še nikoli prej. Izginilo je 80 odstotkov azijskih mangrov in polovica koralnih grebenov. Deževni gozd na Borneu je izginil skoraj v celoti. Površine deževnih gozdov po vsem svetu so se zmanjšale za več kot polovico. Več tisoč vrst je izumrlo. Vse to je resnično in je le kaplja v morju degradacije, ki pesti ta planet. Naj vas le skrbi. Če bomo še naprej izgubljali organe in tkiva planeta, katastrofa ni več daleč.</p>
 <p>Če spadate med tiste, ki jih podnebne spremembe skrbijo, vam sporočam, da odobravam vašo zaskrbljenost, obenem pa vas pozivam, da jo preusmerite. Vaša zaskrbljenost naj ne bo odvisna od tega, ali je ogroženo preživetje človeštva. Meni se zdi možnost, da človeštvo preživi na mrtvem, golem planetu, bolj zaskrbljujoča od prihodnosti brez ljudi. Kako bi vam bilo všeč, če bi samo vi preživeli holokavst, v katerem bi umrli vsi vaši prijatelji in družinski člani? Kot bom razpravljal v nadaljevanju, vprašanje</p>
-<p class="italics">»Kaj se bo zgodilo z nami?« <span class="nitalics">ne seže dovolj globoko, zaskrbljenost, ki jo izzove, pa je preozka in na koncu koncev celo kontraproduktivna.</span>
+<p class="italics">&raquo;Kaj se bo zgodilo z nami?&laquo; <span class="nitalics">ne seže dovolj globoko, zaskrbljenost, ki jo izzove, pa je preozka in na koncu koncev celo kontraproduktivna.</span>
 </p>
-<p>Ne glede na to, na čigavi strani ste, bi rad, da začutite drugačno zaskrbljenost – zaskrbljenost zaradi umiranja življenja na tem planetu. Ste tudi vi opazili, da se med vožnjo na vetrobranskem steklu avtomobila razmaže opazno manj žuželk? Spomnim se, da je bilo v mojem otroštvu vetrobransko steklo polno zmečkanih žuželk. Spraševal sem se, ali me morda vara spomin, dokler nisem prebral sedemindvajset let trajajoče študije, v kateri je dokumentirano 78do 82-odstotno zmanjšanje biomase letečih žuželk v zavarovanih naravnih rezervatih.<span class="note-number">[<a id="enref30" href="#en30">30</a>]</span> Ta študija je temeljita, obsežna in zelo natančna, obenem pa se ujema s podobnimi ugotovitvami drugje po svetu.<span class="note-number">[<a id="enref31" href="#en31">31</a>]</span> Če bi odločal jaz, bi ta študija bodla v oči z naslovnic vseh časopisov.</p>
-<p>Žuželke so bile prve živali, ki so se (približno sočasno kot rastline) naselile na kopnem. Ključne so v vsaki kopenski prehranjevalni verigi in so močno prepletene z življenjem. Manj žuželk pomeni manj življenja. Pomeni, da planet postaja manj živ. Z drugimi besedami: pomeni, da planet umira. Nihče ne pozna vzroka, vendar avtorji menijo, da to verjetno niso višje temperature, saj so te v obdobju študije sovpadale z večjo, ne manjšo biomaso žuželk. Kot možne vzroke navajajo kemikalije in izginevanje habitatov na bližnjih kmetijskih zemljiščih. Menim, da je to verjetno in da se pod tem skriva globlji vzrok – da sveta ne dojemamo kot nekaj živega in svetega.<span class="note-number">[<a id="enref32" href="#en32">32</a>]</span> S svojim ravnanjem ne delamo v korist življenja, temveč druga živa bitja dojemamo kot podrejena človeku. To je tisto, kar kliče po spremembi. Ekološka kriza je iniciacijsko zdravilo, ki bo prevladujoči svetovni civilizaciji pomagalo doseči to spremembo. Kriza bo vse večja, dokler zdravilo ne bo začelo učinkovati.</p>
-<hr class="wp-block-separator"/>
+<p>Ne glede na to, na čigavi strani ste, bi rad, da začutite drugačno zaskrbljenost &ndash; zaskrbljenost zaradi umiranja življenja na tem planetu. Ste tudi vi opazili, da se med vožnjo na vetrobranskem steklu avtomobila razmaže opazno manj žuželk? Spomnim se, da je bilo v mojem otroštvu vetrobransko steklo polno zmečkanih žuželk. Spraševal sem se, ali me morda vara spomin, dokler nisem prebral sedemindvajset let trajajoče študije, v kateri je dokumentirano 78do 82-odstotno zmanjšanje biomase letečih žuželk v zavarovanih naravnih rezervatih.<span class="note-number">[<a id="enref30" href="#en30">30</a>]</span> Ta študija je temeljita, obsežna in zelo natančna, obenem pa se ujema s podobnimi ugotovitvami drugje po svetu.<span class="note-number">[<a id="enref31" href="#en31">31</a>]</span> Če bi odločal jaz, bi ta študija bodla v oči z naslovnic vseh časopisov.</p>
+<p>Žuželke so bile prve živali, ki so se (približno sočasno kot rastline) naselile na kopnem. Ključne so v vsaki kopenski prehranjevalni verigi in so močno prepletene z življenjem. Manj žuželk pomeni manj življenja. Pomeni, da planet postaja manj živ. Z drugimi besedami: pomeni, da planet umira. Nihče ne pozna vzroka, vendar avtorji menijo, da to verjetno niso višje temperature, saj so te v obdobju študije sovpadale z večjo, ne manjšo biomaso žuželk. Kot možne vzroke navajajo kemikalije in izginevanje habitatov na bližnjih kmetijskih zemljiščih. Menim, da je to verjetno in da se pod tem skriva globlji vzrok &ndash; da sveta ne dojemamo kot nekaj živega in svetega.<span class="note-number">[<a id="enref32" href="#en32">32</a>]</span> S svojim ravnanjem ne delamo v korist življenja, temveč druga živa bitja dojemamo kot podrejena človeku. To je tisto, kar kliče po spremembi. Ekološka kriza je iniciacijsko zdravilo, ki bo prevladujoči svetovni civilizaciji pomagalo doseči to spremembo. Kriza bo vse večja, dokler zdravilo ne bo začelo učinkovati.</p>
+<hr class="wp-block-separator">
 <p>
 <strong>Končne opombe</strong>
 </p>
@@ -239,16 +515,16 @@ spremlja nevarna vročina in morda je smiselno, da se vročina zniža. A če sem
 </div>
 </div>
 <nav class="fw-bck">
-<hr/>
+<hr>
 <p class="forward-back">
-<a href="part35.htm">&lt; Nazaj</a>
-<a href="part39.htm">Naprej &gt;</a>
+<a href="part35.htm">&lt; Nazaj</a><a href="part39.htm">Naprej &gt;</a>
 </p>
-<hr/>
+<hr>
 </nav>
+<button id="close-btn" class="fa fa-close"></button>
 <footer>
 <nav>
-<a href="mailto:matija.mazi@gmail.com">Kontakt</a>
+<a href="../../">Kontakt</a>
 </nav>
 <div id="footer-title">
 <a href="https://charleseisenstein.org/">Charles Eisenstein</a>
@@ -259,5 +535,6 @@ spremlja nevarna vročina in morda je smiselno, da se vročina zniža. A če sem
     (<a href="https://charleseisenstein.org/">charleseisenstein.org</a>).
     Dovoljeno je kopiranje in deljenje.
 </footer>
+<script src="../../js/script.js"></script>
 </body>
 </html>

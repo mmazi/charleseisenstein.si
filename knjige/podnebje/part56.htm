@@ -1,21 +1,100 @@
 <!DOCTYPE html>
-<html xml:lang="sl" lang="sl" xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://www.w3.org/1999/xhtml">
+<html xml:lang="sl" lang="sl" xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans"/>
-<title>Zakaj naj bi imel rad svojega sina?</title>
-<link href="../../css/document.css" rel="stylesheet" type="text/css"/>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;0,700;1,800&amp;family=Noto+Sans:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+<title>Podnebje - nova zgodba | Zakaj naj bi imel rad svojega sina?</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../../css/document.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="icon" href="../../media/cropped-favicon-32x32.png">
+<link rel="apple-touch-icon" href="../../media/cropped-favicon-32x32.png">
 </head>
 <body>
-<header>
-<img src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1.png" id="cepng" alt="Charles Eisenstein"/>
+<header id="headerbooks">
+<!-- Navigation section -->
+<section class="navsec">
+<container>
+<nav class="main-nav">
+<div class="logo">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+</div>
+<ul class="nav-ul menu-desktop">
+<li class="nav-li-item">
+<a href="../../o-nas/index.html">O nas</a>
+</li>
+<li class="nav-li-item">
+<a href="../../knjige/">Knjige</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a>
+</li>
+<li>
+<a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="#">Članki</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="../../videi/">Videi</a>
+</li>
+<li class="nav-li-item">
+<a href="../../intervju/" target="_blank">Intervju</a>
+</li>
+<li class="nav-li-item">
+<a href="../../vec/">Več</a>
+</li>
+</ul>
+</nav>
+</container>
+</section>
+<!-- End of navigation section -->
 </header>
-<h1>Podnebje – Nova zgodba</h1>
-<div class="book-content">
-<div class="nav">
-<nav>
+<!-- mobile navigation menu-->
+<div class="topnav">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+<!-- Navigation links (hidden by default) -->
+<div id="navlinks">
+<a href="../../o-nas/">O nas</a>
+<div class="dropdown nav-li-item">
+<a href="../../knjige/" class="dropbtn">Knjige<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a><a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</div>
+</div>
+<div class="dropdown nav-li-item">
+<a class="dropbtn">Članki<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a><a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a><a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</div>
+</div>
+<a href="../../videi/">Videi</a><a href="../../intervju/" target="_blank">Intervju</a><a href="../../vec/">Več</a>
+</div>
+<!-- Bar icon to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+</div>
+<!-- end of mobile navigation menu -->
+<h1 id="booktitle">Podnebje &ndash; Nova zgodba</h1>
+<!-- Index menu -->
+<button id="popup-btn">Poglavja</button>
+<div id="popup-window">
+<nav class="bookmenu mobile-book-nav borderless">
 <strong>Poglavja</strong>
 <ul>
 <li>
@@ -26,7 +105,7 @@
 <a href="part19.htm">Izgubljena resnica</a>
 </li>
 <li>
-<a href="part20.htm">Identiteta ‘drugih’</a>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
 </li>
 <li>
 <a href="part21.htm">Boj</a>
@@ -185,64 +264,259 @@
 </li>
 <li class="chapter">Spremna besedila</li>
 <li>
-<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i>
-</a>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
 </li>
 <li>
-<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i>
-</a>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
 </li>
 <li>
-<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i>
-</a>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
 </li>
 <li>
-<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i>
-</a>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
 </li>
-<li class="chapter">Viri</li>
+<li class="chapter">Ostalo</li>
 <li>
 <a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
 </li>
 </ul>
 </nav>
 </div>
+<!-- End of Index menu -->
+<div class="book-content">
+<nav class="nav bookmenu">
+<strong>Poglavja</strong>
+<ul>
+<li>
+<a href="part16.htm">Prolog: Izgubljen v blodnjaku</a>
+</li>
+<li class="chapter">1. poglavje: Kriza bivanja</li>
+<li>
+<a href="part19.htm">Izgubljena resnica</a>
+</li>
+<li>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
+</li>
+<li>
+<a href="part21.htm">Boj</a>
+</li>
+<li class="chapter">2. poglavje: Onkraj podnebnega fundamentalizma</li>
+<li>
+<a href="part24.htm">Kaj sploh šteje?</a>
+</li>
+<li>
+<a href="part25.htm">Sprevržene posledice ogljičnega redukcionizma</a>
+</li>
+<li>
+<a href="part26.htm">Družbeno ozračje</a>
+</li>
+<li>
+<a href="part27.htm">Prenagljena določitev vzroka</a>
+</li>
+<li>
+<a href="part28.htm">Vzrok vseh vzrokov</a>
+</li>
+<li>
+<a href="part29.htm">Tam, kjer biva predanost</a>
+</li>
+<li class="chapter">3. poglavje: Spekter mnenj o podnebju in še več</li>
+<li>
+<a href="part32.htm">Na čigavi strani sem?</a>
+</li>
+<li>
+<a href="part33.htm">Pokukajmo v svet skepticizma</a>
+</li>
+<li>
+<a href="part34.htm">Konec sveta</a>
+</li>
+<li>
+<a href="part35.htm">Institut znanosti</a>
+</li>
+<li>
+<a href="part36.htm">Napačna razprava</a>
+</li>
+<li class="chapter">4. poglavje: Paradigma vode</li>
+<li>
+<a href="part39.htm">Pogled iz drugega zornega kota</a>
+</li>
+<li>
+<a href="part40.htm">Gozdovi in drevesa</a>
+</li>
+<li>
+<a href="part41.htm">Organi Gaje</a>
+</li>
+<li>
+<a href="part42.htm">Pet tisoč let podnebnih sprememb</a>
+</li>
+<li class="chapter">5. poglavje: Ogljik z vidika ekosistemov</li>
+<li>
+<a href="part45.htm">Ogljik, prst in življenje</a>
+</li>
+<li>
+<a href="part49.htm">Obsedenost z izpusti</a>
+</li>
+<li>
+<a href="part50.htm">Zabloda o geoinženiringu</a>
+</li>
+<li>
+<a href="part51.htm">Kult količine</a>
+</li>
+<li class="chapter">6. poglavje: Pogodba s hudičem</li>
+<li>
+<a href="part54.htm">Nevarnosti pripovedi o globalnem segrevanju</a>
+</li>
+<li>
+<a href="part55.htm">Vzroki za pasivnost</a>
+</li>
+<li>
+<a href="part56.htm" class="current">Zakaj naj bi imel rad svojega sina?</a>
+</li>
+<li>
+<a href="part57.htm">Trgovina z naravo</a>
+</li>
+<li>
+<a href="part58.htm">Pravice narave</a>
+</li>
+<li class="chapter">7. poglavje: Revolucija je ljubezen</li>
+<li>
+<a href="part61.htm">V nosorogu se zrcali vse</a>
+</li>
+<li>
+<a href="part62.htm">Betonski svet</a>
+</li>
+<li>
+<a href="part63.htm">Razmere, ki tlakujejo pot naši izbiri</a>
+</li>
+<li class="chapter">8. poglavje: Regeneracija</li>
+<li>
+<a href="part66.htm">Ozdravljanje zemlje</a>
+</li>
+<li>
+<a href="part67.htm">Zakaj regenerativno kmetijstvo ostaja na obrobju?</a>
+</li>
+<li>
+<a href="part68.htm">Nahraniti lačen planet</a>
+</li>
+<li>
+<a href="part69.htm">Ozdravitev vode</a>
+</li>
+<li>
+<a href="part70.htm">Vzajemna potreba ljudi in planeta</a>
+</li>
+<li>
+<a href="part71.htm">Skrb za divjino</a>
+</li>
+<li class="chapter">9. poglavje: Energija, prebivalstvo in razvoj</li>
+<li>
+<a href="part74.htm">Paradigma moči</a>
+</li>
+<li>
+<a href="part75.htm">Pomen razvoja</a>
+</li>
+<li>
+<a href="part76.htm">Prehod v obilje</a>
+</li>
+<li>
+<a href="part77.htm">Število prebivalstva</a>
+</li>
+<li class="chapter">10. poglavje: Denar in dolg</li>
+<li>
+<a href="part80.htm">Igra glasbeni stoli</a>
+</li>
+<li>
+<a href="part81.htm">Nujnost rasti</a>
+</li>
+<li>
+<a href="part82.htm">Razvoj in dolg</a>
+</li>
+<li>
+<a href="part83.htm">Hinavščina</a>
+</li>
+<li>
+<a href="part84.htm">Elementi ekološkega gospodarstva</a>
+</li>
+<li class="chapter">11. poglavje: Srčna zadeva</li>
+<li>
+<a href="part87.htm">Verujemo v znanost</a>
+</li>
+<li>
+<a href="part88.htm">Če bi vedeli, da čuti</a>
+</li>
+<li>
+<a href="part89.htm">Moč zemlje</a>
+</li>
+<li>
+<a href="part90.htm">Ponovna oživitev resničnosti</a>
+</li>
+<li class="chapter">12. poglavje: Most do živega sveta</li>
+<li>
+<a href="part92.htm">Most do živega sveta</a>
+</li>
+<li class="chapter">Spremna besedila</li>
+<li>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
+</li>
+<li>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
+</li>
+<li>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
+</li>
+<li>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
+</li>
+<li class="chapter">Ostalo</li>
+<li>
+<a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
+</li>
+</ul>
+</nav>
 <div class="book-text">
 <h2>6. poglavje: Pogodba s hudičem</h2>
 <h3>Zakaj naj bi imel rad svojega sina?</h3>
-<p>Cam Webb, ekolog, ki proučuje deževni gozd, mi je povedal: <i>»Bujni, nižinski gozdovi Bornea z orjaškimi drevesi (najvišja drevesa deževnih gozdov na svetu rastejo na Borneu) ter s številnimi vrstami velikih kljunorožcev, z giboni, ki se melodično oglašajo, ter z orangutani so skoraj izginili. Ko sem leta 1989 prvič prišel tja kot neizkušen mladenič, sem celo leto preživel v gozdu. V tem
-letu smo se pogosto povzpeli na vrh gore in se razgledovali po deževnem gozdu, ki je bil videti, kot da se neprekinjeno razteza več tisoč kilometrov. Zdaj pogled od tam razkrije gozdnat otok v morju oljnih palm.«</i> <span class="nitalics">Ko sem se srečal s Camom, je globoko žaloval. </span>
-<i>»Deževnih gozdov, ki sem jih proučeval vso svojo kariero, ni več,«</i> <span class="nitalics">je dejal. Ali je žalosten, ker je z implicitnim izračunom toplogrednih plinov ugotovil, da so katastrofalne podnebne spremembe zaradi krčenja gozdov na Borneu X-odstotno verjetnejše? Seveda ne. Te deževne gozdove je imel rad zaradi njih samih, ne zaradi njihove koristnosti. Čeprav izračunavanje ogljika presega zgorevanje fosilnih goriv ter meri prispevek rib, trave in dreves k sekvestraciji ogljika, še vedno vrednoti stvari glede na dobljene številke, ne zaradi njih kot takih. Ne glede na to, ali nekaj vrednotimo
+<p>Cam Webb, ekolog, ki proučuje deževni gozd, mi je povedal: <i>&raquo;Bujni, nižinski gozdovi Bornea z orjaškimi drevesi (najvišja drevesa deževnih gozdov na svetu rastejo na Borneu) ter s številnimi vrstami velikih kljunorožcev, z giboni, ki se melodično oglašajo, ter z orangutani so skoraj izginili. Ko sem leta 1989 prvič prišel tja kot neizkušen mladenič, sem celo leto preživel v gozdu. V tem
+letu smo se pogosto povzpeli na vrh gore in se razgledovali po deževnem gozdu, ki je bil videti, kot da se neprekinjeno razteza več tisoč kilometrov. Zdaj pogled od tam razkrije gozdnat otok v morju oljnih palm.&laquo;</i> <span class="nitalics">Ko sem se srečal s Camom, je globoko žaloval. </span><i>&raquo;Deževnih gozdov, ki sem jih proučeval vso svojo kariero, ni več,&laquo;</i> <span class="nitalics">je dejal. Ali je žalosten, ker je z implicitnim izračunom toplogrednih plinov ugotovil, da so katastrofalne podnebne spremembe zaradi krčenja gozdov na Borneu X-odstotno verjetnejše? Seveda ne. Te deževne gozdove je imel rad zaradi njih samih, ne zaradi njihove koristnosti. Čeprav izračunavanje ogljika presega zgorevanje fosilnih goriv ter meri prispevek rib, trave in dreves k sekvestraciji ogljika, še vedno vrednoti stvari glede na dobljene številke, ne zaradi njih kot takih. Ne glede na to, ali nekaj vrednotimo
 na podlagi dobička, ki ga bo prineslo, ali izpustov ogljika, ki jih bo kompenziralo, to še vedno instrumentaliziramo in objektiviziramo. Temu neizbežno sledita izkoriščanje in degradacija. Ko tako ravnamo bodisi z naravo bodisi s človeškimi bitji, je končni rezultat</span> pošasten, čeprav je prvotni namen lahko dober.</p>
-<p>Sem oče štirim fantom, med katerimi je štiriletnik. Predstavljajte si, da vam rečem: <i>»Starejši sinovi so končno odrasli, imam pa še enega. Hraniti ga je popolna izguba časa in denarja. Ne vidim nobenega razloga, da bi se ukvarjal s tem. Mogoče ga bom zapustil – kaj mislite o tem?«</i>
+<p>Sem oče štirim fantom, med katerimi je štiriletnik. Predstavljajte si, da vam rečem: <i>&raquo;Starejši sinovi so končno odrasli, imam pa še enega. Hraniti ga je popolna izguba časa in denarja. Ne vidim nobenega razloga, da bi se ukvarjal s tem. Mogoče ga bom zapustil &ndash; kaj mislite o tem?&laquo;</i>
 </p>
-<p>Zdaj si zamislite, da mi odgovorite: <i>»No, Charles, če boš to storil, te bodo morda zaprli zaradi zanemarjanja otroka. Če pa se že boš iz tega izmazal, te ne bo hotel preživljati, ko boš star. In kaj si bodo mislili sosedi?«</i>
+<p>Zdaj si zamislite, da mi odgovorite: <i>&raquo;No, Charles, če boš to storil, te bodo morda zaprli zaradi zanemarjanja otroka. Če pa se že boš iz tega izmazal, te ne bo hotel preživljati, ko boš star. In kaj si bodo mislili sosedi?&laquo;</i>
 </p>
-<p class="italics">»Prav imaš,« <span class="nitalics">rečem. </span>»Potem pa najbolje, da vseeno skrbim zanj.«</p>
-<p>Če moram vprašati, zakaj naj bi skrbel za svojega otroka, očitno že imam težavo. Ne glede na to, kako prepričljive so spodbude in svarila, ki naj bi me prisilile v skrb za otroka, svojega dela ne bom opravil tako dobro, kot bi ga opravil iz ljubezni. Naredil bom ravno dovolj, da se izognem negativnim posledicam. Naredil bom, kar je treba, da zadostim zakonodaji in zadovoljim sosede. Če bom dovolj strogo nadzorovan, bom morda izpolnil vse otrokove merljive potrebe, morda bom z njim celo preživel potreben ‘družinski čas’. Vendar noben seznam merljivih standardov vzgoje otrok ne more nikoli nadomestiti ljubezni. Ali bo preživljanje družinskega časa mehansko ali iz srca? Ne s plačilom, ne s prisilo ali z ustrahovanjem me ne morete pripraviti do tega, da bom imel rad svojega otroka. Če pa ga ne bom imel zares rad, se ne bo optimalno razvijal.</p>
+<p class="italics">&raquo;Prav imaš,&laquo; <span class="nitalics">rečem. </span>&raquo;Potem pa najbolje, da vseeno skrbim zanj.&laquo;</p>
+<p>Če moram vprašati, zakaj naj bi skrbel za svojega otroka, očitno že imam težavo. Ne glede na to, kako prepričljive so spodbude in svarila, ki naj bi me prisilile v skrb za otroka, svojega dela ne bom opravil tako dobro, kot bi ga opravil iz ljubezni. Naredil bom ravno dovolj, da se izognem negativnim posledicam. Naredil bom, kar je treba, da zadostim zakonodaji in zadovoljim sosede. Če bom dovolj strogo nadzorovan, bom morda izpolnil vse otrokove merljive potrebe, morda bom z njim celo preživel potreben &lsquo;družinski čas&rsquo;. Vendar noben seznam merljivih standardov vzgoje otrok ne more nikoli nadomestiti ljubezni. Ali bo preživljanje družinskega časa mehansko ali iz srca? Ne s plačilom, ne s prisilo ali z ustrahovanjem me ne morete pripraviti do tega, da bom imel rad svojega otroka. Če pa ga ne bom imel zares rad, se ne bo optimalno razvijal.</p>
 <p>Še slabše pa je, da navajanje zakonodaje, sosedov in moje starosti kot razlogov, da poskrbim za svojega sina, vsebuje skrito predpostavko, da bi ga lahko mirne vesti brcnil čez prag, če bi se lahko izognil negativnim posledicam.</p>
-<p>Ti trije razlogi, ki naj bi me prepričali v skrb za sina, odražajo načine, na katere poskušamo izsiliti okolju prijazno ravnanje. <i>»Zaprli te bodo zaradi zanemarjanja otroka« </i>– za odvračanje od onesnaževanja in drugih kršitev uvajamo kazenske sankcije. <i>»Ko boš star, ne bo poskrbel zate« </i>– poskušamo predstaviti, da zelene politike dejansko koristijo končnemu podjetniškemu rezultatu ali nacionalnemu gospodarstvu. <i>»Kaj si bodo mislili drugi?« </i>– sklicujemo se na odnose z javnostmi, da bi podjetja in vlade pripravili do varovanja okolja.</p>
-<p>Pogosto so rezultat takega prepričevanja brezdušna ubogljivost, izogibanje, iskanje lukenj v zakonu in očitno goljufanje. Podjetje, vlada ali posameznik morda izpolnjuje izrecne predpise, hkrati pa prezre očitno škodo, ki ni bila prepovedana z zakonodajo ali nadzorne organizacije nanjo niso bile pozorne. Resnična skrb se ne porodi iz nagrad in groženj. Pravkar sem v Google vtipkal zvezo ‘biodiversity loss’ <i>(izguba biotske raznovrstnosti) </i>in drugi rezultat je bil: <i>»How does biodiversity loss affect me and everyone else?« (Kako izguba biotske raznovrstnosti vpliva name in na vse druge?)</i>. Ta spletna stran je na vprašanje
-<i>»Zakaj bi mi moralo biti mar?«</i> <span class="nitalics">v osnovi odgovorila: </span>
-<i>»Ker sta ogrožena naše zdravje in preživetje.«</i>
+<p>Ti trije razlogi, ki naj bi me prepričali v skrb za sina, odražajo načine, na katere poskušamo izsiliti okolju prijazno ravnanje. <i>&raquo;Zaprli te bodo zaradi zanemarjanja otroka&laquo; </i>&ndash; za odvračanje od onesnaževanja in drugih kršitev uvajamo kazenske sankcije. <i>&raquo;Ko boš star, ne bo poskrbel zate&laquo; </i>&ndash; poskušamo predstaviti, da zelene politike dejansko koristijo končnemu podjetniškemu rezultatu ali nacionalnemu gospodarstvu. <i>&raquo;Kaj si bodo mislili drugi?&laquo; </i>&ndash; sklicujemo se na odnose z javnostmi, da bi podjetja in vlade pripravili do varovanja okolja.</p>
+<p>Pogosto so rezultat takega prepričevanja brezdušna ubogljivost, izogibanje, iskanje lukenj v zakonu in očitno goljufanje. Podjetje, vlada ali posameznik morda izpolnjuje izrecne predpise, hkrati pa prezre očitno škodo, ki ni bila prepovedana z zakonodajo ali nadzorne organizacije nanjo niso bile pozorne. Resnična skrb se ne porodi iz nagrad in groženj. Pravkar sem v Google vtipkal zvezo &lsquo;biodiversity loss&rsquo; <i>(izguba biotske raznovrstnosti) </i>in drugi rezultat je bil: <i>&raquo;How does biodiversity loss affect me and everyone else?&laquo; (Kako izguba biotske raznovrstnosti vpliva name in na vse druge?)</i>. Ta spletna stran je na vprašanje
+<i>&raquo;Zakaj bi mi moralo biti mar?&laquo;</i> <span class="nitalics">v osnovi odgovorila: </span><i>&raquo;Ker sta ogrožena naše zdravje in preživetje.&laquo;</i>
 </p>
 <p>V tem je težava: iz tega odgovora sledi, da ni treba, da vam je mar, če vaše zdravje in preživetje nista ogrožena. Ali sta torej ogrožena? Mislim, da sta, ampak nekdo, ki sprejema Zgodbo o tehnološki utopiji, bo morda rekel, da ne. Morda bo rekel, da bomo izumili nadomestke za vse, kar nam daje biosfera: sintetična živila, umetno vzdrževano ozračje v izoliranih mestih in tako naprej. In tudi če na razumni ravni sprejmete, da izguba biotske raznovrstnosti ogroža človekovo blagostanje, naše življenjske izkušnje to redko potrjujejo, saj nas sodobno življenje tako učinkovito ločuje od narave. Kako je kaj vaše zdravje? Kaj pa vaše preživetje? Če ste bolni in brez prebite pare, ali lahko iskreno rečete, da je imelo s tem kaj opraviti izumrtje podgane vrste Melomys rubicola (rjavi podgani podoben glodavec z značilnim mozaičnim repkom) ali drevesne žabe vrste Ecnomiohyla rabborum? Ali vam bo pri plačilu naslednje najemnine pomagalo, da rešijo brezplavutega delfina iz reke Jangce?</p>
-<p>Če postavimo vprašanje »<i>Zakaj bi mi moralo biti mar?« </i>in navedemo odgovor nanj, smo v dokazovanju izgubili. Skrb za druga bitja, za življenje, za naš planet je del naše človečnosti. Navajanje sebičnih razlogov za skrb je žalitev. Sporoča: <i>»Poznam vas. Če ne bi bilo ogroženo vaše premoženje, zdravje ali ego, bi bili za osebno korist pripravljeni poteptati prav vse.« </i>Žal je to <i>zgodba o jazu</i>, ki jo pripovedujeta ekonomija in genetika in ki trdi, da ljudi v bistvu žene lastni interes. Ta miselnost nas prežema. Zakaj ptice pojejo? Da označijo svoje ozemlje in privabijo partnerja. Zakaj se mucki igrajo? Da bi vadili lovske spretnosti. Zakaj so maline tako slastne? Da jih živali pojedo in pokakajo semena.</p>
-<p>Ti odgovori me potrejo in tako kot vprašanje »<i>Zakaj bi mi moralo biti mar?« </i>žalijo vse tiste, na katere se nanašajo. Na teh straneh ne bom poskušal predstaviti alternative neodarvinističnemu genetskemu determinizmu, ampak bom ponudil le podporno načelo: Vsa bitja hrepenijo po tem, da bi v polnosti izrazila svojo življenjsko silo. Ptice pojejo veliko bolj, kot je potrebno, mucki se igrajo več, kot bi jim bilo treba, maline so okusne bolj, kot bi morale biti. Tudi vi, prijatelj moj, hrepenite po tem, da bi svoje darove izrazili na čudovit način, bolj čudovit, kot je potrebno za preživetje.</p>
-<p>Zgodba, ki jo pripovedujemo o nekom, je hkrati povabilo tej osebi, da to zgodbo uresniči. Povabimo torej drug drugega k tej prirojeni ljubezni do življenja, ki je zakopana, naj bo še tako globoko, pod navadami in prepričanji o ločenosti. Ustvarimo priložnosti, da se bomo odzvali na to povabilo. Poznam vas – če se vam bo ponudila najmanjša priložnost, se boste odzvali.</p>
+<p>Če postavimo vprašanje &raquo;<i>Zakaj bi mi moralo biti mar?&laquo; </i>in navedemo odgovor nanj, smo v dokazovanju izgubili. Skrb za druga bitja, za življenje, za naš planet je del naše človečnosti. Navajanje sebičnih razlogov za skrb je žalitev. Sporoča: <i>&raquo;Poznam vas. Če ne bi bilo ogroženo vaše premoženje, zdravje ali ego, bi bili za osebno korist pripravljeni poteptati prav vse.&laquo; </i>Žal je to <i>zgodba o jazu</i>, ki jo pripovedujeta ekonomija in genetika in ki trdi, da ljudi v bistvu žene lastni interes. Ta miselnost nas prežema. Zakaj ptice pojejo? Da označijo svoje ozemlje in privabijo partnerja. Zakaj se mucki igrajo? Da bi vadili lovske spretnosti. Zakaj so maline tako slastne? Da jih živali pojedo in pokakajo semena.</p>
+<p>Ti odgovori me potrejo in tako kot vprašanje &raquo;<i>Zakaj bi mi moralo biti mar?&laquo; </i>žalijo vse tiste, na katere se nanašajo. Na teh straneh ne bom poskušal predstaviti alternative neodarvinističnemu genetskemu determinizmu, ampak bom ponudil le podporno načelo: Vsa bitja hrepenijo po tem, da bi v polnosti izrazila svojo življenjsko silo. Ptice pojejo veliko bolj, kot je potrebno, mucki se igrajo več, kot bi jim bilo treba, maline so okusne bolj, kot bi morale biti. Tudi vi, prijatelj moj, hrepenite po tem, da bi svoje darove izrazili na čudovit način, bolj čudovit, kot je potrebno za preživetje.</p>
+<p>Zgodba, ki jo pripovedujemo o nekom, je hkrati povabilo tej osebi, da to zgodbo uresniči. Povabimo torej drug drugega k tej prirojeni ljubezni do življenja, ki je zakopana, naj bo še tako globoko, pod navadami in prepričanji o ločenosti. Ustvarimo priložnosti, da se bomo odzvali na to povabilo. Poznam vas &ndash; če se vam bo ponudila najmanjša priložnost, se boste odzvali.</p>
 </div>
 </div>
 <nav class="fw-bck">
-<hr/>
+<hr>
 <p class="forward-back">
-<a href="part55.htm">&lt; Nazaj</a>
-<a href="part57.htm">Naprej &gt;</a>
+<a href="part55.htm">&lt; Nazaj</a><a href="part57.htm">Naprej &gt;</a>
 </p>
-<hr/>
+<hr>
 </nav>
+<button id="close-btn" class="fa fa-close"></button>
 <footer>
 <nav>
-<a href="mailto:matija.mazi@gmail.com">Kontakt</a>
+<a href="../../">Kontakt</a>
 </nav>
 <div id="footer-title">
 <a href="https://charleseisenstein.org/">Charles Eisenstein</a>
@@ -253,5 +527,6 @@ na podlagi dobička, ki ga bo prineslo, ali izpustov ogljika, ki jih bo kompenzi
     (<a href="https://charleseisenstein.org/">charleseisenstein.org</a>).
     Dovoljeno je kopiranje in deljenje.
 </footer>
+<script src="../../js/script.js"></script>
 </body>
 </html>

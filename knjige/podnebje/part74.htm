@@ -1,21 +1,100 @@
 <!DOCTYPE html>
-<html xml:lang="sl" lang="sl" xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://www.w3.org/1999/xhtml">
+<html xml:lang="sl" lang="sl" xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans"/>
-<title>Paradigma moči</title>
-<link href="../../css/document.css" rel="stylesheet" type="text/css"/>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;0,700;1,800&amp;family=Noto+Sans:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+<title>Podnebje - nova zgodba | Paradigma moči</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../../css/document.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="icon" href="../../media/cropped-favicon-32x32.png">
+<link rel="apple-touch-icon" href="../../media/cropped-favicon-32x32.png">
 </head>
 <body>
-<header>
-<img src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1.png" id="cepng" alt="Charles Eisenstein"/>
+<header id="headerbooks">
+<!-- Navigation section -->
+<section class="navsec">
+<container>
+<nav class="main-nav">
+<div class="logo">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+</div>
+<ul class="nav-ul menu-desktop">
+<li class="nav-li-item">
+<a href="../../o-nas/index.html">O nas</a>
+</li>
+<li class="nav-li-item">
+<a href="../../knjige/">Knjige</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a>
+</li>
+<li>
+<a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="#">Članki</a>
+<ul class="dropdown-menu">
+<li>
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a>
+</li>
+<li>
+<a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</li>
+</ul>
+</li>
+<li class="nav-li-item">
+<a href="../../videi/">Videi</a>
+</li>
+<li class="nav-li-item">
+<a href="../../intervju/" target="_blank">Intervju</a>
+</li>
+<li class="nav-li-item">
+<a href="../../vec/">Več</a>
+</li>
+</ul>
+</nav>
+</container>
+</section>
+<!-- End of navigation section -->
 </header>
-<h1>Podnebje – Nova zgodba</h1>
-<div class="book-content">
-<div class="nav">
-<nav>
+<!-- mobile navigation menu-->
+<div class="topnav">
+<a href="/"><img class="cepng" src="../../media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+<!-- Navigation links (hidden by default) -->
+<div id="navlinks">
+<a href="../../o-nas/">O nas</a>
+<div class="dropdown nav-li-item">
+<a href="../../knjige/" class="dropbtn">Knjige<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje &ndash; Nova zgodba</a><a href="../../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+</div>
+</div>
+<div class="dropdown nav-li-item">
+<a class="dropbtn">Članki<i class="fa fa-angle-down arrow-down" aria-hidden="true"></i></a>
+<div class="dropdown-menu fullw">
+<a href="../../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a><a href="../../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a><a href="../../clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+</div>
+</div>
+<a href="../../videi/">Videi</a><a href="../../intervju/" target="_blank">Intervju</a><a href="../../vec/">Več</a>
+</div>
+<!-- Bar icon to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+</div>
+<!-- end of mobile navigation menu -->
+<h1 id="booktitle">Podnebje &ndash; Nova zgodba</h1>
+<!-- Index menu -->
+<button id="popup-btn">Poglavja</button>
+<div id="popup-window">
+<nav class="bookmenu mobile-book-nav borderless">
 <strong>Poglavja</strong>
 <ul>
 <li>
@@ -26,7 +105,7 @@
 <a href="part19.htm">Izgubljena resnica</a>
 </li>
 <li>
-<a href="part20.htm">Identiteta ‘drugih’</a>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
 </li>
 <li>
 <a href="part21.htm">Boj</a>
@@ -185,68 +264,265 @@
 </li>
 <li class="chapter">Spremna besedila</li>
 <li>
-<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i>
-</a>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
 </li>
 <li>
-<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i>
-</a>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
 </li>
 <li>
-<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i>
-</a>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
 </li>
 <li>
-<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i>
-</a>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
 </li>
-<li class="chapter">Viri</li>
+<li class="chapter">Ostalo</li>
 <li>
 <a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
 </li>
 </ul>
 </nav>
 </div>
+<!-- End of Index menu -->
+<div class="book-content">
+<nav class="nav bookmenu">
+<strong>Poglavja</strong>
+<ul>
+<li>
+<a href="part16.htm">Prolog: Izgubljen v blodnjaku</a>
+</li>
+<li class="chapter">1. poglavje: Kriza bivanja</li>
+<li>
+<a href="part19.htm">Izgubljena resnica</a>
+</li>
+<li>
+<a href="part20.htm">Identiteta &lsquo;drugih&rsquo;</a>
+</li>
+<li>
+<a href="part21.htm">Boj</a>
+</li>
+<li class="chapter">2. poglavje: Onkraj podnebnega fundamentalizma</li>
+<li>
+<a href="part24.htm">Kaj sploh šteje?</a>
+</li>
+<li>
+<a href="part25.htm">Sprevržene posledice ogljičnega redukcionizma</a>
+</li>
+<li>
+<a href="part26.htm">Družbeno ozračje</a>
+</li>
+<li>
+<a href="part27.htm">Prenagljena določitev vzroka</a>
+</li>
+<li>
+<a href="part28.htm">Vzrok vseh vzrokov</a>
+</li>
+<li>
+<a href="part29.htm">Tam, kjer biva predanost</a>
+</li>
+<li class="chapter">3. poglavje: Spekter mnenj o podnebju in še več</li>
+<li>
+<a href="part32.htm">Na čigavi strani sem?</a>
+</li>
+<li>
+<a href="part33.htm">Pokukajmo v svet skepticizma</a>
+</li>
+<li>
+<a href="part34.htm">Konec sveta</a>
+</li>
+<li>
+<a href="part35.htm">Institut znanosti</a>
+</li>
+<li>
+<a href="part36.htm">Napačna razprava</a>
+</li>
+<li class="chapter">4. poglavje: Paradigma vode</li>
+<li>
+<a href="part39.htm">Pogled iz drugega zornega kota</a>
+</li>
+<li>
+<a href="part40.htm">Gozdovi in drevesa</a>
+</li>
+<li>
+<a href="part41.htm">Organi Gaje</a>
+</li>
+<li>
+<a href="part42.htm">Pet tisoč let podnebnih sprememb</a>
+</li>
+<li class="chapter">5. poglavje: Ogljik z vidika ekosistemov</li>
+<li>
+<a href="part45.htm">Ogljik, prst in življenje</a>
+</li>
+<li>
+<a href="part49.htm">Obsedenost z izpusti</a>
+</li>
+<li>
+<a href="part50.htm">Zabloda o geoinženiringu</a>
+</li>
+<li>
+<a href="part51.htm">Kult količine</a>
+</li>
+<li class="chapter">6. poglavje: Pogodba s hudičem</li>
+<li>
+<a href="part54.htm">Nevarnosti pripovedi o globalnem segrevanju</a>
+</li>
+<li>
+<a href="part55.htm">Vzroki za pasivnost</a>
+</li>
+<li>
+<a href="part56.htm">Zakaj naj bi imel rad svojega sina?</a>
+</li>
+<li>
+<a href="part57.htm">Trgovina z naravo</a>
+</li>
+<li>
+<a href="part58.htm">Pravice narave</a>
+</li>
+<li class="chapter">7. poglavje: Revolucija je ljubezen</li>
+<li>
+<a href="part61.htm">V nosorogu se zrcali vse</a>
+</li>
+<li>
+<a href="part62.htm">Betonski svet</a>
+</li>
+<li>
+<a href="part63.htm">Razmere, ki tlakujejo pot naši izbiri</a>
+</li>
+<li class="chapter">8. poglavje: Regeneracija</li>
+<li>
+<a href="part66.htm">Ozdravljanje zemlje</a>
+</li>
+<li>
+<a href="part67.htm">Zakaj regenerativno kmetijstvo ostaja na obrobju?</a>
+</li>
+<li>
+<a href="part68.htm">Nahraniti lačen planet</a>
+</li>
+<li>
+<a href="part69.htm">Ozdravitev vode</a>
+</li>
+<li>
+<a href="part70.htm">Vzajemna potreba ljudi in planeta</a>
+</li>
+<li>
+<a href="part71.htm">Skrb za divjino</a>
+</li>
+<li class="chapter">9. poglavje: Energija, prebivalstvo in razvoj</li>
+<li>
+<a href="part74.htm" class="current">Paradigma moči</a>
+</li>
+<li>
+<a href="part75.htm">Pomen razvoja</a>
+</li>
+<li>
+<a href="part76.htm">Prehod v obilje</a>
+</li>
+<li>
+<a href="part77.htm">Število prebivalstva</a>
+</li>
+<li class="chapter">10. poglavje: Denar in dolg</li>
+<li>
+<a href="part80.htm">Igra glasbeni stoli</a>
+</li>
+<li>
+<a href="part81.htm">Nujnost rasti</a>
+</li>
+<li>
+<a href="part82.htm">Razvoj in dolg</a>
+</li>
+<li>
+<a href="part83.htm">Hinavščina</a>
+</li>
+<li>
+<a href="part84.htm">Elementi ekološkega gospodarstva</a>
+</li>
+<li class="chapter">11. poglavje: Srčna zadeva</li>
+<li>
+<a href="part87.htm">Verujemo v znanost</a>
+</li>
+<li>
+<a href="part88.htm">Če bi vedeli, da čuti</a>
+</li>
+<li>
+<a href="part89.htm">Moč zemlje</a>
+</li>
+<li>
+<a href="part90.htm">Ponovna oživitev resničnosti</a>
+</li>
+<li class="chapter">12. poglavje: Most do živega sveta</li>
+<li>
+<a href="part92.htm">Most do živega sveta</a>
+</li>
+<li class="chapter">Spremna besedila</li>
+<li>
+<a href="part95.htm">Drugače povedana zgodba, <i>dr. Lučka Kajfež Bogataj</i></a>
+</li>
+<li>
+<a href="part98.htm">Intimni in analitični vpogled v živo presežnost narave, <i>Andrej Detela</i></a>
+</li>
+<li>
+<a href="part99.htm">Od okoljeverstva k okoljevarstvu, <i>Nara Petrovič</i></a>
+</li>
+<li>
+<a href="part102.htm">Sporočilo, ki deluje: veliko upanje, <i>ddr. Alenka Lena Klopčič</i></a>
+</li>
+<li class="chapter">Ostalo</li>
+<li>
+<a href="part105.htm">Viri</a>
+</li>
+<li>
+<a href="zahvale.htm">Zahvale</a>
+</li>
+<li>
+<a href="kolofon.htm">Kolofon</a>
+</li>
+</ul>
+</nav>
 <div class="book-text">
 <h2>9. poglavje: Energija, prebivalstvo in razvoj</h2>
 <h3>Paradigma moči</h3>
 <p>Odkar okoljevarstvo na prvo mesto postavlja podnebne spremembe, razprave o trajnostnosti vključujejo vse več pogovorov o energiji. V nasprotju z biotsko raznovrstnostjo in zdravjem ekosistemov se energija zlahka meri, kar zavede kvantitativni um, da trajnostno družbo enači s trajnostnimi viri energije. Ker je energijo mogoče kvantitativno analizirati, poskušamo vprašanje energije izločiti iz mreže družbenih in ekoloških odvisnosti.</p>
-<p>Ko sem se lotil pisanja poglavja o energiji, je moj kvantitativno usmerjeni um zagrabil priložnost, da se zakoplje v jasne in pregledne številke. Zapletel sem se v podrobnosti o intenzivnosti izpustov na kWe, o energijskem donosu na vloženo energijo (EROEI), o relativnih koristih in tveganjih raznih obnovljivih virov energije, o optimističnih in pesimističnih projekcijah in podobnem. Čutil sem se dolžnega pretehtati informacije, pri čemer me je nezavedno vodilo prepričanje, da mora vsaka resna razprava o energiji vključevati kvantitativno razmišljanje. Vedeti sem hotel: Ali je prehod na trajnostne vire energije mogoč ali ne? Več ko sem prebral, manj mi je bilo jasno, saj si mnenja avtoritet povsem nasprotujejo. To me je močno zmedlo in spravilo v slabo voljo. Raje bom spet preveril elektronsko pošto. Kaj pa če bi prebral še nekaj člankov? Ali pa bom gledal <i>Igro prestolov. </i>Začenjal sem razumeti dozdevno apatičnost in pasivnost javnosti. To počutje je povsem drugačno od stanja, v katerem sem, ko pri svojem delu blestim: od dela se sploh ne morem odtrgati. Lenoba, odpor, odlašanje …, mogoče to niso težave, ampak simptomi, mogoče je to glas, ki človeku v blodnjaku pravi: <i>»Samo ustavi se.«</i>
+<p>Ko sem se lotil pisanja poglavja o energiji, je moj kvantitativno usmerjeni um zagrabil priložnost, da se zakoplje v jasne in pregledne številke. Zapletel sem se v podrobnosti o intenzivnosti izpustov na kWe, o energijskem donosu na vloženo energijo (EROEI), o relativnih koristih in tveganjih raznih obnovljivih virov energije, o optimističnih in pesimističnih projekcijah in podobnem. Čutil sem se dolžnega pretehtati informacije, pri čemer me je nezavedno vodilo prepričanje, da mora vsaka resna razprava o energiji vključevati kvantitativno razmišljanje. Vedeti sem hotel: Ali je prehod na trajnostne vire energije mogoč ali ne? Več ko sem prebral, manj mi je bilo jasno, saj si mnenja avtoritet povsem nasprotujejo. To me je močno zmedlo in spravilo v slabo voljo. Raje bom spet preveril elektronsko pošto. Kaj pa če bi prebral še nekaj člankov? Ali pa bom gledal <i>Igro prestolov. </i>Začenjal sem razumeti dozdevno apatičnost in pasivnost javnosti. To počutje je povsem drugačno od stanja, v katerem sem, ko pri svojem delu blestim: od dela se sploh ne morem odtrgati. Lenoba, odpor, odlašanje &hellip;, mogoče to niso težave, ampak simptomi, mogoče je to glas, ki človeku v blodnjaku pravi: <i>&raquo;Samo ustavi se.&laquo;</i>
 </p>
 <p>In res sem se. Razumel sem, da to, kar sem bral, ni postavljalo pravih vprašanj, rešitve pa niti po najbolj optimističnih scenarijih niso bile dovolj dobre. Lahko bi ustvarili raj na Zemlji, če bi le ugledali to možnost. Ekološka kriza naj bi bila budnica k spremembi, ne pa izziv, ki ga moramo premagati, da bi lahko ostali na isti poti.</p>
 <p>Zato vas v tej knjigi ne bom obremenjeval z grafi in s podatki, ki dokazujejo, da obnovljivi viri energije zagotavljajo obetavno prihodnost. Niti s takšnimi, ki dokazujejo, da je ne zagotavljajo. Na prvi pogled se zdi, da merski sistemi, kot je EROEI, omogočajo jasno, preprosto ocenjevanje različnih virov energije, vendar te navidezno objektivne številke običajno vključujejo veliko domnev in napovedi, ki so predmet neskončnih razprav. EROEI je v praksi pogosto nižji, kot predvidevajo teoretični izračuni; poleg tega je treba upoštevati tudi odvisnost od omrežja. Ali bi morali izračuni za fotovoltaiko (v prehodnem obdobju) vključevati tudi rezervna fosilna goriva, potrebna v primeru nedelovanja? Kako upoštevati učinkovitost obsega in tehnološke izboljšave? Kako se bodo sočasno z energetsko tehnologijo razvijale druge tehnologije? Kako se bodo spremenili družbeni vzorci? Spoprijemamo se z enako
-težavo kot takrat, ko pri izračunavanju ogljika iz mreže ekoloških odnosov izvzamemo neko vrsto. V primeru kompleksnih medsebojno povezanih sistemov številke niso nikoli nepristranske. Mogoče se objavljeni podatki o EROEI za sončno energijo zato tako zelo razlikujejo – od 0,83 (kar pomeni ponor energije)<span class="note-number">[<a id="enref1" href="#en1">1</a>]</span> in vse do 14,4.<span class="note-number">[<a id="enref2" href="#en2">2</a>]</span> Na spletu je ogromno verodostojnih dokazov o tem, zakaj je prehod na obnovljive vire energije v prihodnosti neizogiben, in ogromno verodostojnih dokazov o tem, zakaj ta prehod ni mogoč. Ne glede na to, katero od teh dveh stališč prebiram, se počutim neumnega, da sem sploh kdaj verjel drugemu.
+težavo kot takrat, ko pri izračunavanju ogljika iz mreže ekoloških odnosov izvzamemo neko vrsto. V primeru kompleksnih medsebojno povezanih sistemov številke niso nikoli nepristranske. Mogoče se objavljeni podatki o EROEI za sončno energijo zato tako zelo razlikujejo &ndash; od 0,83 (kar pomeni ponor energije)<span class="note-number">[<a id="enref1" href="#en1">1</a>]</span> in vse do 14,4.<span class="note-number">[<a id="enref2" href="#en2">2</a>]</span> Na spletu je ogromno verodostojnih dokazov o tem, zakaj je prehod na obnovljive vire energije v prihodnosti neizogiben, in ogromno verodostojnih dokazov o tem, zakaj ta prehod ni mogoč. Ne glede na to, katero od teh dveh stališč prebiram, se počutim neumnega, da sem sploh kdaj verjel drugemu.
 </p>
-<p>Enako kot celotna razprava o podnebju tudi razprava o energiji odvrača pozornost od pomembnejših vprašanj. Najpomembnejše pa je to, kar obe strani sprejemata brez pomislekov. Razprava o energiji ima za samoumevno, da bi nadaljnja poraba velikih količin energije koristila človeštvu (pod pogojem, da bi bila trajnostna). Za samoumevno ima sedanje dojemanje razvoja. Za samoumevno ima, da se je človekovo blagostanje povečalo zaradi vse večje porabe energije, ki nas je odrešila garanja in vsakemu posamezniku omogočila izkoriščanje energije, enakovredne delu več tisoč ljudi. Za samoumevno ima koristnost sistemov medicine in kmetijstva, ki potrebujeta velik vložek energije. V bistvu ima za samoumevno zaželenost in nujnost ‘napredka’, kot ga poznamo, pri čemer napredek povezuje z vse večjo zmožnostjo, da svojo voljo vsiljujemo snovnemu svetu.</p>
+<p>Enako kot celotna razprava o podnebju tudi razprava o energiji odvrača pozornost od pomembnejših vprašanj. Najpomembnejše pa je to, kar obe strani sprejemata brez pomislekov. Razprava o energiji ima za samoumevno, da bi nadaljnja poraba velikih količin energije koristila človeštvu (pod pogojem, da bi bila trajnostna). Za samoumevno ima sedanje dojemanje razvoja. Za samoumevno ima, da se je človekovo blagostanje povečalo zaradi vse večje porabe energije, ki nas je odrešila garanja in vsakemu posamezniku omogočila izkoriščanje energije, enakovredne delu več tisoč ljudi. Za samoumevno ima koristnost sistemov medicine in kmetijstva, ki potrebujeta velik vložek energije. V bistvu ima za samoumevno zaželenost in nujnost &lsquo;napredka&rsquo;, kot ga poznamo, pri čemer napredek povezuje z vse večjo zmožnostjo, da svojo voljo vsiljujemo snovnemu svetu.</p>
 <p>To ne pomeni, da energija ni pomembna. Z energijo nismo obsedeni samo zato, ker se tako zelo ujema s kvantitativno miselnostjo. Uporaba neprehranskih virov energije za opravljanje dela je pravzaprav edinstvena lastnost človeških bitij. Ljudje smo pol milijona let namerno uporabljali ogenj za predelavo materialov, pet tisoč let smo uporabljali živali za oranje polj in prenašanje tovora, več sto let smo sežigali premog, nafto in plin za napajanje industrijske tehnologije. Naš vpliv na planet je tako zelo velik prav zaradi izkoriščanja energije za opravljanje dela.</p>
-<p>To, kar človeška bitja dela edinstvena, jih obenem tudi opredeljuje, kdo smo kot vrsta. Kar pa je tesno povezano s tem, iz česa pridobivamo energijo. Stara <i>zgodba o človeku</i>, ki prevlada nad naravo, je eksponentno povečevanje porabe energije ekstrapolirala v prihodnost ob predpostavki, da bo jedrska energija v primerjavi s fosilnimi gorivi prinesla tolikšen napredek, kot so ga fosilna goriva prinesla v primerjavi z drvmi in z živino. A sanje prvih jedrskih znanstvenikov so se izkazale za jalove. Razpoložljivost energije na prebivalca se ni še naprej eksponentno povečevala tako kot po drugi svetovni vojni, ampak se je, ne glede na uporabo jedrske energije, stabilizirala in se marsikje celo začela zmanjševati. Poraba energije na prebivalca je bila v Ameriki največja v sedemdesetih letih dvajsetega stoletja, na svetovni ravni pa se je še naprej povečevala, saj je industrializacija preostalemu svetu prinesla stare tehnologije na premog in nafto, vendar se ni povečevala eksponentno. Niti približali se nismo temu, da bi ponovili desetkratno povečanje porabe energije iz dvajsetega stoletja. ‘Futuristične’ tehnologije, kot je jedrska fuzija, najverjetneje ne bodo znova sprožile eksponentne rasti, ki smo jo zaradi revolucije fosilnih goriv imeli za normalno: od (vroče) jedrske fuzije nas že vse moje življenje menda loči ‘le nekaj desetletij’.</p>
+<p>To, kar človeška bitja dela edinstvena, jih obenem tudi opredeljuje, kdo smo kot vrsta. Kar pa je tesno povezano s tem, iz česa pridobivamo energijo. Stara <i>zgodba o človeku</i>, ki prevlada nad naravo, je eksponentno povečevanje porabe energije ekstrapolirala v prihodnost ob predpostavki, da bo jedrska energija v primerjavi s fosilnimi gorivi prinesla tolikšen napredek, kot so ga fosilna goriva prinesla v primerjavi z drvmi in z živino. A sanje prvih jedrskih znanstvenikov so se izkazale za jalove. Razpoložljivost energije na prebivalca se ni še naprej eksponentno povečevala tako kot po drugi svetovni vojni, ampak se je, ne glede na uporabo jedrske energije, stabilizirala in se marsikje celo začela zmanjševati. Poraba energije na prebivalca je bila v Ameriki največja v sedemdesetih letih dvajsetega stoletja, na svetovni ravni pa se je še naprej povečevala, saj je industrializacija preostalemu svetu prinesla stare tehnologije na premog in nafto, vendar se ni povečevala eksponentno. Niti približali se nismo temu, da bi ponovili desetkratno povečanje porabe energije iz dvajsetega stoletja. &lsquo;Futuristične&rsquo; tehnologije, kot je jedrska fuzija, najverjetneje ne bodo znova sprožile eksponentne rasti, ki smo jo zaradi revolucije fosilnih goriv imeli za normalno: od (vroče) jedrske fuzije nas že vse moje življenje menda loči &lsquo;le nekaj desetletij&rsquo;.</p>
 <p>To, kaj se nam zdi futuristično, je odvisno od našega dojemanja prihodnosti, ki veliko bolj kot dejansko prihodnost odraža trenutne razmere in miselnost. Če napredek človeštva pomeni napredovanje prevlade nad naravo, potem je odvisen od stalnega povečevanja virov energije. V kozmološkem sistemu, ki zanika prirojeno inteligenco snovi, je urejenost sveta odvisna od sposobnosti človeka, da zagotovi ta red, da premika in preoblikuje gradnike snovi. Več energije ko imamo na voljo, večja je naša sposobnost, da zagotovimo red.</p>
-<p>V <i>zgodbi o vzponu </i>temelji opis človeške zgodovine na vse večji zmožnosti spreminjanja kaosa v red, naključnosti v inteligenco in divjine v civilizacijo. Ta <i>zgodba o zmagovitem pohodu </i>se danes bliža svojemu koncu, saj se obljubljeni tehnološki raj odmika v prihodnost, za katero se zdi, da je ne bomo nikoli dočakali. Razmere na planetu se pravzaprav slabšajo, in to tako hitro, da mnoge skrbi, ali bo civilizacija sploh preživela. ‘Osvajanje narave’ ne zveni več tako vznemirljivo kot nekoč, veliko pa nas danes to idejo celo že zavrača. Ko pomislimo na raj, si ne predstavljamo več izoliranih mest in robotov, ki nam strežejo, ampak rajsko sožitje med človekom in naravo.</p>
-<p>Pri premiku s prevlade na sodelovanje spoznavamo, da lahko izboljšamo življenje tako, da sodelujemo z naravnimi procesi, in ne tako, da jih premagujemo. Veliko energije je potrebne za vodenje sistema industrijskega kmetijstva, ki vključuje vojno proti plevelu, žuželkam in glivam ter stalen nadzor kemijske sestave tal. Veliko energije je potrebne za vodenje tehnološko naprednega medicinskega sistema, ki temelji na ubijanju patogenih mikrobov in nadzoru procesov v telesu. Za sistem, ki temelji na moči, je potrebne veliko energije – to je osnovno načelo fizike. Čeprav je ta pristop izjemno učinkovit v veliko primerih, na primer pri akutni poškodbi, pa se njegove energetsko in finančno potratne metode pri večini kroničnih obolenj obnesejo veliko slabše od holističnih praks.<span class="note-number">[<a id="enref3" href="#en3">3</a>]</span>
+<p>V <i>zgodbi o vzponu </i>temelji opis človeške zgodovine na vse večji zmožnosti spreminjanja kaosa v red, naključnosti v inteligenco in divjine v civilizacijo. Ta <i>zgodba o zmagovitem pohodu </i>se danes bliža svojemu koncu, saj se obljubljeni tehnološki raj odmika v prihodnost, za katero se zdi, da je ne bomo nikoli dočakali. Razmere na planetu se pravzaprav slabšajo, in to tako hitro, da mnoge skrbi, ali bo civilizacija sploh preživela. &lsquo;Osvajanje narave&rsquo; ne zveni več tako vznemirljivo kot nekoč, veliko pa nas danes to idejo celo že zavrača. Ko pomislimo na raj, si ne predstavljamo več izoliranih mest in robotov, ki nam strežejo, ampak rajsko sožitje med človekom in naravo.</p>
+<p>Pri premiku s prevlade na sodelovanje spoznavamo, da lahko izboljšamo življenje tako, da sodelujemo z naravnimi procesi, in ne tako, da jih premagujemo. Veliko energije je potrebne za vodenje sistema industrijskega kmetijstva, ki vključuje vojno proti plevelu, žuželkam in glivam ter stalen nadzor kemijske sestave tal. Veliko energije je potrebne za vodenje tehnološko naprednega medicinskega sistema, ki temelji na ubijanju patogenih mikrobov in nadzoru procesov v telesu. Za sistem, ki temelji na moči, je potrebne veliko energije &ndash; to je osnovno načelo fizike. Čeprav je ta pristop izjemno učinkovit v veliko primerih, na primer pri akutni poškodbi, pa se njegove energetsko in finančno potratne metode pri večini kroničnih obolenj obnesejo veliko slabše od holističnih praks.<span class="note-number">[<a id="enref3" href="#en3">3</a>]</span>
 </p>
-<p>In katero metodo lahko označimo za ‘holistično’? Metodo, ki temelji na razumevanju medsebojne povezanosti vsega, tesnih povezav med jazom in drugimi. Ta metoda priznava vseprežemajočo inteligenco, s katero lahko sklenemo zavezništvo in ki se izraža kot inteligenca telesa, tal, gozda, oceana ali planeta.</p>
-<p>Holistične medicine ne raziskujem poklicno, vendar so me osebne izkušnje in izkušnje iz druge roke prepričale, da je s poceni naravnimi metodami mogoče ozdraviti večino ‘neozdravljivih’ zdravstvenih stanj. Intuicija mi pravi, da mora to, kar velja za človeško telo, veljati tudi za ekološko, družbeno in politično telo. Nobeno od njih ne bo ozdravelo, ko bomo končno pridobili dovolj nadzora in se enkrat za vselej znebili plevela, teroristov, nasilja, patogenih mikrobov in podobnega. Svet lahko ozdravimo samo tako, da se povežemo s prirojeno težnjo k celovitosti.</p>
-<p>Če tvegam in dodam še eno prikladno primerjavo – večini alternativnih zdravljenj je skupno spoštovanje naravne sposobnosti človeškega telesa, da ozdravi, pri čemer zdravljenje podpira to sposobnost in se usklajuje z njo, namesto da bi jo poskušalo nadvladati in nadzirati. Alternativna zdravljenja ne temeljijo na moči. Kakšni čudeži bi bili možni, če bi prispevali k regeneraciji in celovitosti Gaje? Kaj vse bi bilo mogoče, če bi okrepili njene organe, razstrupili njena tkiva, sprostili pretok njenih tekočin?</p>
-<hr class="wp-block-separator"/>
+<p>In katero metodo lahko označimo za &lsquo;holistično&rsquo;? Metodo, ki temelji na razumevanju medsebojne povezanosti vsega, tesnih povezav med jazom in drugimi. Ta metoda priznava vseprežemajočo inteligenco, s katero lahko sklenemo zavezništvo in ki se izraža kot inteligenca telesa, tal, gozda, oceana ali planeta.</p>
+<p>Holistične medicine ne raziskujem poklicno, vendar so me osebne izkušnje in izkušnje iz druge roke prepričale, da je s poceni naravnimi metodami mogoče ozdraviti večino &lsquo;neozdravljivih&rsquo; zdravstvenih stanj. Intuicija mi pravi, da mora to, kar velja za človeško telo, veljati tudi za ekološko, družbeno in politično telo. Nobeno od njih ne bo ozdravelo, ko bomo končno pridobili dovolj nadzora in se enkrat za vselej znebili plevela, teroristov, nasilja, patogenih mikrobov in podobnega. Svet lahko ozdravimo samo tako, da se povežemo s prirojeno težnjo k celovitosti.</p>
+<p>Če tvegam in dodam še eno prikladno primerjavo &ndash; večini alternativnih zdravljenj je skupno spoštovanje naravne sposobnosti človeškega telesa, da ozdravi, pri čemer zdravljenje podpira to sposobnost in se usklajuje z njo, namesto da bi jo poskušalo nadvladati in nadzirati. Alternativna zdravljenja ne temeljijo na moči. Kakšni čudeži bi bili možni, če bi prispevali k regeneraciji in celovitosti Gaje? Kaj vse bi bilo mogoče, če bi okrepili njene organe, razstrupili njena tkiva, sprostili pretok njenih tekočin?</p>
+<hr class="wp-block-separator">
 <p>
 <strong>Končne opombe</strong>
 </p>
-<p class="end-note">[<a href="#enref1" id="en1">1</a>]  Ferroni in Hopkirk (2016), str. 336–44.</p>
+<p class="end-note">[<a href="#enref1" id="en1">1</a>]  Ferroni in Hopkirk (2016), str. 336&ndash;44.</p>
 <p class="end-note">[<a href="#enref2" id="en2">2</a>]  Koppelaar (2017).</p>
 <p class="end-note">[<a href="#enref3" id="en3">3</a>]  V zvezi s tem ne bom navedel nobenih virov. Če dvomite, lahko to sami raziščete. V nekaterih primerih, kot sta visok krvni tlak in bolezni srca, je veliko dokazov o blagodejnosti praks, kot sta joga in meditacija, ki lahko prepričajo tudi tiste, ki verjamejo le kvantitativnim strokovno recenziranim študijam.</p>
 </div>
 </div>
 <nav class="fw-bck">
-<hr/>
+<hr>
 <p class="forward-back">
-<a href="part71.htm">&lt; Nazaj</a>
-<a href="part75.htm">Naprej &gt;</a>
+<a href="part71.htm">&lt; Nazaj</a><a href="part75.htm">Naprej &gt;</a>
 </p>
-<hr/>
+<hr>
 </nav>
+<button id="close-btn" class="fa fa-close"></button>
 <footer>
 <nav>
-<a href="mailto:matija.mazi@gmail.com">Kontakt</a>
+<a href="../../">Kontakt</a>
 </nav>
 <div id="footer-title">
 <a href="https://charleseisenstein.org/">Charles Eisenstein</a>
@@ -257,5 +533,6 @@ težavo kot takrat, ko pri izračunavanju ogljika iz mreže ekoloških odnosov i
     (<a href="https://charleseisenstein.org/">charleseisenstein.org</a>).
     Dovoljeno je kopiranje in deljenje.
 </footer>
+<script src="../../js/script.js"></script>
 </body>
 </html>
