@@ -316,7 +316,7 @@ p a {
 .site-inner {
     clear: both;
     margin: 0 auto;
-    padding: 10vh 5vw 2vh 5vw;
+    padding: 10vh 5vw 10vh 5vw;
 }
 .entry-title {
     font-size: 30px;
@@ -632,6 +632,7 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 }
 .article-content {
     font-family: 'Noto Serif', serif;
+    text-indent: 20pt;
 }
 .darker-font{
     color:#000!important;
@@ -1004,4 +1005,17 @@ figure {
 }
 .hero-wrap {
     margin-right: 50px;
+}
+.headmargin {
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+.forward-back {
+    display: flex;
+    justify-content: space-between;
+    border-color: #494949;
+    border-width: 0.5px;
+    border-style: solid none;
+    padding: 0.7em 0;
+    margin: 5em 10%;
 }

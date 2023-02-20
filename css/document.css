@@ -143,3 +143,24 @@ footer .ce a {
 .book-content p { text-indent: 20pt; }
 
 li p { margin: 0; text-indent: 10pt }
+
+strong {
+    display: block;
+    font-size: 120%;
+    margin-bottom: 2em;
+    font-weight: 500;
+}
+.book-content p {
+    text-indent: 20pt!important;
+}
+h1, h2, h3, h4 {
+    font-family: 'Exo', sans-serif;
+    line-height: 1.2;
+    color: #192C42;
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-weight: 500!important;
+}
+li.chapter {
+    font-weight: 500;
+}
