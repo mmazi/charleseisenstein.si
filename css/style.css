@@ -521,7 +521,8 @@ footer a, footer a:active, footer a:visited, footer a:hover {
         align-items: center;
    }
     .split-sections {
-        max-width: 100% 
+        max-width: 100%;
+        margin: 0 10px 0 10px;
    }
     .book-img {
         padding-top: 30px;
@@ -1007,6 +1008,9 @@ figure {
     }
     figure {
         margin-left: 0px;
+    }
+    .hero-wrap {
+        margin-right: 0px!important;
     }
 }
 .hero-wrap {
