@@ -131,7 +131,7 @@ footer .ce a {
 
 .note-number { font-size: 6.5pt; vertical-align: 4pt; } /* End note number (in text) */
 
-.end-note { text-indent: 0 }  /* End note (end of chapter) */
+.end-note { text-indent: 0pt!important }  /* End note (end of chapter) */
 
 .sub { font-size: 70%; vertical-align: sub; } /* CO2 subscript */
 
@@ -150,9 +150,6 @@ strong {
     margin-bottom: 2em;
     font-weight: 500;
 }
-.book-content p {
-    text-indent: 20pt!important;
-}
 h1, h2, h3, h4 {
     font-family: 'Exo', sans-serif;
     line-height: 1.2;
@@ -163,4 +160,11 @@ h1, h2, h3, h4 {
 }
 li.chapter {
     font-weight: 500;
+}
+.kolofon {
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+.book-text ul {
+    padding-inline-start: 40px!important;
 }

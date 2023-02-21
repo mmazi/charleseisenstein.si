@@ -671,7 +671,7 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     align-items: center;
     justify-content: center;
     position: relative;
-    box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 85%);
+    box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 92%);
     overflow-x: hidden;
 }
 .book-presentation {
@@ -1000,9 +1000,6 @@ figure {
         width: 80%!important;;
     }
 }
-.book-content p {
-    text-indent: 0pt;
-}
 .hero-wrap {
     margin-right: 50px;
 }
@@ -1018,4 +1015,7 @@ figure {
     border-style: solid none;
     padding: 0.7em 0;
     margin: 5em 10%;
+}
+.book-content strong {
+    text-indent: 0;
 }
