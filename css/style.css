@@ -530,6 +530,12 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     .entry-title-articles {
         width: 100%!important;
    }
+   .picleft {
+        flex-direction: column;
+   }
+   .entry-title {
+        margin: 0;
+   }
 }
 @media only screen and (min-width: 767px) and (max-width:1024px) {
     .hero-heading {
@@ -998,6 +1004,9 @@ figure {
     }
     .hormid {
         width: 80%!important;;
+    }
+    figure {
+        margin-left: 0px;
     }
 }
 .hero-wrap {
