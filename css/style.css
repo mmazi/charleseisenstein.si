@@ -261,7 +261,7 @@ p a {
         padding: 0 10px;
    }
     .site-inner {
-        padding: 5vh 5vw 2vh 5vw!important;
+        padding: 5vh 5vw 10vh 5vw!important;
    }
 }
 /* end of size-specific */
@@ -1031,4 +1031,9 @@ figure {
 }
 .book-content strong {
     text-indent: 0;
+}
+.subt {
+    display:flex;
+    justify-content: center;
+    font-weight: 600;
 }
