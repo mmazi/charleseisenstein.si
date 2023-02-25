@@ -6,7 +6,6 @@ function myFunction() {
   x.style.display = "block";
   }
 }
-// JS
 // Get the elements by their ids
 var popupBtn = document.getElementById("popup-btn");
 var popupWindow = document.getElementById("popup-window");

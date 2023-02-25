@@ -829,7 +829,7 @@ iframe {
     border: solid black 2px;
     padding: 10px;
 }
-/* Use media query to show the button only when screen is smaller than 970px */
+/* Use media query to show the button only when screen is smaller than 1024px */
 @media screen and (max-width:1024px) {
     #popup-btn {
         display:inline-block;
@@ -874,6 +874,26 @@ iframe {
     .site-inner-vec {
         padding: 5vh 5vw 2vh 5vw!important;
    }
+   /* FUKN VN */
+   .dropdown:active .dropdown-menu {
+    display: block;
+    }
+    .topnav {
+        position: relative;
+    }
+    
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    /*End of FUKN VN */
 }
 .bookmenu {
     margin:5em;
