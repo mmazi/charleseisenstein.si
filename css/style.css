@@ -279,8 +279,6 @@ p a {
 }
 /* Show the dropdown when the parent <li> is hovered over */
 /* The links inside the dropdown */
-/* Show the dropdown when the parent <li> is hovered over */
-/* The links inside the dropdown */
 .dropdown-menu a {
     text-decoration: none;
     display: block;
