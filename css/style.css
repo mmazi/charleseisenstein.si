@@ -703,9 +703,6 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     display: flex;
     padding-top:20px;
 }
-.book-button {
-    margin-left: 20px;
-}
 .book-desc-details {
     display: flex;
     justify-content: center;
@@ -849,9 +846,6 @@ iframe {
    }
     .lighter-font {
         padding: 0;
-   }
-    .book-button {
-        margin-left: 0;
    }
     .reading-options {
         flex-direction: column;
