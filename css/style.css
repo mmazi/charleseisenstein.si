@@ -423,7 +423,7 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 }
 .hero-wrap {
     display: flex;
-    column-gap: 10em;
+    column-gap: 3em;
 }
 .split-sections {
     display: flex;
@@ -697,7 +697,6 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 .lighter-font{
     font-weight: 400;
     padding-top: 20px;
-    padding-left: 30px;
     padding-right: 30px;
 }
 .reading-options {
