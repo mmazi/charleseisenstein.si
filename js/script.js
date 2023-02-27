@@ -6,6 +6,24 @@ function myFunction() {
   x.style.display = "block";
   }
 }
+
+// mob menu clicked function
+$('.nav-li-item i').click( function(){
+  if ( $(this).hasClass('current') ) {
+      $(this).removeClass('current');
+  } else {
+      $('i.current').removeClass('current');
+      $(this).addClass('current');    
+  }
+  if ($('.nav-li-item i').hasClass('current')) {
+    $(this).parent().addClass('current');
+  } 
+  else {
+    $(this).parent().removeClass('current');
+  }
+});
+
+
 // Get the elements by their ids
 var popupBtn = document.getElementById("popup-btn");
 var popupWindow = document.getElementById("popup-window");

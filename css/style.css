@@ -145,7 +145,7 @@ p a {
    }
    /* Navigation menu styles */
     .topnav {
-        background-color: #000;
+        /* background-color: #000; */
         position: relative;
         width:100% 
    }
@@ -883,16 +883,70 @@ iframe {
     }
     
     .dropdown-menu {
-        display: none;
-        position: absolute;
+        /* display: none; */
+        display: block;
+        /* position: absolute; */
+        position: inherit;
         top: 100%;
         left: 0;
         z-index: 1;
     }
     
-    .dropdown:hover .dropdown-menu {
+    /* .dropdown:hover .dropdown-menu {
         display: block;
+    } */
+
+    /* hamburger styling */
+
+    .topnav .dropdown.nav-li-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 99%;
+        flex-wrap: wrap;
     }
+    .topnav .dropdown.nav-li-item a.dropbtn {
+        width: 85%;
+    }
+    .topnav .dropdown.nav-li-item i {
+        width: 2%;
+    }
+    .topnav.topnav-dark #navlinks {
+        background-color: #050505;
+    }
+    .topnav .dropdown.nav-li-item .arrow-down {
+        padding-right: 10px;
+        pointer-events: all;
+        cursor: pointer;
+        position: initial;
+        color: #000;
+        transition: ease all 0.4s;
+    }
+    .topnav.topnav-dark .dropdown.nav-li-item .arrow-down {
+        color: #fff;
+    }
+    .topnav .dropdown.nav-li-item .dropdown-menu.fullw {
+        transition: ease all 0.5s;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .topnav .dropdown.nav-li-item.current .dropdown-menu.fullw {
+        height: auto;
+        overflow: visible;
+        visibility: visible;
+        opacity: 1;
+    }
+    .topnav .dropdown.nav-li-item.current .arrow-down {
+        transform: rotateX(175deg);
+    }
+    .dropdown-menu {
+        box-shadow: none;
+    }
+
+    /*  */
+
     /*End of FUKN VN */
 }
 .bookmenu {
@@ -1029,6 +1083,12 @@ figure {
     }
     .hero-wrap {
         margin-right: 0px!important;
+    }
+}
+
+@media only screen and (max-width: 326px) {
+    .topnav-dark .dropdown.nav-li-item a.dropbtn {
+        width: 82%;
     }
 }
 .hero-wrap {
