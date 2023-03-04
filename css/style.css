@@ -1116,7 +1116,11 @@ figure {
     font-weight: 600;
     color: #333;
 }
-.auth-pad p, a {
+.auth-pad p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.auth-pad a {
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -1125,6 +1129,6 @@ figure {
     left: 50%;
     transform: translateX(-50%);
   }
-.noindent {
+.noindent p{
     text-indent: 0;
 }
