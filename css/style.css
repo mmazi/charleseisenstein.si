@@ -446,6 +446,7 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     font-size: 12px;
     line-height: 20px;
     text-decoration: none;
+    margin-right: 20px;
 }
 .hero-button:hover {
     background-color: #ffffff40;
@@ -1023,6 +1024,7 @@ figure {
     font-size: 12px;
     line-height: 20px;
     text-decoration: none;
+    margin-right: 20px;
 }
 .lighter-font-books {
     color: #000!important;
