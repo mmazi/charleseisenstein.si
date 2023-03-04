@@ -1120,3 +1120,11 @@ figure {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+#viri {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.noindent {
+    text-indent: 0;
+}

@@ -50,3 +50,12 @@ popupBtn.addEventListener("click", function() {
   popupWindow.style.display = "block";
   closeBtn.style.display = "block"; // add this line
 });
+
+
+document.querySelector('.textref').addEventListener('click', function(e) {
+  e.preventDefault(); // prevent default behavior of the link
+  document.querySelector('#viri').scrollIntoView({
+    behavior: 'smooth',
+    block: 'center'
+  });
+});
