@@ -1110,3 +1110,15 @@ figure {
     justify-content: center;
     font-weight: 600;
 }
+.auth-pad {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.lghtr{
+    font-weight: 600;
+    color: #333;
+}
+.auth-pad p, a {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
