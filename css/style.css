@@ -856,8 +856,6 @@ iframe {
     .book-width {
         width: 90% 
    }
-    .opt-button {
-   }
     .book-desc-flex {
         flex-direction: column-reverse;
         max-width: 90%;
