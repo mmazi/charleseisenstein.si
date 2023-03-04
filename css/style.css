@@ -1132,3 +1132,6 @@ figure {
 .noindent p{
     text-indent: 0;
 }
+.fullh {
+    height: 70vh;
+}
