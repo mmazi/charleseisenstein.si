@@ -14,13 +14,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Knjige Charlesa Eisensteina v slovenščini">
 
-    <meta property="og:title" content="Charles Eisenstein | Knjige">
+    <meta property="og:title" content="Charles Eisenstein | Članki">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
     <meta property="og:description" content="https://charleseisenstein.si/o-nas/index.html/">
     <meta property="og:image" content="media/Charles-Eisenstein-Square-01-300x300.jpg">
 
-    <title>Charles Eisenstein | Knjige</title>
+    <title>Charles Eisenstein | Članki</title>
 
     <link rel="icon" href="../media/cropped-favicon-32x32.png">
     <link rel="apple-touch-icon" href="../media/cropped-favicon-32x32.png">
@@ -36,14 +36,14 @@
                     <!-- Top Navigation Menu mobile - hamburger menu -->
             <ul class="nav-ul menu-desktop">
                 <li class="nav-li-item"><a href="../o-nas/">O nas</a></li>
-                <li class="nav-li-item active">
+                <li class="nav-li-item">
                     <a href="../knjige/">Knjige</a>
                     <ul class="dropdown-menu">
                         <li><a href="../knjige/podnebje/" class="drop-menu-item inner-item">Podnebje – Nova zgodba</a></li>
                         <li><a href="../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a></li>
                     </ul>
                 </li>
-                <li class="nav-li-item"><a href="../clanki/">Članki</a>
+                <li class="nav-li-item active"><a href="../clanki/">Članki</a>
                 <ul class="dropdown-menu">
                     <li><a href="../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a></li>
                     <li><a href="../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a></li>
@@ -65,14 +65,14 @@
     <div id="navlinks">
     <a href="../o-nas">O nas</a>
     <div class="dropdown nav-li-item">
-        <a href="../knjige/" class="dropbtn active">Knjige</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
+        <a href="/knjige/" class="dropbtn">Knjige</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
         <div class="dropdown-menu fullw">
             <a href="../knjige/podnebje/" class="drop-menu-item inner-item">Podnebje – Nova zgodba</a>
             <a href="../knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
         </div>
     </div>
     <div class="dropdown nav-li-item">
-        <a href="../clanki/" class="dropbtn">Članki</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
+        <a href="../clanki/" class="dropbtn active">Članki</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
         <div class="dropdown-menu fullw">
             <a href="../clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a>
             <a href="../clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a>
@@ -95,17 +95,17 @@
         <div class="main-content-books">
             <div class="entry-header">
                 <h1 class="entry-title">
-                    <span id="titlebox">Knjige</span>
+                    <span id="titlebox">Članki</span>
                 </h1>
             </div>
             <div class="bpres-row">
-                <img src="../media/podnebje-naslovnica.jpg" width="250" alt="Naslovnica knjige Podnebje – Nova zgodba">
+                <img src="../media/vojna-z-mikrobi.jpg" width="250" alt="Naslovnica knjige Podnebje – Nova zgodba">
                 <div class="book-description">
-                    <h1 class="herotitle-books">Podnebje – Nova zgodba</h1>
-                    <p class="lighter-font-books">Vizija zelenega sveta ni niti iluzorna niti realistična. Od nas zahteva, da zaupamo svojemu védenju, da je ozdravljen svet, ozelenjen svet, lepši svet, resnično mogoč.</p>
+                    <h1 class="herotitle-books">Vojna z mikrobi</h1>
+                    <p class="lighter-font-books">Iz zamisli o nas kot ločenih subjektih v svetu diskretnih drugih sledi, da so naši interesi v osnovi v nasprotju z interesi drugih. Več zame je manj zate; več zate je manj zame. Ta temeljna ontologija se v medicini izraža kot mikrobna teorija bolezni...</p>
                     <div class="reading-options">
-                        <div class="opt-button"><a href="../knjige/podnebje/part16.html" class="hero-button-books">Preberi na spletu</a></div>
-                        <div class="opt-button"><a href="https://www.zalozba-chiara.si/zalozba-chiara/1448-podnebje-nova-zgodba" class="hero-button-books book-button" target="_blank">Nakup pri založbi Chiara</a></div>
+                        <div class="opt-button"><a href="../clanki/vojna-z-mikrobi/" class="hero-button-books">Preberi članek</a></div>
+                        <div class="opt-button"><a href="http://www.ninamvseeno.org/pregled-clanka.aspx?naslov=vojna-z-mikrobi&id=152" class="hero-button-books" target="_blank">Vir</a></div>
                     </div>
                 </div>
             </div>
@@ -113,17 +113,31 @@
         <hr class="hormid">
         <div class="main-content-books">
         <div class="bpres-row">
-            <img src="https://charleseisenstein.org/wp-content/uploads/2018/12/Sacred-Econmics-Revised.png" width="250" alt="Naslovnica knjige Sacred Economics (Revised)">
+            <img src="../media/denar-nov-zacetek.jpg" width="250" alt="Naslovnica knjige Sacred Economics (Revised)">
             <div class="book-description">
-                <h1 class="herotitle-books">Sveta ekonomija</h1>
-                <p class="lighter-font-books">Prevod knjige Sveta ekonomija (Sacred Economics) je v pripravi in bo objavljen tu predvidoma v drugi polovici leta 2023.</p>
+                <h1 class="herotitle-books">Denar: nov začetek (I. del)</h1>
+                <p class="lighter-font-books">Zakaj rečemo, da je denar izvor vsega zla? Mar ne gre le za sredstvo menjave, ki povezuje človeške darove s človeškimi potrebami? Zakaj so ekonomski interesi večinoma v diametralnem nasprotju z ekologijo? Zakaj izsekavamo deževni pragozd, zastrupljamo...</p>
                 <div class="reading-options">
-                    <div class="opt-button"><a href="https://charleseisenstein.org/books/sacred-economics/" class="hero-button-books" target="_blank">Povezava na uradno stran</a></div>
+                    <div class="opt-button"><a href="../clanki/denar_nov-zacetek_1del/" class="hero-button-books" target="_blank">Preberi članek</a></div>
+                    <div class="opt-button"><a href="http://www.ninamvseeno.org/pregled-clanka.aspx?naslov=denar-nov-zacetek-charles-eisenstein-1&id=118" class="hero-button-books" target="_blank">Vir</a></div>
                 </div>
             </div>
         </div>
         </div>
-
+        <hr class="hormid">
+        <div class="main-content-books">
+        <div class="bpres-row">
+            <img src="../media/denar-nov-zacetek-2del.jpg" width="250" alt="Naslovnica knjige Sacred Economics (Revised)">
+            <div class="book-description">
+                <h1 class="herotitle-books">Denar: nov začetek (II. del)</h1>
+                <p class="lighter-font-books">V prvem delu eseja Charles Eisenstein razloži, kako je denar, kakršnega poznamo danes, pripomogel k odtujenosti, tekmovalnosti in pomanjkanju ter privedel do potrebe po neskončni ekonomski rasti, ki uničuje planet. V drugem delu, ki je pred vami, pa je...</p>
+                <div class="reading-options">
+                    <div class="opt-button"><a href="../clanki/denar_nov-zacetek_2del/" class="hero-button-books" target="_blank">Preberi članek</a></div>
+                    <div class="opt-button"><a href="http://www.ninamvseeno.org/pregled-clanka.aspx?naslov=denar-nov-zacetek-charles-eisenstein-2&id=144" class="hero-button-books" target="_blank">Vir</a></div>
+                </div>
+            </div>
+        </div>
+        </div>
 </section>
 <footer>
     <div class="footer-contact">
