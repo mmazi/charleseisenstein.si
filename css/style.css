@@ -293,7 +293,7 @@ p a {
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
-    border-bottom: 0.5px;
+    border-bottom: 1px;
     border-style: inset;
     border-color: rgb(112 112 112);
 }
@@ -723,7 +723,7 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 }
 .separator {
     border-collapse: collapse;
-    border-bottom: 0.5px solid!important;
+    border-bottom: 1px solid!important;
     clear: both;
     margin: 2em auto 1em auto;
     max-width: 80% !important;
@@ -734,7 +734,7 @@ hr {
     unicode-bidi: isolate;
     overflow: hidden;
     border-style: inset;
-    border-width: 0.5px;
+    border-width: 1px;
     color: #fff!important;
 }
 .smaller-font {
@@ -1097,7 +1097,7 @@ figure {
     display: flex;
     justify-content: space-between;
     border-color: #494949;
-    border-width: 0.5px;
+    border-width: 1px;
     border-style: solid none;
     padding: 0.7em 0;
     margin: 5em 10%;
