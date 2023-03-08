@@ -127,7 +127,7 @@ p a {
    }
     .nav-li-item:hover .dropdown-menu {
         display: block;
-        max-width: 200px!important;
+        max-width: 300px!important;
    }
 }
 @media only screen and (max-width: 1024px) {
@@ -282,7 +282,7 @@ p a {
 .dropdown-menu a {
     text-decoration: none;
     display: block;
-    padding: 12px;
+    padding: 12px 20px 12px 20px;
     text-align: left;
 }
 /* The color of the links on hover */
