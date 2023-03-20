@@ -4,356 +4,369 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
 <url>
   <loc>https://charleseisenstein.si:443/</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/o-nas/</loc>
-  <lastmod>2023-02-25T06:38:11+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/knjige/</loc>
-  <lastmod>2023-02-25T06:38:25+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/knjige/sveta-ekonomija/</loc>
-  <lastmod>2023-02-25T06:38:25+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://charleseisenstein.si:443/clanki/</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/clanki/vojna-z-mikrobi/</loc>
-  <lastmod>2023-02-25T06:38:14+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/clanki/denar_nov-zacetek_1del/</loc>
-  <lastmod>2023-02-25T06:38:17+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/clanki/denar_nov-zacetek_2del/</loc>
-  <lastmod>2023-02-25T06:38:18+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/videi/</loc>
-  <lastmod>2023-02-25T06:38:14+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/intervju/</loc>
-  <lastmod>2023-02-25T06:38:25+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/vec/</loc>
-  <lastmod>2023-02-25T06:38:11+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/knjige/podnebje/</loc>
-  <lastmod>2023-02-25T06:38:22+00:00</lastmod>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part16.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/o-nas/index.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/0-prolog.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://charleseisenstein.si:443/clanki/index.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://charleseisenstein.si:443/intervju/Sensa-interview-CH-Eisenstein-2022.pdf</loc>
-  <lastmod>2023-02-24T15:48:26+00:00</lastmod>
+  <lastmod>2023-02-26T07:37:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part19.html</loc>
-  <lastmod>2023-02-25T06:38:24+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/1-1-izgubljena-resnica.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part20.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/1-2-identiteta-drugih.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part21.html</loc>
-  <lastmod>2023-02-25T06:38:27+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/1-3-boj.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part24.html</loc>
-  <lastmod>2023-02-25T06:38:24+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/2-1-kaj-sploh-%C5%A1teje.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part25.html</loc>
-  <lastmod>2023-02-25T06:38:27+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/2-2-sprevr%C5%BEene-posledice-oglji%C4%8Dnega-redukcionizma.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part26.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/2-3-dru%C5%BEbeno-ozra%C4%8Dje.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part27.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/2-4-prenagljena-dolo%C4%8Ditev-vzroka.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part28.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/2-5-vzrok-vseh-vzrokov.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part29.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/2-6-tam-kjer-biva-predanost.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part32.html</loc>
-  <lastmod>2023-02-25T06:38:18+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/3-1-na-%C4%8Digavi-strani-sem.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part33.html</loc>
-  <lastmod>2023-02-25T06:38:22+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/3-2-pokukajmo-v-svet-skepticizma.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part34.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/3-3-konec-sveta.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part35.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/3-4-institut-znanosti.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part36.html</loc>
-  <lastmod>2023-02-25T06:38:23+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/3-5-napa%C4%8Dna-razprava.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part39.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/4-1-pogled-iz-drugega-zornega-kota.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part40.html</loc>
-  <lastmod>2023-02-25T06:38:27+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/4-2-gozdovi-in-drevesa.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part41.html</loc>
-  <lastmod>2023-02-25T06:38:27+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/4-3-organi-gaje.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part42.html</loc>
-  <lastmod>2023-02-25T06:38:15+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/4-4-pet-tiso%C4%8D-let-podnebnih-sprememb.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part45.html</loc>
-  <lastmod>2023-02-25T06:38:19+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/5-1-ogljik-prst-in-%C5%BEivljenje.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part49.html</loc>
-  <lastmod>2023-02-25T06:38:24+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/5-2-obsedenost-z-izpusti.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part50.html</loc>
-  <lastmod>2023-02-25T06:38:25+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/5-3-zabloda-o-geoin%C5%BEeniring.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part51.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/5-4-kult-koli%C4%8Dine.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part54.html</loc>
-  <lastmod>2023-02-25T06:38:15+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/6-1-nevarnosti-pripovedi-o-globalnem-segrevanju.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part55.html</loc>
-  <lastmod>2023-02-25T06:38:17+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/6-2-vzroki-za-pasivnost.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part56.html</loc>
-  <lastmod>2023-02-25T06:38:16+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/6-3-zakaj-naj-bi-imel-rad-svojega-sina.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part57.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/6-4-trgovina-z-naravo.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part58.html</loc>
-  <lastmod>2023-02-25T06:38:23+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/6-5-pravice-narave.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part61.html</loc>
-  <lastmod>2023-02-25T06:38:23+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/7-1-v-nosorogu-se-zrcali-vse.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part62.html</loc>
-  <lastmod>2023-02-25T06:38:21+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/7-2-betonski-svet.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part63.html</loc>
-  <lastmod>2023-02-25T06:38:17+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/7-3-razmere-ki-tlakujejo-pot-na%C5%A1i-izbiri.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part66.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/8-1-ozdravljanje-zemlje.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part67.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/8-2-zakaj-regenerativno-kmetijstvo-ostaja-na-obrobju.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part68.html</loc>
-  <lastmod>2023-02-25T06:38:21+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/8-3-nahraniti-la%C4%8Den-planet.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part69.html</loc>
-  <lastmod>2023-02-25T06:38:21+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/8-4-ozdravitev-vode.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part70.html</loc>
-  <lastmod>2023-02-25T06:38:23+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/8-5-vzajemna-potreba-ljudi-in-planeta.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part71.html</loc>
-  <lastmod>2023-02-25T06:38:21+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/8-6-skrb-za-divjino.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part74.html</loc>
-  <lastmod>2023-02-25T06:38:23+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/9-1-paradigma-mo%C4%8Di.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part75.html</loc>
-  <lastmod>2023-02-25T06:38:15+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/9-2-pomen-razvoja.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part76.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/9-3-prehod-v-obilje.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part77.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/9-4-%C5%A1tevilo-prebivalstva.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part80.html</loc>
-  <lastmod>2023-02-25T06:38:12+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/10-1-igra-glasbeni-stoli.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part81.html</loc>
-  <lastmod>2023-02-25T06:38:24+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/10-2-nujnost-rasti.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part82.html</loc>
-  <lastmod>2023-02-25T06:38:24+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/10-3-razvoj-in-dolg.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part83.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/10-4-hinav%C5%A1%C4%8Dina.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part84.html</loc>
-  <lastmod>2023-02-25T06:38:23+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/10-5-elementi-ekolo%C5%A1kega-gospodarstva.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part87.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/11-1-verujemo-v-znanost.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part88.html</loc>
-  <lastmod>2023-02-25T06:38:23+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/11-2-%C4%8De-bi-vedeli-da-%C4%8Duti.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part89.html</loc>
-  <lastmod>2023-02-25T06:38:18+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/11-3-mo%C4%8D-zemlje.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part90.html</loc>
-  <lastmod>2023-02-25T06:38:21+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/11-4-ponovna-o%C5%BEivitev-resni%C4%8Dnosti.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part92.html</loc>
-  <lastmod>2023-02-25T06:38:23+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/12-1-most-do-%C5%BEivega-sveta.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part95.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/13-1-dr-lu%C4%8Dka-kajfe%C5%BE-bogataj.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part98.html</loc>
-  <lastmod>2023-02-25T06:38:24+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/13-2-andrej-detela.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part99.html</loc>
-  <lastmod>2023-02-25T06:38:26+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/13-3-nara-petrovi%C4%8D.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part102.html</loc>
-  <lastmod>2023-02-25T06:38:25+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/13-4-ddr-alenka-lena-klop%C4%8Di%C4%8D.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/part105.html</loc>
-  <lastmod>2023-02-25T06:38:27+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/14-1-viri.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/zahvale.html</loc>
-  <lastmod>2023-02-25T06:38:20+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/14-2-zahvale.html</loc>
+  <lastmod>2023-03-08T16:24:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://charleseisenstein.si:443/knjige/podnebje/kolofon.html</loc>
-  <lastmod>2023-02-25T06:38:18+00:00</lastmod>
+  <loc>https://charleseisenstein.si:443/knjige/podnebje/14-3-kolofon.html</loc>
+  <lastmod>2023-03-08T16:24:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
