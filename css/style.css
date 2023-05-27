@@ -680,6 +680,23 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 92%);
     overflow-x: hidden;
 }
+.book-bg-sonce{
+    min-height:60vh;
+    width: 100vw;
+    background-image: url(../media/sonce_ce_bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 80%;
+    max-width: 100vw;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 80%);
+    overflow-x: hidden;
+}
 .book-presentation {
     width: 100%;
     z-index: 2;
