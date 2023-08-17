@@ -643,7 +643,7 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 .darker-font{
     color:#000!important;
 }
-.lighter-font{
+.lighter-font, .lighter-font a {
     color:#ffffff!important;
 }
 /* knjige page specifics */
@@ -1012,7 +1012,7 @@ iframe {
     padding-left: 30px;
 }
 p a {
-    color: #000;
+    color: inherit;
     text-decoration: underline;
 }
 .bib-spc {
