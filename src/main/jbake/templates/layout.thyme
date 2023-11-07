@@ -105,7 +105,10 @@
 <!-- end of mobile navigation menu -->
 
 <!-- main content  -->
-<section th:class="(${#strings.contains(content.file,'/knjige/')} ? 'site-inner-books' : 'site-inner')"
+<section th:class="${#strings.endsWith(content.file,'/knjige/index.html')} ? 'site-inner-books'
+                    : (${#strings.contains(content.file,'/knjige/')} ? ''
+                    : (${#strings.endsWith(content.file,'/content/index.html')} ? 'hero-heading'
+                    : 'site-inner'))"
          th:utext="${content.body}">
 
 </section>
