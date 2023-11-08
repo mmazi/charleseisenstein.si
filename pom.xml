@@ -18,6 +18,11 @@
             <artifactId>thymeleaf</artifactId>
             <version>${thymeleaf.version}</version>
         </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.11</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -38,6 +43,23 @@
                         <version>${thymeleaf.version}</version>
                     </dependency>
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>xml-maven-plugin</artifactId>
+                <version>1.0.2</version>
+                <configuration>
+                    <transformationSets>
+                        <transformationSet>
+                            <dir>src/main/xslt/content</dir>
+                            <includes>
+                                <include>knjige/podnebje/*.html</include>
+                            </includes>
+                            <stylesheet>src/main/xslt/templates/transform.xslt</stylesheet>
+                            <outputDir>output</outputDir>
+                        </transformationSet>
+                    </transformationSets>
+                </configuration>
             </plugin>
         </plugins>
     </build>
