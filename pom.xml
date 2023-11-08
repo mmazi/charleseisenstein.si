@@ -43,6 +43,12 @@
                         <version>${thymeleaf.version}</version>
                     </dependency>
                 </dependencies>
+                <executions>
+                    <execution>
+                        <goals><goal>generate</goal></goals>
+                        <phase>compile</phase>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -60,6 +66,12 @@
                         </transformationSet>
                     </transformationSets>
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals><goal>transform</goal></goals>
+                        <phase>compile</phase>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
