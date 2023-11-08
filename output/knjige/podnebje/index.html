@@ -1,8 +1,6 @@
-<!doctype html>
-
-<html lang="sl">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sl" lang="sl">
 <head>
-
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;0,700;1,800&amp;family=Noto+Sans:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif">
@@ -17,8 +15,8 @@
     <meta property="og:title" content="Charles Eisenstein | Podnebje – Nova zgodba">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-    <meta property="og:description" content="https://charleseisenstein.si/o-nas/index.html/">
-    <meta property="og:image" content="media/Charles-Eisenstein-Square-01-300x300.jpg">
+    <meta property="og:description" content="https://charleseisenstein.si/o-nas/index.html">
+    <meta property="og:image" content="/media/Charles-Eisenstein-Square-01-300x300.jpg">
 
     <title>Charles Eisenstein | Podnebje – Nova zgodba</title>
 
@@ -26,77 +24,91 @@
     <link rel="apple-touch-icon" href="/media/cropped-favicon-32x32.png">
 </head>
 <body>
+
 <header>
-<!-- Navigation section -->
-<section class="navsec">
-    <nav class="main-nav">
-        <div class="logo">
-            <a href="/"><img class="cepng" src="/media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
-        </div>
-                <!-- Top Navigation Menu mobile - hamburger menu -->
-        <ul class="nav-ul menu-desktop">
-            <li class="nav-li-item"><a href="/o-nas/index.html">O nas</a></li>
-            <li class="nav-li-item">
-                <a href="/knjige/">Knjige</a>
-                <ul class="dropdown-menu">
-                    <li><a class="drop-menu-item inner-item active">Podnebje – Nova zgodba</a></li>
-                    <li><a href="/knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a></li>
-                    <li><a href="/knjige/tudi-v-tebi-sije-sonce" class="drop-menu-item inner-item">Tudi v tebi sije sonce</a></li>
-                </ul>
-            </li>
-            <li class="nav-li-item"><a href="/clanki">Članki</a>
-            <ul class="dropdown-menu">
-                <li><a href="/clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a></li>
-                <li><a href="/clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a></li>
-                <li><a href="/clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a></li>
+    <!-- Navigation section -->
+    <section class="navsec">
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="/"><img class="cepng"
+                                 src="/media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png"
+                                 alt="Charles Eisenstein logo"></a>
+            </div>
+            <ul class="nav-ul menu-desktop">
+                <li class="nav-li-item"><a href="/o-nas/">O nas</a></li>
+                <li class="nav-li-item active">
+                    <a href="/knjige/">Knjige</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje – Nova zgodba</a></li>
+                        <li><a href="/knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a></li>
+                        <li><a href="/knjige/tudi-v-tebi-sije-sonce/" class="drop-menu-item inner-item active">Tudi v tebi sije sonce</a></li>
+                    </ul>
+                </li>
+                <li class="nav-li-item"><a href="/clanki/">Članki</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a></li>
+                        <li><a href="/clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a></li>
+                        <li><a href="/clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-li-item"><a>Videi</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/videi/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a></li>
+                        <li><a href="/videi/rastline-ohlajajo-planet/" class="drop-menu-item inner-item">Kako rastline ohlajajo planet</a></li>
+                        <li><a href="/videi/vodna-paradigma/" class="drop-menu-item inner-item">Podnebne spremembe:<br>Vodna paradigma</a></li>
+                    </ul>
+                </li>
+                <li class="nav-li-item"><a href="/intervju/">Intervju</a></li>
+                <li class="nav-li-item"><a href="/vec/">Več</a></li>
             </ul>
-            </li>
-            <li class="nav-li-item"><a>Videi</a>
-                <ul class="dropdown-menu">
-                    <li><a href="/videi/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a></li>
-                    <li><a href="/videi/rastline-ohlajajo-planet/" class="drop-menu-item inner-item">Kako rastline ohlajajo planet</a></li>
-                    <li><a href="/videi/vodna-paradigma/" class="drop-menu-item inner-item">Podnebne spremembe:<br>Vodna paradigma</a></li>
-                </ul>
-            </li>
-            <li class="nav-li-item"><a href="/intervju/">Intervju</a></li>
-            <li class="nav-li-item"><a href="/vec/">Več</a></li>
-        </ul>
-    </nav>
-</section>
-<!-- End of navigation section -->
+        </nav>
+    </section>
+    <!-- End of navigation section -->
 </header>
 <!-- mobile navigation menu-->
 <div class="topnav">
-    <a href="/"><img class="cepng" src="/media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png" alt="Charles Eisenstein logo"></a>
+    <a href="/" class="active"><img class="cepng"
+                                    src="/media/cropped-Charles-Eisenstein-Logo_2022_color-1-cropped.png"
+                                    alt="Charles Eisenstein logo"></a>
     <!-- Navigation links (hidden by default) -->
     <div id="navlinks">
-    <a href="/o-nas/">O nas</a>
-    <div class="dropdown nav-li-item">
-        <a href="/knjige/" class="dropbtn">Knjige</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
-        <div class="dropdown-menu fullw">
-            <a class="drop-menu-item inner-item active">Podnebje – Nova zgodba</a>
-            <a href="/knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
-            <a href="/knjige/tudi-v-tebi-sije-sonce" class="drop-menu-item inner-item">Tudi v tebi sije sonce</a>
+        <a href="/o-nas/">O nas</a>
+        <div class="dropdown nav-li-item">
+            <a href="/knjige/" class="dropbtn active">Knjige</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
+            <div class="dropdown-menu fullw">
+                <a href="/knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje – Nova zgodba</a>
+                <a href="/knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+                <a href="/knjige/tudi-v-tebi-sije-sonce/" class="drop-menu-item inner-item">Tudi v tebi sije sonce</a>
+            </div>
         </div>
-    </div>
-    <div class="dropdown nav-li-item">
-        <a href="/clanki/" class="dropbtn">Članki</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
-        <div class="dropdown-menu fullw">
-            <a href="/clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a>
-            <a href="/clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a>
-            <a href="/clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+        <div class="dropdown nav-li-item">
+            <a href="/clanki/" class="dropbtn">Članki</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
+            <div class="dropdown-menu fullw">
+                <a href="/clanki/vojna-z-mikrobi/" class="drop-menu-item inner-item">Vojna z mikrobi</a>
+                <a href="/clanki/denar_nov-zacetek_1del/" class="drop-menu-item inner-item">Denar: nov začetek (I. del)</a>
+                <a href="/clanki/denar_nov-zacetek_2del/" class="drop-menu-item inner-item">Denar: nov začetek (II. del)</a>
+            </div>
         </div>
-    </div>
-    <a href="/videi/">Videi</a>
-    <a href="/intervju/">Intervju</a>
-    <a href="/vec/">Več</a>
+        <div class="dropdown nav-li-item">
+            <a class="dropbtn">Videi</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
+            <div class="dropdown-menu fullw">
+                <a href="/videi/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
+                <a href="/videi/rastline-ohlajajo-planet/" class="drop-menu-item inner-item">Kako rastline ohlajajo planet</a>
+                <a href="/videi/vodna-paradigma/" class="drop-menu-item inner-item">Podnebne spremembe: Vodna paradigma</a>
+            </div>
+        </div>
+        <a href="/intervju/">Intervju</a>
+        <a href="/vec/">Več</a>
     </div>
     <!-- Bar icon to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+        <i class="fa fa-bars"></i>
     </a>
 </div>
 <!-- end of mobile navigation menu -->
+
+<!-- main content  -->
+<section>
 <div class="book-bg">
     <div class="book-width">
         <div class="book-presentation">
@@ -187,7 +199,8 @@
         </div>
     </div>
 </div>
-<!-- main content  -->
+</section>
+
 <footer>
     <div class="footer-contact">
     <a href="/o-nas/">Kontakt</a>
@@ -195,7 +208,6 @@
     <div id="footer-title">
     <a href="https://charleseisenstein.org/" target="_blank">Charles Eisenstein</a>
     </div>
-    
         Vsebina te strani je pod licenco
         <a href="https://creativecommons.org/licenses/by/4.0/legalcode.sl" target="_blank">Priznanje avtorstva 4.0 Mednarodna</a>
         (<a href="https://charleseisenstein.org/" target="_blank">charleseisenstein.org</a>).
@@ -204,8 +216,5 @@
 
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 <script src="/js/script.js"></script>
-
 </body>
 </html>
-
-
