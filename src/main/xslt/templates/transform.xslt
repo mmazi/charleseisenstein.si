@@ -7,6 +7,6 @@
 
 <xsl:template match="/h:html/h:body/h:p[@class='forward-back']"/>
 
-<xsl:include href="main.xslt"/>
+<xsl:include href="layout.xslt"/>
 
 </xsl:stylesheet>

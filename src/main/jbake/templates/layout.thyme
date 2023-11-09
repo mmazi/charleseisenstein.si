@@ -35,7 +35,6 @@
                                  alt="Charles Eisenstein logo"></a>
             </div>
             <ul class="nav-ul menu-desktop">
-                <li th:class="'nav-li-item' + (${#strings.contains(content.file,'/o-nas/')} ? ' active' : '')"><a href="/o-nas/">O nas</a></li>
                 <li th:class="'nav-li-item' + (${#strings.contains(content.file,'/knjige/')} ? ' active' : '')">
                     <a href="/knjige/">Knjige</a>
                     <ul class="dropdown-menu">
@@ -60,6 +59,7 @@
                 </li>
                 <li th:class="'nav-li-item' + (${#strings.contains(content.file,'/intervju/')} ? ' active' : '')"><a href="/intervju/">Intervju</a></li>
                 <li th:class="'nav-li-item' + (${#strings.contains(content.file,'/vec/')} ? ' active' : '')"><a href="/vec/">Več</a></li>
+                <li th:class="'nav-li-item' + (${#strings.contains(content.file,'/o-nas/')} ? ' active' : '')"><a href="/o-nas/">O nas</a></li>
             </ul>
         </nav>
     </section>
@@ -72,7 +72,6 @@
                                     alt="Charles Eisenstein logo"></a>
     <!-- Navigation links (hidden by default) -->
     <div id="navlinks">
-        <a href="/o-nas/" th:class="(${#strings.contains(content.file,'/o-nas/')} ? 'active' : '')">O nas</a>
         <div class="dropdown nav-li-item">
             <a href="/knjige/" th:class="'dropbtn' + (${#strings.contains(content.file,'/knjige/')} ? ' active' : '')">Knjige</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
             <div class="dropdown-menu fullw">
@@ -99,6 +98,7 @@
         </div>
         <a href="/intervju/" th:class="(${#strings.contains(content.file,'/intervju/')} ? 'active' : '')">Intervju</a>
         <a href="/vec/" th:class="(${#strings.contains(content.file,'/vec/')} ? 'active' : '')">Več</a>
+        <a href="/o-nas/" th:class="(${#strings.contains(content.file,'/o-nas/')} ? 'active' : '')">O nas</a>
     </div>
     <!-- Bar icon to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">

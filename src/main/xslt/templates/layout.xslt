@@ -34,7 +34,6 @@
                                  alt="Charles Eisenstein logo"/></a>
                     </div>
                     <ul class="nav-ul menu-desktop">
-                        <li class="nav-li-item"><a href="/o-nas/">O nas</a></li>
                         <li class="nav-li-item active">
                             <a href="/knjige/">Knjige</a>
                             <ul class="dropdown-menu">
@@ -59,6 +58,7 @@
                         </li>
                         <li class="nav-li-item"><a href="/intervju/" >Intervju</a></li>
                         <li class="nav-li-item"><a href="/vec/">Več</a></li>
+                        <li class="nav-li-item"><a href="/o-nas/">O nas</a></li>
                     </ul>
                 </nav>
         </section>
@@ -71,7 +71,6 @@
             alt="Charles Eisenstein logo"/></a>
     <xsl:comment> Navigation links (hidden by default) </xsl:comment>
     <div id="navlinks">
-    <a href="/o-nas/">O nas</a>
     <div class="dropdown nav-li-item">
         <a href="/knjige/" class="dropbtn active">Knjige</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
         <div class="dropdown-menu fullw">
@@ -98,6 +97,7 @@
     </div>
     <a href="/intervju/">Intervju</a>
     <a href="/vec/">Več</a>
+    <a href="/o-nas/">O nas</a>
     </div>
     <xsl:comment> Bar icon to toggle the navigation links </xsl:comment>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
