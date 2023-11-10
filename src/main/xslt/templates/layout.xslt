@@ -6,6 +6,16 @@
 </xsl:text>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sl" lang="sl">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-P6HWPK489V"/>
+<script>
+  //<![CDATA[
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-P6HWPK489V');
+  //]]>
+</script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;0,700;1,800&amp;family=Noto+Sans:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans"/>
