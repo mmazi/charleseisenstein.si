@@ -6,6 +6,7 @@
 </xsl:text>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sl" lang="sl">
 <head>
+<meta charset="UTF-8"/>
 <!-- Google tag (gtag.js) -->
 <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-P6HWPK489V"/>
 <script>
@@ -23,7 +24,6 @@
 <link href="/css/document.css" rel="stylesheet"/>
 <link rel="stylesheet" href="/css/style.css"/>
 
-<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="description" content="Charles Eisenstein: knjiga Podnebje – Nova zgodba | slovenski prevod | Na voljo za branje preko našega spletišča"/>
 
