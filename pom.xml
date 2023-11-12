@@ -73,6 +73,30 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>upload-to-gcs</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>gcloud</executable>
+                            <arguments>
+                                <argument>storage</argument>
+                                <argument>cp</argument>
+                                <argument>-r</argument>
+                                <argument>output/*</argument>
+                                <argument>gs://www.charleseisenstein.si</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 </project>
