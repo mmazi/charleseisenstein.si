@@ -56,6 +56,8 @@
                         <li><a href="/clanki/vojna-z-mikrobi/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/clanki/vojna-z-mikrobi/')} ? ' active' : '')">Vojna z mikrobi</a></li>
                         <li><a href="/clanki/denar_nov-zacetek_1del/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/clanki/denar_nov-zacetek_1del/')} ? ' active' : '')">Denar: nov začetek (I. del)</a></li>
                         <li><a href="/clanki/denar_nov-zacetek_2del/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/clanki/denar_nov-zacetek_2del/')} ? ' active' : '')">Denar: nov začetek (II. del)</a></li>
+                        <li><a href="/clanki/nic-ne-dolgujemo-nic-ne-bomo-placali/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/clanki/nic-ne-dolgujemo-nic-ne-bomo-placali/')} ? ' active' : '')">Nič ne dolgujemo. Nič ne bomo plačali.</a></li>
+                        <li><a href="/clanki/onstran-industrijske-medicine/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/clanki/onstran-industrijske-medicine/')} ? ' active' : '')">Onstran industrijske medicine</a></li>
                     </ul>
                 </li>
                 <li th:class="'nav-li-item' + (${#strings.contains(content.file,'/videi/')} ? ' active' : '')"><a>Videi</a>
