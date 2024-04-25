@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="/css/style.css"/>
 
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="Charles Eisenstein: knjiga Podnebje – Nova zgodba | slovenski prevod | Na voljo za branje preko našega spletišča"/>
+<meta name="description" content="Charles Eisenstein: knjiga Podnebje – Nova zgodba | slovenski prevod | Na voljo za branje na naši spletni strani"/>
 
 <title>Podnebje – Nova zgodba | <xsl:value-of select="h:html/h:body/h:h3[1]"/></title>
 
@@ -47,9 +47,10 @@
                         <li class="nav-li-item active">
                             <a href="/knjige/">Knjige</a>
                             <ul class="dropdown-menu">
+                                <li><a href="/knjige/joga-uzivanja-hrane/" class="drop-menu-item inner-item">Joga uživanja hrane</a></li>
                                 <li><a href="/knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje – Nova zgodba</a></li>
                                 <li><a href="/knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a></li>
-                        <li><a href="/knjige/tudi-v-tebi-sije-sonce/" class="drop-menu-item inner-item active">Tudi v tebi sije sonce</a></li>
+                                <li><a href="/knjige/tudi-v-tebi-sije-sonce/" class="drop-menu-item inner-item">Tudi v tebi sije sonce</a></li>
                             </ul>
                         </li>
                         <li class="nav-li-item"><a href="/clanki/">Članki</a>
@@ -84,9 +85,10 @@
     <div class="dropdown nav-li-item">
         <a href="/knjige/" class="dropbtn active">Knjige</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
         <div class="dropdown-menu fullw">
+            <a href="/knjige/joga-uzivanja-hrane/" class="drop-menu-item inner-item">Joga uživanja hrane</a>
             <a href="/knjige/podnebje/" class="drop-menu-item inner-item active">Podnebje – Nova zgodba</a>
             <a href="/knjige/sveta-ekonomija/" class="drop-menu-item inner-item">Sveta ekonomija</a>
-                <a href="/knjige/tudi-v-tebi-sije-sonce/" class="drop-menu-item inner-item">Tudi v tebi sije sonce</a>
+            <a href="/knjige/tudi-v-tebi-sije-sonce/" class="drop-menu-item inner-item">Tudi v tebi sije sonce</a>
         </div>
     </div>
     <div class="dropdown nav-li-item">

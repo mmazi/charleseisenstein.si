@@ -673,6 +673,12 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     background-position: 0% 50%;
     box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 85%);
 }
+.book-bg.joga {
+    padding-top: 2em;
+    background-image: url(../media/naslovnica-joga.jpg);
+    background-position: 0% 90%;
+    box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 85%);
+}
 .book-bg.sonce{
     background-image: url(../media/sonce_ce_bg.jpg);
     background-position: 0% 80%;
@@ -735,11 +741,14 @@ footer a, footer a:active, footer a:visited, footer a:hover {
 .rightside-desc {
     flex-basis:33.3%;
 }
+.rightside-desc h3 {
+    margin-top: 2em;
+}
 .separator {
     border-collapse: collapse;
     border-bottom: 1px solid!important;
     clear: both;
-    margin: 2em auto 1em auto;
+    margin: 3em auto 3em 0;
     max-width: 80% !important;
     color: #eee;
 }

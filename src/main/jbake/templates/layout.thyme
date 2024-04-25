@@ -46,9 +46,10 @@
                 <li th:class="'nav-li-item' + (${#strings.contains(content.file,'/knjige/')} ? ' active' : '')">
                     <a href="/knjige/">Knjige</a>
                     <ul class="dropdown-menu">
+                        <li><a href="/knjige/joga-uzivanja-hrane/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/knjige/joga-uzivanja-hrane/')} ? ' active' : '')">Joga uživanja hrane</a></li>
                         <li><a href="/knjige/podnebje/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/knjige/podnebje/')} ? ' active' : '')">Podnebje – Nova zgodba</a></li>
                         <li><a href="/knjige/sveta-ekonomija/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/knjige/sveta-ekonomija/')} ? ' active' : '')">Sveta ekonomija</a></li>
-                        <li><a href="/knjige/tudi-v-tebi-sije-sonce/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/knjige/podnebje/')} ? ' active' : '')">Tudi v tebi sije sonce</a></li>
+                        <li><a href="/knjige/tudi-v-tebi-sije-sonce/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/knjige/tudi-v-tebi-sije-sonce/')} ? ' active' : '')">Tudi v tebi sije sonce</a></li>
                     </ul>
                 </li>
                 <li th:class="'nav-li-item' + (${#strings.contains(content.file,'/clanki/')} ? ' active' : '')"><a href="/clanki/">Članki</a>
@@ -85,6 +86,7 @@
         <div class="dropdown nav-li-item">
             <a href="/knjige/" th:class="'dropbtn' + (${#strings.contains(content.file,'/knjige/')} ? ' active' : '')">Knjige</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
             <div class="dropdown-menu fullw">
+                <a href="/knjige/joga-uzivanja-hrane/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/knjige/joga-uzivanja-hrane/')} ? ' active' : '')">Joga uživanja hrane</a>
                 <a href="/knjige/podnebje/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/knjige/podnebje/')} ? ' active' : '')">Podnebje – Nova zgodba</a>
                 <a href="/knjige/sveta-ekonomija/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/knjige/sveta-ekonomija/')} ? ' active' : '')">Sveta ekonomija</a>
                 <a href="/knjige/tudi-v-tebi-sije-sonce/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/knjige/tudi-v-tebi-sije-sonce/')} ? ' active' : '')">Tudi v tebi sije sonce</a>
@@ -101,7 +103,7 @@
         <div class="dropdown nav-li-item">
             <a th:class="'dropbtn' + (${#strings.contains(content.file,'/videi/')} ? ' active' : '')">Videi</a><i class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
             <div class="dropdown-menu fullw">
-                <a href="/videi/sveta-ekonomija/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/videi/podnebje/')} ? ' active' : '')">Sveta ekonomija</a>
+                <a href="/videi/sveta-ekonomija/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/videi/sveta-ekonomija/')} ? ' active' : '')">Sveta ekonomija</a>
                 <a href="/videi/rastline-ohlajajo-planet/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/videi/rastline-ohlajajo-planet/')} ? ' active' : '')">Kako rastline ohlajajo planet</a>
                 <a href="/videi/vodna-paradigma/" th:class="'drop-menu-item inner-item' + (${#strings.contains(content.file,'/videi/vodna-paradigma/')} ? ' active' : '')">Podnebne spremembe: Vodna paradigma</a>
             </div>
