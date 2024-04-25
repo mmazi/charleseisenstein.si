@@ -667,10 +667,11 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     background-position: 0% 90%;
 }
 .book-bg.se {
+    padding-top: 2em;
     min-height:80vh;
-    background-image: url(https://charleseisenstein.org/wp-content/uploads/2018/12/Sacred-Econmics-Revised.png);
+    background-image: url(../media/naslovnica-sveta-ekonomija.jpg);
     background-position: 0% 50%;
-    box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 92%);
+    box-shadow: inset 0 0 0 50vw rgb(0 0 0 / 85%);
 }
 .book-bg.sonce{
     background-image: url(../media/sonce_ce_bg.jpg);
@@ -705,6 +706,22 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     display: flex;
     justify-content: center;
 }
+
+.book-desc-details .quote {
+    margin-top: 2em;
+}
+
+.book-desc-details .quote li {
+    margin-top: 0.5em;
+    list-style-type: none;
+    font-style: italic;
+}
+
+.book-desc-details .quote-author::before {
+    margin-left: 3ex;
+    content: " — "
+}
+
 .book-desc-flex {
     display: flex;
     max-width: 60%;
