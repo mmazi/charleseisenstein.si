@@ -1,5 +1,5 @@
 function myFunction() {
-  var x = document.getElementById("navlinks");
+  const x = document.getElementById("navlinks");
   if (x.style.display === "block") {
   x.style.display = "none";
   } else {
@@ -25,9 +25,9 @@ $('.nav-li-item i').click( function(){
 
 
 // Get the elements by their ids
-var popupBtn = document.getElementById("popup-btn");
-var popupWindow = document.getElementById("popup-window");
-var closeBtn = document.getElementById("close-btn");
+const popupBtn = document.getElementById("popup-btn");
+const popupWindow = document.getElementById("popup-window");
+const closeBtn = document.getElementById("close-btn");
 
 // Add an event listener to show the pop-up window when the button is clicked
 popupBtn.addEventListener("click", function() {

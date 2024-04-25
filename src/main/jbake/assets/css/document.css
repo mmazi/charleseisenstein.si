@@ -101,15 +101,6 @@ footer a, footer a:active, footer a:visited, footer a:hover {
     color: white;
 }
 
-footer .ce {
-    font-family: "lust-display", serif;
-    font-size: 200%;
-}
-
-footer .ce a {
-    text-decoration: none;
-}
-
 #footer-title {
     font-family: "lust-display", serif;
     margin: 0.5em 0;
