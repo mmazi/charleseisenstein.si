@@ -27,6 +27,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="description" content="Charles Eisenstein: knjiga Podnebje – Nova zgodba | slovenski prevod | Na voljo za branje na naši spletni strani"/>
 
+<meta property="og:locale" content="sl_SI"/>
+<meta property="og:site_name" content="Charles Eisenstein Slovenija"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="{h:html/h:body/h:h3[1]}"/>
+
 <title>Podnebje – Nova zgodba | <xsl:value-of select="h:html/h:body/h:h3[1]"/></title>
 
 <link rel="icon" href="/media/cropped-favicon-32x32.png"/>
