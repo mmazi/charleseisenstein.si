@@ -26,7 +26,6 @@
     <meta property="og:title" th:attr="content=${content.title}">
     <meta property="og:type" content="website">
     <meta property="og:url" th:content="'https://charleseisenstein.si' + ${#strings.substringBefore(#strings.substringAfter(content.file, '/content'), '/index.html')} + '/'">
-    <meta property="og:image" content="/media/Charles-Eisenstein-Square-01-300x300.jpg">
 
     <title th:text="${content.title}">Charles Eisenstein</title>
 
