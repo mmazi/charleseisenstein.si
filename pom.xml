@@ -74,28 +74,36 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
                 <version>3.1.0</version>
                 <executions>
                     <execution>
-                        <id>upload-to-gcs</id>
                         <phase>install</phase>
                         <goals>
-                            <goal>exec</goal>
+                            <goal>run</goal>
                         </goals>
                         <configuration>
-                            <executable>gcloud</executable>
-                            <arguments>
-                                <argument>storage</argument>
-                                <argument>cp</argument>
-                                <argument>-r</argument>
-                                <argument>output/*</argument>
-                                <argument>gs://www.charleseisenstein.si</argument>
-                            </arguments>
+                            <target>
+                                <scp todir="mazijevg@sh24.neoserv.si:~/charleseisenstein.si/" keyfile="${user.home}/.ssh/id_rsa" trust="true" verbose="true" port="5050">
+                                    <fileset dir="${project.basedir}/output"/>
+                                </scp>
+                            </target>
                         </configuration>
                     </execution>
                 </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.ant</groupId>
+                        <artifactId>ant-jsch</artifactId>
+                        <version>1.10.14</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.github.mwiede</groupId>
+                        <artifactId>jsch</artifactId>
+                        <version>0.2.17</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
